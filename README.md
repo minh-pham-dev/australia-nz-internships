@@ -99,7 +99,7 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 <!-- COMING:START -->
 **📭 Waiting for new ads.** There's nothing current to check for these yet. They'll be added when their 2027/28 ads come out:
 
-Akuna Capital · Amazon · Bain · BCG · Block (Afterpay) · BNZ · Citadel Securities · Culture Amp · Employment Hero · Fisher & Paykel Healthcare · Fletcher Building · Fonterra · Google · Jacobs · McKinsey · Microsoft · REA Group · Rocket Lab · Rokt · RSM · SafetyCulture · SEEK · Spark NZ · Trade Me · WiseTech Global · WSP
+Akuna Capital · Amazon · Bain · Block (Afterpay) · BNZ · Citadel Securities · Culture Amp · Fisher & Paykel Healthcare · Fletcher Building · Fonterra · Google · Jacobs · McKinsey · Microsoft · REA Group · RSM · SafetyCulture · Trade Me · WSP
 
 **🔍 Adding soon.** We're checking these now. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
 

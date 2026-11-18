@@ -122,33 +122,35 @@ pending:
   needs_human_check: No 2026/27 internship ad found; only older graduate ads.
 - company: SEEK
   category: software
-  coming_soon: waiting
-  needs_human_check: No SEEK-run internship program found.
+  coming_soon: hidden
+  needs_human_check: No ANZ summer internship program found (18 Nov 2026). No SEEK-run internship program found.
 - company: WiseTech Global
   category: software
-  coming_soon: waiting
-  needs_human_check: Main student pathway is Earn & Learn (for school leavers). A 'Technology Internship Program' is mentioned
-    but no current details found.
+  coming_soon: hidden
+  needs_human_check: No ANZ summer internship program found (18 Nov 2026). Main student pathway is Earn & Learn (for school
+    leavers). A 'Technology Internship Program' is mentioned but no current details found.
 - company: Block (Afterpay)
   category: software
   coming_soon: waiting
   needs_human_check: Newest official ad found (block.xyz) is Summer 2025/2026 Software Engineer Intern. No 2026/27 ad.
 - company: Rokt
   category: software
-  coming_soon: waiting
-  needs_human_check: No internship program found.
+  coming_soon: hidden
+  needs_human_check: No ANZ summer internship program found (18 Nov 2026). No internship program found.
 - company: Employment Hero
   category: software
-  coming_soon: waiting
-  needs_human_check: Only an 'AI Activation Intern' role (Sydney, May 2026); no summer program found.
+  coming_soon: hidden
+  needs_human_check: No ANZ summer internship program found (18 Nov 2026). Only an 'AI Activation Intern' role (Sydney, May
+    2026); no summer program found.
 - company: Trade Me
   category: software
   coming_soon: waiting
   needs_human_check: Recruits interns through Summer of Tech; no Trade Me program page found.
 - company: Rocket Lab
   category: software
-  coming_soon: waiting
-  needs_human_check: Current internship ads are US-based (Summer/Spring 2027); no ANZ program found.
+  coming_soon: hidden
+  needs_human_check: No ANZ summer internship program found (18 Nov 2026). Current internship ads are US-based (Summer/Spring
+    2027); no ANZ program found.
 - company: Akuna Capital
   category: quant
   coming_soon: waiting
@@ -174,8 +176,8 @@ pending:
   needs_human_check: No readable official internship rules for Australia; third-party guides only.
 - company: BCG
   category: consulting
-  coming_soon: waiting
-  needs_human_check: No Australian internship information found.
+  coming_soon: hidden
+  needs_human_check: No ANZ summer internship program found (18 Nov 2026). No Australian internship information found.
 - company: Bain
   category: consulting
   coming_soon: waiting
@@ -196,8 +198,9 @@ pending:
     program-wide rules found.
 - company: Spark NZ
   category: business
-  coming_soon: waiting
-  needs_human_check: spark.co.nz careers page returns 404; no internship program found.
+  coming_soon: hidden
+  needs_human_check: No ANZ summer internship program found (18 Nov 2026). spark.co.nz careers page returns 404; no internship
+    program found.
 - company: Woolworths Group
   category: business
   coming_soon: hidden
