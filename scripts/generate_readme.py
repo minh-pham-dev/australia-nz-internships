@@ -75,6 +75,7 @@ class Listing:
     apply_link: str = ""
     closes: str = ""
     last_round_dates: str = ""
+    last_opened: str = ""
     study_year_detail: str = ""
     notes: str = ""
     errors: list[str] = field(default_factory=list, repr=False)
@@ -147,7 +148,10 @@ class Listing:
             return f"📝 **Open**<br>[Apply]({self.apply_link}){closes}"
         if self.effective_status == "closed":
             return "🔒 Closed"
-        return f"⏳ Not open yet<br>Expected: {self.expected_open}"
+        visible = f"⏳ Not open yet<br>Expected: {self.expected_open}"
+        if not self.last_opened:
+            return visible  # nothing more to say, so no click needed
+        return f"<details><summary>{visible}</summary><br>Last round: {self.last_opened}</details>"
 
     def eligibility_cell(self) -> str:
         # Visible: the icon. Click: a plain-English summary and the source link.
