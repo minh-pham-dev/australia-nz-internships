@@ -46,36 +46,36 @@ ANZ employers hire **9–12 months ahead**. For a summer internship in **Nov 202
 
 | Company | Role | Location | Status | Opens → Closes | International students | Sponsors visa | Link | Checked |
 |---|---|---|---|---|---|---|---|---|
-| **Atlassian** | Software Engineering Intern | 🇦🇺 Sydney | 🟡 Soon | Feb 2027 (ANZ recruitment usually Feb–Jun) | <details><summary>❌ No</summary>open to penultimate year university students with Australian or New Zealand Citizenship or Australian Permanent Residency <i>(unverified)</i><br>Wording from the 2026/27 ad. Recheck when the 2027/28 ad opens.</details> | ❓ | [Apply](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 ⏳ |
-| **Canva** | Software Engineer Intern (Frontend / Backend) | 🇦🇺🇳🇿 Sydney, Melbourne, Auckland | 🟡 Soon | Early 2027 (2026/27 closed 1 May 2026) | <details><summary>⚠️ Conditional</summary>Based in Australia or New Zealand with working rights (Canva will not sponsor visas) <i>(unverified)</i><br>Wording from the 2026/27 ad. 12-week full-time summer program.</details> | No | [Apply](https://www.lifeatcanva.com/en/early-careers/) | 2026-11-18 ⏳ |
-| **Xero** | Intern Software Engineer | 🇳🇿 Wellington, Auckland | 🟡 Soon | — | <details><summary>❌ No</summary>Working rights listed as: New Zealand Citizen <i>(unverified)</i><br>From a Prosple listing, not Xero's own page. Penultimate-year students; full-time Nov–Feb.</details> | ❓ | [Apply](https://xero.com/nz/graduate/internships) | 2026-11-18 ⏳ |
+| **Atlassian** | Software Engineering Intern | 🇦🇺 AU<br>Sydney | 🟡 Soon | Feb 2027 (ANZ recruitment usually Feb–Jun) | <details><summary>❌ No</summary>open to penultimate year university students with Australian or New Zealand Citizenship or Australian Permanent Residency <i>(unverified)</i><br>Wording from the 2026/27 ad. Recheck when the 2027/28 ad opens.</details> | ❓ | [Apply](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 ⏳ |
+| **Canva** | Software Engineer Intern (Frontend / Backend) | 🇦🇺 AU / 🇳🇿 NZ<br>Sydney, Melbourne, Auckland | 🟡 Soon | Early 2027 (2026/27 closed 1 May 2026) | <details><summary>⚠️ Conditional</summary>Based in Australia or New Zealand with working rights (Canva will not sponsor visas) <i>(unverified)</i><br>Wording from the 2026/27 ad. 12-week full-time summer program.</details> | No | [Apply](https://www.lifeatcanva.com/en/early-careers/) | 2026-11-18 ⏳ |
+| **Xero** | Intern Software Engineer | 🇳🇿 NZ<br>Wellington, Auckland | 🟡 Soon | — | <details><summary>❌ No</summary>Working rights listed as: New Zealand Citizen <i>(unverified)</i><br>From a Prosple listing, not Xero's own page. Penultimate-year students; full-time Nov–Feb.</details> | ❓ | [Apply](https://xero.com/nz/graduate/internships) | 2026-11-18 ⏳ |
 
 ### 📈 Quant & Trading
 
 | Company | Role | Location | Status | Opens → Closes | International students | Sponsors visa | Link | Checked |
 |---|---|---|---|---|---|---|---|---|
-| **Optiver** | Software Developer Internship | 🇦🇺 Sydney | 🟡 Soon | — | <details><summary>✅ Yes</summary>Australian eligibility includes International Student/Graduate Visa holders <i>(unverified)</i><br>Wording seen on other Optiver Sydney postings, not this exact ad. 10-week program; flights and accommodation covered.</details> | ❓ | [Apply](https://optiver.com/working-at-optiver/career-opportunities/) | 2026-11-18 ⏳ |
+| **Optiver** | Software Developer Internship | 🇦🇺 AU<br>Sydney | 🟡 Soon | — | <details><summary>✅ Yes</summary>Australian eligibility includes International Student/Graduate Visa holders <i>(unverified)</i><br>Wording seen on other Optiver Sydney postings, not this exact ad. 10-week program; flights and accommodation covered.</details> | ❓ | [Apply](https://optiver.com/working-at-optiver/career-opportunities/) | 2026-11-18 ⏳ |
 
 ### 🏦 Banking & Finance
 
 | Company | Role | Location | Status | Opens → Closes | International students | Sponsors visa | Link | Checked |
 |---|---|---|---|---|---|---|---|---|
-| **Macquarie Group** | Macquarie Capital Summer Internship Program | 🇳🇿 Auckland | 🟡 Soon | — | <details><summary>❓ Unknown</summary>Not stated in the sources checked so far <i>(unverified)</i><br>Link is the 2026/27 ad.</details> | ❓ | [Apply](https://recruitment.macquarie.com/en_US/careers/JobDetail/2026-27-Macquarie-Capital-Summer-Internship-Program-Auckland-New-Zealand/20485) | 2026-11-18 ⏳ |
+| **Macquarie Group** | Macquarie Capital Summer Internship Program | 🇳🇿 NZ<br>Auckland | 🟡 Soon | — | <details><summary>❓ Unknown</summary>Not stated in the sources checked so far <i>(unverified)</i><br>Link is the 2026/27 ad.</details> | ❓ | [Apply](https://recruitment.macquarie.com/en_US/careers/JobDetail/2026-27-Macquarie-Capital-Summer-Internship-Program-Auckland-New-Zealand/20485) | 2026-11-18 ⏳ |
 
 ### 🧾 Accounting & Consulting
 
 | Company | Role | Location | Status | Opens → Closes | International students | Sponsors visa | Link | Checked |
 |---|---|---|---|---|---|---|---|---|
-| **Grant Thornton** | Vacation Program (Expression of Interest) | 🇦🇺 Multiple | 🟢 Open | — | <details><summary>⚠️ Conditional</summary>full-time work rights at the time of application; the firm won't sponsor residency <i>(unverified)</i><br>Expression of interest for the 2027/2028 program.</details> | No | [Apply](https://au.gradconnection.com/employers/grant-thornton/jobs/grant-thornton-expression-of-interest-20262027-vacation-program-2/) | 2026-11-18 ⏳ |
-| **Deloitte** | International Student Opportunities – Vacationer Program | 🇦🇺 Multiple | 🟡 Soon | — | <details><summary>⚠️ Conditional</summary>Penultimate-year students with valid working rights; only certain offices and teams accept international students <i>(unverified)</i><br>A program made for international students. Check the 'eligible areas' list.</details> | ❓ | [Apply](https://au.gradconnection.com/employers/deloitte/jobs/deloitte-international-student-opportunities-vacationer-program-2027/) | 2026-11-18 ⏳ |
-| **PwC Australia** | Vacationer Program | 🇦🇺 Multiple | 🟡 Soon | — | <details><summary>⚠️ Conditional</summary>full-time working rights within Australia at the commencement of the program; PwC cannot sponsor work visas or permanent residency for this program <i>(unverified)</i><br>Wording from the FY26 ad. Streams include Technology, Consulting, Deals, Risk, Tax, Actuarial.</details> | No | [Apply](https://au.gradconnection.com/employers/pwc/jobs/pwc-vacationer-technology/) | 2026-11-18 ⏳ |
+| **Grant Thornton** | Vacation Program (Expression of Interest) | 🇦🇺 AU<br>Multiple | 🟢 Open | — | <details><summary>⚠️ Conditional</summary>full-time work rights at the time of application; the firm won't sponsor residency <i>(unverified)</i><br>Expression of interest for the 2027/2028 program.</details> | No | [Apply](https://au.gradconnection.com/employers/grant-thornton/jobs/grant-thornton-expression-of-interest-20262027-vacation-program-2/) | 2026-11-18 ⏳ |
+| **Deloitte** | International Student Opportunities – Vacationer Program | 🇦🇺 AU<br>Multiple | 🟡 Soon | — | <details><summary>⚠️ Conditional</summary>Penultimate-year students with valid working rights; only certain offices and teams accept international students <i>(unverified)</i><br>A program made for international students. Check the 'eligible areas' list.</details> | ❓ | [Apply](https://au.gradconnection.com/employers/deloitte/jobs/deloitte-international-student-opportunities-vacationer-program-2027/) | 2026-11-18 ⏳ |
+| **PwC Australia** | Vacationer Program | 🇦🇺 AU<br>Multiple | 🟡 Soon | — | <details><summary>⚠️ Conditional</summary>full-time working rights within Australia at the commencement of the program; PwC cannot sponsor work visas or permanent residency for this program <i>(unverified)</i><br>Wording from the FY26 ad. Streams include Technology, Consulting, Deals, Risk, Tax, Actuarial.</details> | No | [Apply](https://au.gradconnection.com/employers/pwc/jobs/pwc-vacationer-technology/) | 2026-11-18 ⏳ |
 
 ### 🏗️ Engineering
 
 | Company | Role | Location | Status | Opens → Closes | International students | Sponsors visa | Link | Checked |
 |---|---|---|---|---|---|---|---|---|
-| **Fonterra** | Engineering Summer Internship | 🇳🇿 Multiple | 🟡 Soon | Mid 2027 (2026 ad ran 14–26 Jul) | <details><summary>❓ Unknown</summary>Not stated in the sources checked so far <i>(unverified)</i><br>12 weeks, mid-November to mid-February. Register interest for 2027 on the Fonterra early careers page.</details> | ❓ | [Apply](https://careers.fonterra.com/careers/Internship-Opportunities) | 2026-11-18 ⏳ |
-| **GHD** | Summer Internship Program | 🇦🇺🇳🇿 Multiple | 🟡 Soon | — | <details><summary>❓ Unknown</summary>Not stated in the sources checked so far <i>(unverified)</i><br>Link is the 2026/27 Victoria ad.</details> | ❓ | [Apply](https://au.gradconnection.com/employers/ghd/jobs/ghd-ghd-summer-internship-program-202627-victoria-2-2/) | 2026-11-18 ⏳ |
+| **Fonterra** | Engineering Summer Internship | 🇳🇿 NZ<br>Multiple | 🟡 Soon | Mid 2027 (2026 ad ran 14–26 Jul) | <details><summary>❓ Unknown</summary>Not stated in the sources checked so far <i>(unverified)</i><br>12 weeks, mid-November to mid-February. Register interest for 2027 on the Fonterra early careers page.</details> | ❓ | [Apply](https://careers.fonterra.com/careers/Internship-Opportunities) | 2026-11-18 ⏳ |
+| **GHD** | Summer Internship Program | 🇦🇺 AU / 🇳🇿 NZ<br>Multiple | 🟡 Soon | — | <details><summary>❓ Unknown</summary>Not stated in the sources checked so far <i>(unverified)</i><br>Link is the 2026/27 Victoria ad.</details> | ❓ | [Apply](https://au.gradconnection.com/employers/ghd/jobs/ghd-ghd-summer-internship-program-202627-victoria-2-2/) | 2026-11-18 ⏳ |
 <!-- LISTINGS:END -->
 
 ## 🔎 On the research list
@@ -104,5 +104,9 @@ pip install pyyaml
 python3 scripts/generate_readme.py --check   # validate the data
 python3 scripts/generate_readme.py           # rebuild the tables
 ```
+
+## 🙏 Acknowledgements
+
+Inspired by the US internship lists from [Simplify and Pitt CSC](https://github.com/SimplifyJobs/Summer2027-Internships), which showed how useful a free, community-run list can be. This project is independent and not affiliated with them.
 
 Built by a Deakin CS student who kept reading *"citizens and permanent residents only"* at the bottom of ads.

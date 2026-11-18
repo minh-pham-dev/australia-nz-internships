@@ -32,7 +32,7 @@ CATEGORIES = {
     "design": "🎨 Product & Design",
     "business": "💼 Business & Other",
 }
-FLAGS = {"AU": "🇦🇺", "NZ": "🇳🇿"}
+FLAGS = {"AU": "🇦🇺 AU", "NZ": "🇳🇿 NZ"}  # text code too: the two flags look alike when small
 ALLOWED = {
     "category": set(CATEGORIES),
     "international": {"yes", "no", "conditional", "unknown"},
@@ -131,7 +131,7 @@ class Listing:
         return self.status
 
     def to_row(self) -> str:
-        flags = "".join(FLAGS[code] for code in self.country)
+        flags = " / ".join(FLAGS[code] for code in self.country)
         dates = " → ".join(part for part in (self.opens, self.closes) if part) or "—"
         quote = f"\"{self.eligibility}\"" if self.verified else f"{self.eligibility} <i>(unverified)</i>"
         detail = f"{quote}<br>{self.notes}" if self.notes else quote
@@ -142,7 +142,7 @@ class Listing:
         cells = [
             company,
             self.role,
-            f"{flags} {', '.join(self.locations)}",
+            f"{flags}<br>{', '.join(self.locations)}",
             STATUS_ICON[self.effective_status],
             dates,
             f"<details><summary>{INTERNATIONAL_ICON[self.international]}</summary>{detail}</details>",
