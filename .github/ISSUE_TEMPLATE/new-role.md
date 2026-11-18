@@ -1,6 +1,6 @@
 ---
 name: New role
-about: Suggest an internship or graduate role to add
+about: Suggest an Australian or NZ internship or graduate role to add
 title: "[New role] Company – Role"
 labels: new-role
 ---
@@ -11,9 +11,9 @@ labels: new-role
 
 **Role title:**
 
-**Internship or graduate?**
+**Internship or graduate? Which industry?**
 
-**Location(s):**
+**Country (AU / NZ) and city:**
 
 **Opens / closes (if shown):**
 
