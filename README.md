@@ -31,13 +31,13 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**16 programs** · 📝 0 open now · ⏳ 16 not open yet · ✅ 1 open to international students (2026/27)
+**17 programs** · 📝 0 open now · ⏳ 17 not open yet · ✅ 1 open to international students (2026/27)
 
 | Category | Programs |
 |---|---|
 | [💻 Software & IT](#-software--it) | 2 |
 | [🏦 Banking & Finance](#-banking--finance) | 7 |
-| [🧾 Accounting & Consulting](#-accounting--consulting) | 6 |
+| [🧾 Accounting & Consulting](#-accounting--consulting) | 7 |
 | [🏗️ Engineering](#-engineering) | 1 |
 
 ### 💻 Software & IT
@@ -69,6 +69,7 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 | **Grant Thornton** | Vacation Program<br><sub>🎓 Final or penultimate year</sub> | 🇦🇺 AU<br>Multiple | 4–6 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 20 Jul 2026, closed 14 Aug 2026</details> | <details><summary><b>⚠️ Depends</b></summary><br>Student (500) and graduate (485) visa holders could apply through an Expression of Interest. Places were limited.<br><sub>2026/27 round · <a href="https://www.grantthornton.com.au/careers/student-opportunities/faqs/">Source</a></sub></details> | [Careers page](https://www.grantthornton.com.au/careers/student-opportunities/vacationer-program/) | 2026-11-18 |
 | **KPMG** | Vacationer Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 3–8 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>⚠️ Depends</b></summary><br>International students were welcome, but needed full-time work rights when applying and for the program dates.<br><b>Also needs:</b> Non-citizens may be asked for Superior English test results. Some teams need specific degrees.<br><sub>2026/27 round · <a href="https://kpmg.com/au/en/careers/graduates/faq.html">Source</a></sub></details> | [Careers page](https://kpmg.com/au/en/careers/graduates/vacation-program.html) | 2026-11-18 |
 | **PwC Australia** | Vacation Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 7 weeks (summer) or 4 weeks (winter) | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only Australian citizens, New Zealand citizens and Australian permanent residents could apply. PwC didn't sponsor visas.<br><sub>2026/27 round · <a href="https://jobs-au.pwc.com/au/en/vacation-program">Source</a></sub></details> | [Careers page](https://jobs-au.pwc.com/au/en/vacation-program) | 2026-11-18 |
+| **PwC New Zealand** | Summer Internship Programme<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Not stated | Nov to Feb | ⏳ Not open yet<br>Expected: Page says open, but no ad found yet | <details><summary><b>⚠️ Depends</b></summary><br>International students: Tier 1 Green List roles only (e.g. Audit), if eligible for a 3-year Post-Study Work Visa.<br><b>Also needs:</b> You must not need visa sponsorship from PwC in the future.<br><sub>2026/27 round · <a href="https://www.pwc.co.nz/careers/studentcareers/summer-internship-programme.html">Source</a></sub></details> | [Careers page](https://www.pwc.co.nz/careers/studentcareers/summer-internship-programme.html) | 2026-11-18 |
 
 ### 🏗️ Engineering
 
