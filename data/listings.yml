@@ -22,6 +22,7 @@
 #   last_opened      Optional. When last round's ad came out (shown on click), e.g. "opened 5 May 2026".
 #                    Leave it out if the source doesn't say; the cell then has nothing to click.
 #   apply_link       Required once status is open: the live ad
+#   posted           Required once status is open: "YYYY-MM-DD" the live ad went up (shown as its age, e.g. "3d old")
 #   closes           Optional. "YYYY-MM-DD" once the live ad shows a closing date
 #
 #   -- Last round (reference) --

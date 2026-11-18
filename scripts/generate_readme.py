@@ -74,6 +74,7 @@ class Listing:
     sponsorship: str = "unknown"  # kept in the data, not shown: students already here don't need it for internships
     apply_link: str = ""
     closes: str = ""
+    posted: str = ""  # "YYYY-MM-DD" the live ad went up; shown as its age
     last_round_dates: str = ""
     last_opened: str = ""
     study_year_detail: str = ""
@@ -127,7 +128,9 @@ class Listing:
             self.errors.append(f"{name}: 'summary' is {len(self.summary)} characters; keep it under {SUMMARY_MAX}")
         if self.status == "open" and not self.apply_link:
             self.errors.append(f"{name}: status is 'open' but there is no 'apply_link' to the live ad")
-        for key in ("last_checked", "closes"):
+        if self.status == "open" and not self.posted:
+            self.errors.append(f"{name}: status is 'open' but there is no 'posted' date for the live ad")
+        for key in ("last_checked", "closes", "posted"):
             value = getattr(self, key)
             if value:
                 try:
@@ -142,10 +145,15 @@ class Listing:
             return "closed"
         return self.status
 
+    def age(self) -> str:
+        """How long the live ad has been up, like Simplify's Age column. Only right if the README is rebuilt daily."""
+        days = (date.today() - date.fromisoformat(self.posted)).days
+        return "posted today" if days <= 0 else f"{days}d old"
+
     def round_cell(self) -> str:
         if self.effective_status == "open":
             closes = f"<br>Closes {self.closes}" if self.closes else ""
-            return f"📝 **Open**<br>[Apply]({self.apply_link}){closes}"
+            return f"📝 **Open** · {self.age()}<br>[Apply]({self.apply_link}){closes}"
         if self.effective_status == "closed":
             return "🔒 Closed"
         visible = f"⏳ Not open yet<br>Expected: {self.expected_open}"
