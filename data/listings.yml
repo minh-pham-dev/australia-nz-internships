@@ -15,7 +15,7 @@
 #                    conditional  depends on work rights, office or team (explain in eligibility)
 #   sponsorship    yes | no | unknown   (does the company sponsor visas for this role?)
 #   eligibility    The eligibility wording from the ad. Quote it exactly once verified.
-#   verified       true  = someone read the official ad and copied the wording
+#   verified       true  = someone read the official ad or careers page and copied the wording
 #                  false = taken from a secondary source; needs checking
 #   link           Official careers page or job ad
 #   last_checked   "YYYY-MM-DD"
@@ -25,51 +25,51 @@
 listings:
   # ---------- Software & IT ----------
   - company: Atlassian
-    role: Software Engineering Intern
+    role: Software Engineer Intern
     category: software
     country: [AU]
-    locations: [Sydney]
+    locations: [Sydney, Remote]
     intake: Summer 2027/28
-    opens: "Feb 2027 (ANZ recruitment usually Feb–Jun)"
+    opens: "Feb 2027 (ANZ recruitment runs Feb–Jun)"
     international: "no"
     sponsorship: unknown
-    eligibility: "open to penultimate year university students with Australian or New Zealand Citizenship or Australian Permanent Residency"
-    verified: false
+    eligibility: "Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"
+    verified: true
     link: https://www.atlassian.com/company/careers/earlycareers
     last_checked: "2026-11-18"
     status: upcoming
-    notes: Wording from the 2026/27 ad. Recheck when the 2027/28 ad opens.
+    notes: Quoted from the 2026/27 ad (12 weeks, Nov–Feb). Recheck when the 2027/28 ad is posted.
 
   - company: Canva
     role: Software Engineer Intern (Frontend / Backend)
     category: software
     country: [AU, NZ]
-    locations: [Sydney, Melbourne, Auckland]
+    locations: [Sydney, Remote]
     intake: Summer 2027/28
     opens: "Early 2027 (2026/27 closed 1 May 2026)"
     international: conditional
     sponsorship: "no"
-    eligibility: "Based in Australia or New Zealand with working rights (Canva will not sponsor visas)"
-    verified: false
+    eligibility: "for Intern roles at Canva, you’ll need full working rights in Australia or New Zealand … Canva will not be able to sponsor visas and relocate for Early Talent roles"
+    verified: true
     link: https://www.lifeatcanva.com/en/early-careers/
     last_checked: "2026-11-18"
     status: upcoming
-    notes: Wording from the 2026/27 ad. 12-week full-time summer program.
+    notes: Quoted from the 2026/27 ad. A student visa gives limited work rights during term, so 'full working rights' may rule it out. Ask Canva before applying.
 
   - company: Xero
-    role: Intern Software Engineer
+    role: Summer Internship (Engineering)
     category: software
     country: [NZ]
-    locations: [Wellington, Auckland]
+    locations: [Multiple]
     intake: Summer 2027/28
-    international: "no"
+    international: unknown
     sponsorship: unknown
-    eligibility: "Working rights listed as: New Zealand Citizen"
+    eligibility: "Xero's early careers page doesn't state work rights. A Prosple listing for a past intern role showed 'New Zealand Citizen'."
     verified: false
-    link: https://xero.com/nz/graduate/internships
+    link: https://careers.xero.com/early-careers/
     last_checked: "2026-11-18"
     status: upcoming
-    notes: From a Prosple listing, not Xero's own page. Penultimate-year students; full-time Nov–Feb.
+    notes: 3-month full-time fixed-term contract for penultimate-year students.
 
   # ---------- Quant & Trading ----------
   - company: Optiver
@@ -80,74 +80,77 @@ listings:
     intake: Summer 2027/28
     international: "yes"
     sponsorship: unknown
-    eligibility: "Australian eligibility includes International Student/Graduate Visa holders"
+    eligibility: "Other Optiver Sydney listings include 'International Student/Graduate Visa' under Australian work rights."
     verified: false
     link: https://optiver.com/working-at-optiver/career-opportunities/
     last_checked: "2026-11-18"
     status: upcoming
-    notes: Wording seen on other Optiver Sydney postings, not this exact ad. 10-week program; flights and accommodation covered.
+    notes: Not yet checked on Optiver's own ad. 10-week program; flights and accommodation covered.
 
   # ---------- Banking & Finance ----------
   - company: Macquarie Group
-    role: Macquarie Capital Summer Internship Program
+    role: Summer Internship Program
     category: finance
-    country: [NZ]
-    locations: [Auckland]
+    country: [AU]
+    locations: [Sydney, Melbourne, Brisbane, Perth]
     intake: Summer 2027/28
-    international: unknown
+    opens: "May 2027 (2026: opened 5 May)"
+    closes: "Jul–Aug 2027 (2026: 21 Jul Melb/Perth, 4 Aug Syd/Bris)"
+    international: "no"
     sponsorship: unknown
-    eligibility: "Not stated in the sources checked so far"
-    verified: false
-    link: https://recruitment.macquarie.com/en_US/careers/JobDetail/2026-27-Macquarie-Capital-Summer-Internship-Program-Auckland-New-Zealand/20485
+    eligibility: "You must be an Australian citizen, Australian permanent resident or New Zealand citizen to be eligible for our Graduate and Internship Programs"
+    verified: true
+    link: https://www.macquarie.com/au/en/careers/graduates-and-interns.html
     last_checked: "2026-11-18"
     status: upcoming
-    notes: Link is the 2026/27 ad.
+    notes: For penultimate-year students. Program starts in November.
 
   # ---------- Accounting & Consulting ----------
   - company: Deloitte
-    role: International Student Opportunities – Vacationer Program
+    role: International Students – Vacationer Program
     category: consulting
     country: [AU]
     locations: [Multiple]
     intake: Summer 2027/28
-    international: conditional
+    international: "yes"
     sponsorship: unknown
-    eligibility: "Penultimate-year students with valid working rights; only certain offices and teams accept international students"
-    verified: false
-    link: https://au.gradconnection.com/employers/deloitte/jobs/deloitte-international-student-opportunities-vacationer-program-2027/
+    eligibility: "Deloitte Australia* accepts program applications from students who do not yet hold Australian permanent residence to augment our talent pools. *All Australian offices except Canberra, where Australian citizenship is required."
+    verified: true
+    link: https://www.deloitte.com/au/en/careers/students/international-students.html
     last_checked: "2026-11-18"
     status: upcoming
-    notes: A program made for international students. Check the 'eligible areas' list.
+    notes: Only for the business areas listed on the page. Applications are currently closed; you can register interest there.
 
   - company: PwC Australia
-    role: Vacationer Program
+    role: Vacation Program
     category: consulting
     country: [AU]
     locations: [Multiple]
     intake: Summer 2027/28
-    international: conditional
+    international: "no"
     sponsorship: "no"
-    eligibility: "full-time working rights within Australia at the commencement of the program; PwC cannot sponsor work visas or permanent residency for this program"
-    verified: false
-    link: https://au.gradconnection.com/employers/pwc/jobs/pwc-vacationer-technology/
+    eligibility: "Be an Australian citizen, a New Zealand citizen, or an Australian permanent resident. We're not able to offer visa sponsorship for our Early Careers programs."
+    verified: true
+    link: https://jobs-au.pwc.com/au/en/vacation-program
     last_checked: "2026-11-18"
     status: upcoming
-    notes: Wording from the FY26 ad. Streams include Technology, Consulting, Deals, Risk, Tax, Actuarial.
+    notes: Penultimate-year students. 7 weeks in summer or 4 weeks in winter. The current round (graduating 2027) is closed.
 
   - company: Grant Thornton
-    role: Vacation Program (Expression of Interest)
+    role: Vacation Program
     category: consulting
     country: [AU]
     locations: [Multiple]
     intake: Summer 2027/28
+    opens: "Jul 2027 (2026: 20 Jul – 14 Aug)"
     international: conditional
-    sponsorship: "no"
-    eligibility: "full-time work rights at the time of application; the firm won't sponsor residency"
-    verified: false
-    link: https://au.gradconnection.com/employers/grant-thornton/jobs/grant-thornton-expression-of-interest-20262027-vacation-program-2/
+    sponsorship: unknown
+    eligibility: "Students holding the below visas will be required to submit an application via our Expression of Interest: Student Visa (Subclass 500), Temporary Graduate Visa (Subclass 485) … opportunities for candidates on temporary visas are limited and may vary by office location, service line and business needs."
+    verified: true
+    link: https://www.grantthornton.com.au/careers/student-opportunities/faqs/
     last_checked: "2026-11-18"
-    status: open
-    notes: Expression of interest for the 2027/2028 program.
+    status: upcoming
+    notes: 4–6 weeks. Working Holiday (417/462) visa holders are not accepted. Expressions of interest are reviewed on a rolling basis.
 
   # ---------- Engineering ----------
   - company: Fonterra
@@ -157,14 +160,14 @@ listings:
     locations: [Multiple]
     intake: Summer 2027/28
     opens: "Mid 2027 (2026 ad ran 14–26 Jul)"
-    international: unknown
+    international: conditional
     sponsorship: unknown
-    eligibility: "Not stated in the sources checked so far"
-    verified: false
+    eligibility: "If you are on a work visa that fits within the criteria of the role you have applied for, then we can employ you. However, if your visa does not fit the criteria of the role you have applied for, we cannot legally employ you."
+    verified: true
     link: https://careers.fonterra.com/careers/Internship-Opportunities
     last_checked: "2026-11-18"
     status: upcoming
-    notes: 12 weeks, mid-November to mid-February. Register interest for 2027 on the Fonterra early careers page.
+    notes: Wording from Fonterra's general careers FAQ, not the internship ad. Internships run mid-November to mid-February. Register interest on the internships page.
 
   - company: GHD
     role: Summer Internship Program
@@ -172,11 +175,11 @@ listings:
     country: [AU, NZ]
     locations: [Multiple]
     intake: Summer 2027/28
-    international: unknown
+    international: conditional
     sponsorship: unknown
-    eligibility: "Not stated in the sources checked so far"
-    verified: false
-    link: https://au.gradconnection.com/employers/ghd/jobs/ghd-ghd-summer-internship-program-202627-victoria-2-2/
+    eligibility: "To be eligible to be considered for a position with GHD, an applicant will need to demonstrate that they have the appropriate work rights for the country"
+    verified: true
+    link: https://www.ghd.com/en/careers/graduates
     last_checked: "2026-11-18"
     status: upcoming
-    notes: Link is the 2026/27 Victoria ad.
+    notes: Wording from GHD's graduate careers page. Some 2025 internship listings on Prosple accepted student and graduate visa holders, depending on location.
