@@ -42,8 +42,9 @@ ALLOWED = {
     "sponsorship": {"yes", "no", "unknown"},
 }
 REQUIRED = ["company", "role", "category", "country", "locations", "careers_page", "study_year",
-            "status", "expected_open", "last_round", "international", "sponsorship",
+            "status", "expected_open", "last_round", "international", "summary", "sponsorship",
             "eligibility", "source", "source_note", "last_checked"]
+SUMMARY_MAX = 40  # the plain-English summary sits in a narrow column, so keep it short
 URL_FIELDS = ("careers_page", "source", "apply_link")
 LIST_FIELDS = ("country", "locations")
 STATUS_ORDER = {"open": 0, "not_open": 1, "closed": 2}
@@ -65,6 +66,7 @@ class Listing:
     expected_open: str
     last_round: str
     international: str
+    summary: str
     sponsorship: str
     eligibility: str
     source: str
@@ -120,6 +122,8 @@ class Listing:
             value = getattr(self, key)
             if value and not value.startswith("https://"):
                 self.errors.append(f"{name}: '{key}' should start with https://")
+        if len(self.summary) > SUMMARY_MAX:
+            self.errors.append(f"{name}: 'summary' is {len(self.summary)} characters; keep it under {SUMMARY_MAX}")
         if self.status == "open" and not self.apply_link:
             self.errors.append(f"{name}: status is 'open' but there is no 'apply_link' to the live ad")
         for key in ("last_checked", "closes"):
@@ -146,12 +150,13 @@ class Listing:
         return f"⏳ Not open yet<br>Expected: {self.expected_open}"
 
     def eligibility_cell(self) -> str:
-        # Keep the popup short: the quote, then one line saying where it's from.
+        # Visible: icon + plain-English summary. Click: the exact quote and its source.
         # last_round_dates and notes stay in the data file but aren't shown here.
-        quote = f"<i>\"{self.eligibility}\"</i>"
         # source_note stays in the data for maintainers; readers just see "Source".
+        label = f"{INTERNATIONAL_ICON[self.international]}<br><sub>{self.summary}</sub>"
+        quote = f"Exact wording: <i>\"{self.eligibility}\"</i>"
         origin = f"<sub>{self.last_round} ad · <a href=\"{self.source}\">Source</a></sub>"
-        return f"<details><summary>{INTERNATIONAL_ICON[self.international]}</summary>{quote}<br>{origin}</details>"
+        return f"<details><summary>{label}</summary>{quote}<br>{origin}</details>"
 
     def to_row(self) -> str:
         flags = " / ".join(FLAGS[code] for code in self.country)

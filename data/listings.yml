@@ -25,6 +25,7 @@
 #   last_round       e.g. "2026/27"
 #   last_round_dates Optional. What happened last time, e.g. "Program ran Nov 2026 – Feb 2027"
 #   international    yes | no | conditional | unknown   (could student visa holders apply last round?)
+#   summary          Plain-English version of the rule, under 40 characters, e.g. "Citizens & PR only"
 #   sponsorship      yes | no | unknown
 #   eligibility      Exact wording copied from the source
 #   source           URL where the wording can be read right now
@@ -50,6 +51,7 @@ listings:
     last_round: "2026/27"
     last_round_dates: "12-week paid program, Nov 2026 – Feb 2027"
     international: "no"
+    summary: "AU/NZ citizens and AU PR only"
     sponsorship: unknown
     eligibility: "Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"
     source: https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia
@@ -73,6 +75,7 @@ listings:
     last_round: "2026/27"
     last_round_dates: "12-week remote-friendly program, early Dec 2026 – late Feb 2027"
     international: conditional
+    summary: "Needs full work rights in AU or NZ"
     sponsorship: "no"
     eligibility: "for Intern roles at Canva, you’ll need full working rights in Australia or New Zealand"
     source: https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27
