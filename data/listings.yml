@@ -57,3 +57,26 @@ listings:
 
     last_checked: "2026-11-18"
     notes: "Last round also required full-time enrolment in Software Engineering, Computer Science or similar, graduating by January 2028."
+
+  - company: Canva
+    role: Software Engineer Intern (Frontend / Backend)
+    category: software
+    country: [AU, NZ]
+    locations: [Sydney, Remote]
+    careers_page: https://www.lifeatcanva.com/en/early-careers/
+    study_year: Penultimate year
+    study_year_detail: "finishing studies 2027 – mid-2028"
+
+    status: not_open
+    expected_open: "Not announced (last ad was up by May 2026)"
+
+    last_round: "2026/27"
+    last_round_dates: "12-week remote-friendly program, early Dec 2026 – late Feb 2027"
+    international: conditional
+    sponsorship: "no"
+    eligibility: "for Intern roles at Canva, you’ll need full working rights in Australia or New Zealand"
+    source: https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27
+    source_note: "copy on Blackbird's job board"
+
+    last_checked: "2026-11-18"
+    notes: "The same ad says Canva will not sponsor visas for Early Talent roles. Student visas give limited work rights during term, so 'full working rights' may rule them out. Ask Canva."

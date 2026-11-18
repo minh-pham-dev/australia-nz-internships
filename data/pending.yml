@@ -3,27 +3,6 @@
 # listings.yml format) only after checking its source link shows the quoted wording.
 
 pending:
-- company: Canva
-  role: Software Engineer Intern (Frontend / Backend)
-  category: software
-  country:
-  - AU
-  - NZ
-  locations:
-  - Sydney
-  - Remote
-  intake: Summer 2027/28
-  opens: Early 2027 (2026/27 closed 1 May 2026)
-  international: conditional
-  sponsorship: 'no'
-  eligibility: for Intern roles at Canva, you’ll need full working rights in Australia or New Zealand … Canva will not be
-    able to sponsor visas and relocate for Early Talent roles
-  verified: true
-  link: https://www.lifeatcanva.com/en/early-careers/
-  last_checked: '2026-11-18'
-  status: upcoming
-  notes: Quoted from the 2026/27 ad. A student visa gives limited work rights during term, so 'full working rights' may rule
-    it out. Ask Canva before applying.
 - company: Xero
   role: Summer Internship (Engineering)
   category: software
