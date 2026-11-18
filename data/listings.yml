@@ -78,7 +78,7 @@ listings:
 
     status: not_open
     expected_open: "Not announced"
-    last_opened: "the ad was already up by May 2026"
+    last_opened: "the ad was already up by mid-May 2026"
 
     last_round: "2026/27"
     last_round_dates: "12-week remote-friendly program, early Dec 2026 – late Feb 2027"
@@ -102,7 +102,7 @@ listings:
     duration: "Not stated"
 
     status: not_open
-    expected_open: "May 2027"
+    expected_open: "Not announced"
     last_opened: "opened 5 May 2026, closed 21 Jul (Melbourne & Perth) and 4 Aug 2026 (Sydney & Brisbane)"
 
     last_round: "2026/27"
@@ -137,3 +137,72 @@ listings:
 
     last_checked: "2026-11-18"
     notes: "Deloitte says it opens applications twice a year, in February/March and in July. Full-time, paid, in person at national offices. The international student page lists which business areas accept international students."
+
+  - company: PwC Australia
+    role: Vacation Program
+    category: consulting
+    country: [AU]
+    locations: [Multiple]
+    careers_page: https://jobs-au.pwc.com/au/en/vacation-program
+    study_year: Penultimate year
+    duration: "7 weeks (summer) or 4 weeks (winter)"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: "no"
+    summary: "Only Australian citizens, New Zealand citizens and Australian permanent residents could apply. PwC didn't sponsor visas."
+    sponsorship: "no"
+    eligibility: "Be an Australian citizen, a New Zealand citizen, or an Australian permanent resident. We're not able to offer visa sponsorship for our Early Careers programs."
+    source: https://jobs-au.pwc.com/au/en/vacation-program
+    source_note: "PwC careers site (FAQ: Who's eligible?)"
+
+    last_checked: "2026-11-18"
+    notes: "The page's document list also asks international students for a visa notice, which doesn't match the eligibility rule. The eligibility rule is clearer, so it's what we show."
+
+  - company: Grant Thornton
+    role: Vacation Program
+    category: consulting
+    country: [AU]
+    locations: [Multiple]
+    careers_page: https://www.grantthornton.com.au/careers/student-opportunities/vacationer-program/
+    study_year: Final or penultimate year
+    duration: "4–6 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+    last_opened: "opened 20 Jul 2026, closed 14 Aug 2026"
+
+    last_round: "2026/27"
+    international: conditional
+    summary: "Student (500) and graduate (485) visa holders could apply through an Expression of Interest. Places were limited."
+    eligibility: "Students holding the below visas will be required to submit an application via our Expression of Interest: Student Visa (Subclass 500), Temporary Graduate Visa (Subclass 485) … please note that opportunities for candidates on temporary visas are limited and may vary by office location, service line and business needs."
+    source: https://www.grantthornton.com.au/careers/student-opportunities/faqs/
+    source_note: "Grant Thornton careers FAQ"
+
+    last_checked: "2026-11-18"
+    notes: "Working Holiday (417/462) visa holders weren't accepted. Expressions of interest are reviewed on a rolling basis."
+
+  - company: GHD
+    role: Summer Internship Program
+    category: engineering
+    country: [NZ]
+    locations: [Auckland]
+    careers_page: https://www.ghd.com/en/careers
+    study_year: Penultimate year
+    duration: "3 months"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    last_round_dates: "Nov 2026 – mid/late Feb 2027"
+    international: unknown
+    summary: "The 2026/27 ad didn't say whether international students could apply."
+    eligibility: "(No citizenship, residency or work-rights wording in the ad. Its only requirement listed was: 'Current student in penultimate year of studies'.)"
+    source: https://builtin.com/job/ghd-summer-internship-program-2026-27-new-zealand/9492127
+    source_note: "copy on Built In"
+
+    last_checked: "2026-11-18"
+    notes: "GHD's graduate page says applicants need 'the appropriate work rights for the country', but that's a general rule, not the internship ad. Areas: engineering, science, project management, architecture."

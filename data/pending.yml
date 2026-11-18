@@ -3,43 +3,6 @@
 # listings.yml format) only after checking its source link shows the quoted wording.
 
 pending:
-- company: PwC Australia
-  role: Vacation Program
-  category: consulting
-  country:
-  - AU
-  locations:
-  - Multiple
-  intake: Summer 2027/28
-  international: 'no'
-  sponsorship: 'no'
-  eligibility: Be an Australian citizen, a New Zealand citizen, or an Australian permanent resident. We're not able to offer
-    visa sponsorship for our Early Careers programs.
-  verified: true
-  link: https://jobs-au.pwc.com/au/en/vacation-program
-  last_checked: '2026-11-18'
-  status: upcoming
-  notes: Penultimate-year students. 7 weeks in summer or 4 weeks in winter. The current round (graduating 2027) is closed.
-- company: Grant Thornton
-  role: Vacation Program
-  category: consulting
-  country:
-  - AU
-  locations:
-  - Multiple
-  intake: Summer 2027/28
-  opens: 'Jul 2027 (2026: 20 Jul – 14 Aug)'
-  international: conditional
-  sponsorship: unknown
-  eligibility: 'Students holding the below visas will be required to submit an application via our Expression of Interest:
-    Student Visa (Subclass 500), Temporary Graduate Visa (Subclass 485) … opportunities for candidates on temporary visas
-    are limited and may vary by office location, service line and business needs.'
-  verified: true
-  link: https://www.grantthornton.com.au/careers/student-opportunities/faqs/
-  last_checked: '2026-11-18'
-  status: upcoming
-  notes: 4–6 weeks. Working Holiday (417/462) visa holders are not accepted. Expressions of interest are reviewed on a rolling
-    basis.
 - company: Fonterra
   role: Engineering Summer Internship
   category: engineering
@@ -59,25 +22,8 @@ pending:
   status: upcoming
   notes: Wording from Fonterra's general careers FAQ, not the internship ad. Internships run mid-November to mid-February.
     Register interest on the internships page.
-- company: GHD
-  role: Summer Internship Program
-  category: engineering
-  country:
-  - AU
-  - NZ
-  locations:
-  - Multiple
-  intake: Summer 2027/28
-  international: conditional
-  sponsorship: unknown
-  eligibility: To be eligible to be considered for a position with GHD, an applicant will need to demonstrate that they have
-    the appropriate work rights for the country
-  verified: true
-  link: https://www.ghd.com/en/careers/graduates
-  last_checked: '2026-11-18'
-  status: upcoming
-  notes: Wording from GHD's graduate careers page. Some 2025 internship listings on Prosple accepted student and graduate
-    visa holders, depending on location.
+  needs_human_check: Official internships page gives no length, year of study, dates or work-rights rule; only a general careers
+    FAQ about visas. Decide whether to publish with 'Not stated' fields.
 - company: Xero
   role: Summer Internship (Engineering)
   category: software

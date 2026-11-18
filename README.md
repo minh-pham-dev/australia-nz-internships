@@ -31,39 +31,48 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**4 programs** · 📝 0 open now · ⏳ 4 not open yet · ✅ 1 open to international students (2026/27)
+**7 programs** · 📝 0 open now · ⏳ 7 not open yet · ✅ 1 open to international students (2026/27)
 
 | Category | Programs |
 |---|---|
 | [💻 Software & IT](#-software--it) | 2 |
 | [🏦 Banking & Finance](#-banking--finance) | 1 |
-| [🧾 Accounting & Consulting](#-accounting--consulting) | 1 |
+| [🧾 Accounting & Consulting](#-accounting--consulting) | 3 |
+| [🏗️ Engineering](#-engineering) | 1 |
 
 ### 💻 Software & IT
 
 | Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
 |---|---|---|---|---|---|---|---|
 | **Atlassian** | Software Engineer Intern<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Remote | 12 weeks | ⏳ Not open yet<br>Expected: Feb–Jun 2027 | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens and Australian permanent residents could apply.<br><sub>2026/27 round · <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">Source</a></sub></details> | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
-| **Canva** | Software Engineer Intern (Frontend / Backend)<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Sydney, Remote | 12 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: the ad was already up by May 2026</details> | <details><summary><b>⚠️ Depends</b></summary><br>You needed full work rights in Australia or New Zealand. Canva didn't sponsor visas.<br><sub>2026/27 round · <a href="https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27">Source</a></sub></details> | [Careers page](https://www.lifeatcanva.com/en/early-careers/) | 2026-11-18 |
+| **Canva** | Software Engineer Intern (Frontend / Backend)<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Sydney, Remote | 12 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: the ad was already up by mid-May 2026</details> | <details><summary><b>⚠️ Depends</b></summary><br>You needed full work rights in Australia or New Zealand. Canva didn't sponsor visas.<br><sub>2026/27 round · <a href="https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27">Source</a></sub></details> | [Careers page](https://www.lifeatcanva.com/en/early-careers/) | 2026-11-18 |
 
 ### 🏦 Banking & Finance
 
 | Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
 |---|---|---|---|---|---|---|---|
-| **Macquarie Group** | Summer Internship Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Melbourne, Brisbane, Perth | Not stated | <details><summary>⏳ Not open yet<br>Expected: May 2027</summary><br>Last round: opened 5 May 2026, closed 21 Jul (Melbourne & Perth) and 4 Aug 2026 (Sydney & Brisbane)</details> | <details><summary><b>❌ No</b></summary><br>Only Australian citizens, Australian permanent residents and New Zealand citizens could apply.<br><sub>2026/27 round · <a href="https://www.macquarie.com/au/en/careers/graduates-and-interns.html">Source</a></sub></details> | [Careers page](https://www.macquarie.com/au/en/careers/graduates-and-interns.html) | 2026-11-18 |
+| **Macquarie Group** | Summer Internship Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Melbourne, Brisbane, Perth | Not stated | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 5 May 2026, closed 21 Jul (Melbourne & Perth) and 4 Aug 2026 (Sydney & Brisbane)</details> | <details><summary><b>❌ No</b></summary><br>Only Australian citizens, Australian permanent residents and New Zealand citizens could apply.<br><sub>2026/27 round · <a href="https://www.macquarie.com/au/en/careers/graduates-and-interns.html">Source</a></sub></details> | [Careers page](https://www.macquarie.com/au/en/careers/graduates-and-interns.html) | 2026-11-18 |
 
 ### 🧾 Accounting & Consulting
 
 | Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
 |---|---|---|---|---|---|---|---|
 | **Deloitte** | Vacationer Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 4–8 weeks | ⏳ Not open yet<br>Expected: Feb–Mar 2027 (second intake in July) | <details><summary><b>✅ Yes</b></summary><br>International students could apply to selected teams, at any office except Canberra.<br><sub>2026/27 round · <a href="https://www.deloitte.com/au/en/careers/students/summer-vacation-program-careers.html">Source</a></sub></details> | [Careers page](https://www.deloitte.com/au/en/careers/students/summer-vacation-program-careers.html) | 2026-11-18 |
+| **Grant Thornton** | Vacation Program<br><sub>🎓 Final or penultimate year</sub> | 🇦🇺 AU<br>Multiple | 4–6 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 20 Jul 2026, closed 14 Aug 2026</details> | <details><summary><b>⚠️ Depends</b></summary><br>Student (500) and graduate (485) visa holders could apply through an Expression of Interest. Places were limited.<br><sub>2026/27 round · <a href="https://www.grantthornton.com.au/careers/student-opportunities/faqs/">Source</a></sub></details> | [Careers page](https://www.grantthornton.com.au/careers/student-opportunities/vacationer-program/) | 2026-11-18 |
+| **PwC Australia** | Vacation Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 7 weeks (summer) or 4 weeks (winter) | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only Australian citizens, New Zealand citizens and Australian permanent residents could apply. PwC didn't sponsor visas.<br><sub>2026/27 round · <a href="https://jobs-au.pwc.com/au/en/vacation-program">Source</a></sub></details> | [Careers page](https://jobs-au.pwc.com/au/en/vacation-program) | 2026-11-18 |
+
+### 🏗️ Engineering
+
+| Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
+|---|---|---|---|---|---|---|---|
+| **GHD** | Summer Internship Program<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Auckland | 3 months | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❓ Not stated</b></summary><br>The 2026/27 ad didn't say whether international students could apply.<br><sub>2026/27 round · <a href="https://builtin.com/job/ghd-summer-internship-program-2026-27-new-zealand/9492127">Source</a></sub></details> | [Careers page](https://www.ghd.com/en/careers) | 2026-11-18 |
 <!-- LISTINGS:END -->
 
 ## 🔜 Coming soon
 
 Companies we're adding next. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-- **Being checked now:** PwC · Grant Thornton · Fonterra · GHD · Xero · Optiver
+- **Being checked now:** Fonterra · Xero · Optiver
 - **Software & IT:** Google · Microsoft · Amazon / AWS · SafetyCulture · Culture Amp · REA Group · SEEK · WiseTech Global · Airwallex · Block (Afterpay) · Rokt · Employment Hero · Trade Me · Rocket Lab
 - **Quant & Trading:** IMC · Akuna Capital · Citadel Securities · Jane Street
 - **Banking & Finance:** CommBank · NAB · ANZ · Westpac · ASB · BNZ
