@@ -7,9 +7,9 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 
 ## 🗓️ How to read this list
 
-- Most 2027/28 programs **haven't opened yet**. The list shows when each one is expected to open.
-- The **"International students?"** column shows **last year's (2026/27) rules**.
-- Click it to see the exact wording. This year's rules might change, so check the new ad when it opens.
+- Most 2027/28 programs **haven't opened yet**. Each row shows when it's expected to open.
+- Until then, the **"International students?"** column is based on **last year's (2026/27) ad**.
+- Click it to read the exact wording. Rules can change, so check the new ad once it's out.
 
 ## 🔑 Legend
 
@@ -24,7 +24,7 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 | ✅ Yes | Student visa holders could apply |
 | ❌ No | Citizens and permanent residents only |
 | ⚠️ Depends | Depends on work rights, office or team. Click to read |
-| ❓ Not stated | The ad didn't state it. Contact the employer |
+| ❓ Not stated | Not mentioned in the ad. Check with the employer before applying |
 
 ## 📋 Listings
 
