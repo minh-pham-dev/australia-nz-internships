@@ -31,7 +31,7 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**17 programs** · 📝 0 open now · ⏳ 17 not open yet · ✅ 1 open to international students (2026/27)
+**17 programs** · 📝 0 open now · ⏳ 17 not open yet · ✅ 1 open to international students · ⚠️ 5 with conditions (2026/27)
 
 | Category | Programs |
 |---|---|
@@ -80,15 +80,15 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 
 ## 🔜 Coming soon
 
-Companies we're adding next. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
+<!-- COMING:START -->
+**📭 Waiting for new ads.** There's nothing current to check for these yet. They'll be added when their 2027/28 ads come out:
 
-- **Being checked now:** Fonterra · Xero · Optiver
-- **Software & IT:** Google · Microsoft · Amazon / AWS · SafetyCulture · Culture Amp · REA Group · SEEK · WiseTech Global · Airwallex · Block (Afterpay) · Rokt · Employment Hero · Trade Me · Rocket Lab
-- **Quant & Trading:** IMC · Akuna Capital · Citadel Securities · Jane Street
-- **Banking & Finance:** BNZ
-- **Accounting & Consulting:** McKinsey · BCG · Bain
-- **Engineering:** Aurecon · Arup · Jacobs · WSP · Beca · BHP · Rio Tinto · Fisher & Paykel Healthcare
-- **Other:** Spark NZ · Woolworths Group · Fletcher Building
+Amazon · BNZ · Fonterra · Google · Microsoft · SafetyCulture
+
+**🔍 Adding soon.** We're checking these now. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Airwallex · Akuna Capital · Arup · Aurecon · Bain · BCG · BDO · Beca · BHP · Block (Afterpay) · Citadel Securities · Culture Amp · Deloitte New Zealand · Employment Hero · Fisher & Paykel Healthcare · Fletcher Building · IMC · Jacobs · Jane Street · KPMG New Zealand · McKinsey · Optiver · REA Group · Rio Tinto · Rocket Lab · Rokt · RSM · SEEK · Spark NZ · Trade Me · WiseTech Global · Woolworths Group · WSP · Xero
+<!-- COMING:END -->
 
 ## ⚠️ Important
 

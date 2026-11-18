@@ -16,11 +16,14 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "listings.yml"
+PENDING_FILE = ROOT / "data" / "pending.yml"
 README_FILE = ROOT / "README.md"
 START_MARKER = "<!-- LISTINGS:START -->"
 END_MARKER = "<!-- LISTINGS:END -->"
 UPDATED_START = "<!-- UPDATED:START -->"
 UPDATED_END = "<!-- UPDATED:END -->"
+COMING_START = "<!-- COMING:START -->"
+COMING_END = "<!-- COMING:END -->"
 
 # Category key -> heading shown in the README (also sets the section order).
 CATEGORIES = {
@@ -215,7 +218,8 @@ def build_section(listings: list[Listing]) -> str:
     count = lambda status: sum(l.effective_status == status for l in listings)
     lines = [
         f"**{len(listings)} program{'' if len(listings) == 1 else 's'}** · 📝 {count('open')} open now · ⏳ {count('not_open')} not open yet · "
-        f"✅ {sum(l.international == 'yes' for l in listings)} open to international students (2026/27)",
+        f"✅ {sum(l.international == 'yes' for l in listings)} open to international students · "
+        f"⚠️ {sum(l.international == 'conditional' for l in listings)} with conditions (2026/27)",
         "",
         "| Category | Programs |",
         "|---|---|",
@@ -230,6 +234,21 @@ def build_section(listings: list[Listing]) -> str:
             key=lambda l: (STATUS_ORDER[l.effective_status], l.company.lower()),
         )
         lines += [f"### {CATEGORIES[key]}", "", header, *(l.to_row() for l in rows), ""]
+    return "\n".join(lines).strip()
+
+
+def build_coming_soon() -> str:
+    """Two groups from pending.yml: waiting for new ads, and still being added."""
+    raw = yaml.safe_load(PENDING_FILE.read_text(encoding="utf-8")) or {}
+    items = raw.get("pending") or []
+    names = lambda kind: " · ".join(sorted((d["company"] for d in items if d.get("coming_soon") == kind), key=str.lower))
+    lines = []
+    if names("waiting"):
+        lines += ["**📭 Waiting for new ads.** There's nothing current to check for these yet. "
+                  "They'll be added when their 2027/28 ads come out:", "", names("waiting"), ""]
+    if names("adding"):
+        lines += ["**🔍 Adding soon.** We're checking these now. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).",
+                  "", names("adding")]
     return "\n".join(lines).strip()
 
 
@@ -255,6 +274,7 @@ def main() -> int:
     today = date.today()
     stamp = f"🔄 **Last updated: {today.day} {today:%B %Y}** · New programs are added as their ads open"
     readme = replace_between(readme, UPDATED_START, UPDATED_END, stamp)
+    readme = replace_between(readme, COMING_START, COMING_END, build_coming_soon())
     README_FILE.write_text(readme, encoding="utf-8")
     print(f"README updated with {len(listings)} listings.")
     return 0

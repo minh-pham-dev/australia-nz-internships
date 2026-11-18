@@ -1,6 +1,9 @@
-# NOT PUBLISHED. Draft research notes for roles that haven't been reviewed one by one yet.
-# The README generator ignores this file. Move an entry into listings.yml (using the
-# listings.yml format) only after checking its source link shows the quoted wording.
+# NOT PUBLISHED AS ROWS. Companies that aren't in listings.yml yet.
+# The README's "Coming soon" section is built from this file:
+#   coming_soon: waiting  -> last year's ad was taken down; nothing to check until the 2027/28 ad appears
+#   coming_soon: adding   -> still to be checked (or needs a human check); will be added soon
+#   coming_soon: hidden   -> not shown (e.g. no summer program advertised)
+# Move an entry into listings.yml (using that file's format) only after checking its source.
 
 pending:
 - company: Fonterra
@@ -24,6 +27,7 @@ pending:
     Register interest on the internships page.
   needs_human_check: Official internships page gives no length, year of study, dates or work-rights rule; only a general careers
     FAQ about visas. Decide whether to publish with 'Not stated' fields.
+  coming_soon: waiting
 - company: Xero
   role: Summer Internship (Engineering)
   category: software
@@ -43,6 +47,7 @@ pending:
   notes: 3-month full-time fixed-term contract for penultimate-year students.
   needs_human_check: Xero careers site and Prosple show a bot check. Open the Prosple intern listings in a normal browser
     and read the work-rights section.
+  coming_soon: adding
 - company: Optiver
   role: Software Developer Internship
   category: quant
@@ -61,23 +66,27 @@ pending:
   notes: Not yet checked on Optiver's own ad. 10-week program; flights and accommodation covered.
   needs_human_check: optiver.com wouldn't load for the automated browser. Open the Sydney internship ad in a normal browser
     and read the work-rights section.
+  coming_soon: adding
 - company: Google
   role: Software Engineering Intern (Sydney)
   category: software
   needs_human_check: 'No readable source on 18 Nov 2026: Google''s careers site lists no AU intern ads and the 2026 ad copy
     (AnitaB.org board) returned 502. Search summaries say applications opened ~23 Mar 2026 and the ad said no immigration
     sponsorship / existing work authorisation needed (unverified). Recheck when the 2027 ad is posted.'
+  coming_soon: waiting
 - company: Microsoft
   role: Software Engineering / Applied Science Intern (Sydney, Melbourne, Brisbane)
   category: software
   needs_human_check: Only source found is a recruiter's LinkedIn post (12 weeks, late Nov–Feb, apps open until early Sep 2026).
     No official page or ad copy with work-rights wording. Recheck when the 2027/28 ad is posted.
+  coming_soon: waiting
 - company: Amazon
   role: Software Dev Engineer Intern (Sydney)
   category: software
   needs_human_check: 2026 Sydney ad copies (AnitaB.org, Hatch) are missing the qualifications section, so we can't say whether
     work rights were stated. amazon.jobs has a 2027 SDE intern ad, but it's for Dublin. Ad said Dec 2026 – Feb 2027, full-time
     in office, at least one term left after the internship. Recheck when the 2027 Sydney ad is posted.
+  coming_soon: waiting
 - company: SafetyCulture
   role: Software Engineering Internship (Sydney)
   category: software
@@ -85,17 +94,149 @@ pending:
     or pre-penultimate year, 10 weeks, Sydney office. No 2026/27 ad found and SafetyCulture''s Lever board is gone. Decide
     whether to publish using the older round.'
   source: https://jobs.blackbird.vc/companies/safetyculture-2-d0ff86a5-3d05-4aa1-a51f-a3a13f7b2cf7/jobs/47059375-software-engineering-internship-summer-2025-2026-expression-of-interest
+  coming_soon: waiting
 - company: Telstra
   category: software
   needs_human_check: Telstra's students page (telstra.com.au/careers/students-and-graduates, 18 Nov 2026) lists only the Graduate
     Program and a First Nations careers program; no general summer internship. Older Prosple ads (2019–2022) described a 12-week
     Summer Vacation Program. Check whether it still exists.
+  coming_soon: hidden
 - company: Accenture
   category: consulting
   needs_human_check: Accenture AU has no summer internship page. Its early-careers page mentions 'internships or fixed-term
     placements'; the only live student role found (Junior Quality Engineer / Tester, Ballarat) is part-time and 'Australian
     Citizens only'. Out of scope unless a summer program appears.
+  coming_soon: hidden
 - company: BNZ
   category: finance
   needs_human_check: bnz.co.nz/about-us/careers has no internship page; jobs are only via a general job search (nab.eightfold.ai).
     Old Prosple ads (2023) showed NZ-citizen-only financial markets internships. Recheck when 2027/28 ads appear.
+  coming_soon: waiting
+- company: Culture Amp
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: REA Group
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: SEEK
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: WiseTech Global
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Airwallex
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Block (Afterpay)
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Rokt
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Employment Hero
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Trade Me
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Rocket Lab
+  category: software
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: IMC
+  category: quant
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Akuna Capital
+  category: quant
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Citadel Securities
+  category: quant
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Jane Street
+  category: quant
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Deloitte New Zealand
+  category: consulting
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: KPMG New Zealand
+  category: consulting
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: BDO
+  category: consulting
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: RSM
+  category: consulting
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: McKinsey
+  category: consulting
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: BCG
+  category: consulting
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Bain
+  category: consulting
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Aurecon
+  category: engineering
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Arup
+  category: engineering
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Jacobs
+  category: engineering
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: WSP
+  category: engineering
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Beca
+  category: engineering
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: BHP
+  category: engineering
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Rio Tinto
+  category: engineering
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Fisher & Paykel Healthcare
+  category: engineering
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Spark NZ
+  category: business
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Woolworths Group
+  category: business
+  coming_soon: adding
+  needs_human_check: Not checked yet.
+- company: Fletcher Building
+  category: business
+  coming_soon: adding
+  needs_human_check: Not checked yet.
