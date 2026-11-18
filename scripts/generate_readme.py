@@ -27,17 +27,17 @@ COMING_END = "<!-- COMING:END -->"
 
 # Category key -> heading shown in the README (also sets the section order).
 CATEGORIES = {
-    "software": "💻 Software & IT",
-    "data": "📊 Data & AI",
-    "cyber": "🔐 Cyber Security",
-    "quant": "📈 Quant & Trading",
-    "finance": "🏦 Banking & Finance",
-    "consulting": "🧾 Accounting & Consulting",
-    "engineering": "🏗️ Engineering",
-    "design": "🎨 Product & Design",
-    "business": "💼 Business & Other",
+    "software": "Software & IT",
+    "data": "Data & AI",
+    "cyber": "Cyber Security",
+    "quant": "Quant & Trading",
+    "finance": "Banking & Finance",
+    "consulting": "Accounting & Consulting",
+    "engineering": "Engineering",
+    "design": "Product & Design",
+    "business": "Business & Other",
 }
-FLAGS = {"AU": "🇦🇺 AU", "NZ": "🇳🇿 NZ"}  # text code too: the two flags look alike when small
+FLAGS = {"AU": "AU", "NZ": "NZ"}
 ALLOWED = {
     "category": set(CATEGORIES),
     "status": {"not_open", "open", "closed"},
@@ -159,10 +159,10 @@ class Listing:
     def round_cell(self) -> str:
         if self.effective_status == "open":
             closes = f"<br>Closes {self.closes}" if self.closes else ""
-            return f"📝 **Open** · {self.age()}<br>[Apply]({self.apply_link}){closes}"
+            return f"**Open** · {self.age()}<br>[Apply]({self.apply_link}){closes}"
         if self.effective_status == "closed":
-            return "🔒 Closed"
-        visible = f"⏳ Not open yet<br>Expected: {self.expected_open}"
+            return "Closed"
+        visible = f"Not open yet<br>Expected: {self.expected_open}"
         if not self.last_opened:
             return visible  # nothing more to say, so no click needed
         return f"<details><summary>{visible}</summary><br>Last round: {self.last_opened}</details>"
@@ -184,7 +184,7 @@ class Listing:
         # it describes last year's cohort and would confuse people applying this year.
         cells = [
             company,
-            f"{self.role}<br><sub>🎓 {self.study_year}</sub>",
+            f"{self.role}<br><sub>{self.study_year}</sub>",
             f"{flags}<br>{', '.join(self.locations)}",
             self.duration,
             self.round_cell(),
@@ -218,9 +218,10 @@ def build_section(listings: list[Listing]) -> str:
     )
     count = lambda status: sum(l.effective_status == status for l in listings)
     lines = [
-        f"**{len(listings)} program{'' if len(listings) == 1 else 's'}** · 📝 {count('open')} open now · ⏳ {count('not_open')} not open yet · "
-        f"✅ {sum(l.international == 'yes' for l in listings)} open to international students · "
-        f"⚠️ {sum(l.international == 'conditional' for l in listings)} with conditions (2026/27)",
+        f"**{len(listings)} program{'' if len(listings) == 1 else 's'}**: {count('open')} open now, "
+        f"{count('not_open')} not open yet. "
+        f"{sum(l.international == 'yes' for l in listings)} were open to international students last round, "
+        f"and {sum(l.international == 'conditional' for l in listings)} more had conditions.",
         "",
         "| Category | Programs |",
         "|---|---|",
@@ -245,10 +246,10 @@ def build_coming_soon() -> str:
     names = lambda kind: " · ".join(sorted((d["company"] for d in items if d.get("coming_soon") == kind), key=str.lower))
     lines = []
     if names("waiting"):
-        lines += ["**📭 Waiting for new ads.** There's nothing current to check for these yet. "
+        lines += ["**Waiting for new ads.** There's nothing current to check for these yet. "
                   "They'll be added when their 2027/28 ads come out:", "", names("waiting"), ""]
     if names("adding"):
-        lines += ["**🔍 Adding soon.** We're checking these now. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).",
+        lines += ["**Adding soon.** We're checking these now. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).",
                   "", names("adding")]
     return "\n".join(lines).strip()
 
@@ -275,7 +276,7 @@ def main() -> int:
     # "Last updated" is the most recent date someone actually checked a program, not the date
     # this script ran, so a daily automatic rebuild doesn't make the list look fresher than it is.
     latest = max(date.fromisoformat(l.last_checked) for l in listings)
-    stamp = f"🔄 **Last updated: {latest.day} {latest:%B %Y}** · New programs are added as their ads open"
+    stamp = f"**Last updated:** {latest.day} {latest:%B %Y}. New programs are added as their ads open."
     readme = replace_between(readme, UPDATED_START, UPDATED_END, stamp)
     readme = replace_between(readme, COMING_START, COMING_END, build_coming_soon())
     README_FILE.write_text(readme, encoding="utf-8")
