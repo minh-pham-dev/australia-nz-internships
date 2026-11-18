@@ -153,7 +153,7 @@ class Listing:
         # Visible: the icon. Click: a plain-English summary and the source link.
         # The exact quote (eligibility) stays in the data file as proof for each summary,
         # along with last_round_dates, notes and source_note, but readers don't see them.
-        origin = f"<sub>{self.last_round} ad · <a href=\"{self.source}\">Source</a></sub>"
+        origin = f"<sub>{self.last_round} round · <a href=\"{self.source}\">Source</a></sub>"
         # Bold label so it stands apart from the explanation that opens under it.
         label = f"<b>{INTERNATIONAL_ICON[self.international]}</b>"
         return f"<details><summary>{label}</summary><br>{self.summary}<br>{origin}</details>"
