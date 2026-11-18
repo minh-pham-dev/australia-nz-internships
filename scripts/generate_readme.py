@@ -142,16 +142,11 @@ class Listing:
         return f"⏳ Not open yet<br>Expected: {self.expected_open}"
 
     def eligibility_cell(self) -> str:
-        parts = [
-            f"<b>{self.last_round} ad (now expired):</b>",
-            f"\"{self.eligibility}\"",
-            f"Source: <a href=\"{self.source}\">{self.source_note}</a>",
-        ]
-        if self.last_round_dates:
-            parts.append(self.last_round_dates)
-        if self.notes:
-            parts.append(self.notes)
-        return f"<details><summary>{INTERNATIONAL_ICON[self.international]}</summary>{'<br>'.join(parts)}</details>"
+        # Keep the popup short: the quote, then one line saying where it's from.
+        # last_round_dates and notes stay in the data file but aren't shown here.
+        quote = f"<i>\"{self.eligibility}\"</i>"
+        origin = f"<sub>{self.last_round} ad · <a href=\"{self.source}\">{self.source_note}</a></sub>"
+        return f"<details><summary>{INTERNATIONAL_ICON[self.international]}</summary>{quote}<br>{origin}</details>"
 
     def to_row(self) -> str:
         flags = " / ".join(FLAGS[code] for code in self.country)

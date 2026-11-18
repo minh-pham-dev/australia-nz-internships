@@ -39,7 +39,7 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 
 | Company | Role | Location | Applications (2027/28) | International students? | Sponsors visa | Links | Checked |
 |---|---|---|---|---|---|---|---|
-| **Atlassian** | Software Engineer Intern | 🇦🇺 AU<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Feb–Jun 2027 (Atlassian's ANZ recruitment period) | <details><summary>❌ No</summary><b>2026/27 ad (now expired):</b><br>"Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"<br>Source: <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">Copy of the 2026/27 ad on Accel's job board (Atlassian has taken the original down)</a><br>12-week paid program, Nov 2026 – Feb 2027<br>Last round also required full-time enrolment in Software Engineering, Computer Science or similar, graduating by January 2028.</details> | ❓ | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
+| **Atlassian** | Software Engineer Intern | 🇦🇺 AU<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Feb–Jun 2027 | <details><summary>❌ No</summary><i>"Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"</i><br><sub>2026/27 ad · <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">copy on Accel's job board</a></sub></details> | ❓ | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
 <!-- LISTINGS:END -->
 
 ## 🔎 On the research list

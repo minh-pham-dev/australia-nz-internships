@@ -26,8 +26,8 @@
 #   sponsorship      yes | no | unknown
 #   eligibility      Exact wording copied from the source
 #   source           URL where the wording can be read right now
-#   source_note      Where the source is, e.g. "Atlassian's careers site" or
-#                    "Copy of the 2026/27 ad on Accel's job board (the original was taken down)"
+#   source_note      Short label for the source link, e.g. "Atlassian careers site" or
+#                    "copy on Accel's job board" (when the company took the original down)
 #
 #   last_checked     "YYYY-MM-DD"
 #   notes            Optional
@@ -41,7 +41,7 @@ listings:
     careers_page: https://www.atlassian.com/company/careers/earlycareers
 
     status: not_open
-    expected_open: "Feb–Jun 2027 (Atlassian's ANZ recruitment period)"
+    expected_open: "Feb–Jun 2027"
 
     last_round: "2026/27"
     last_round_dates: "12-week paid program, Nov 2026 – Feb 2027"
@@ -49,7 +49,7 @@ listings:
     sponsorship: unknown
     eligibility: "Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"
     source: https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia
-    source_note: "Copy of the 2026/27 ad on Accel's job board (Atlassian has taken the original down)"
+    source_note: "copy on Accel's job board"
 
     last_checked: "2026-11-18"
     notes: "Last round also required full-time enrolment in Software Engineering, Computer Science or similar, graduating by January 2028."
