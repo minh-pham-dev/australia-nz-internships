@@ -81,7 +81,7 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 
 Companies we're adding next. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-- **Being checked now:** PwC New Zealand · Fonterra · Xero · Optiver
+- **Being checked now:** Fonterra · Xero · Optiver
 - **Software & IT:** Google · Microsoft · Amazon / AWS · SafetyCulture · Culture Amp · REA Group · SEEK · WiseTech Global · Airwallex · Block (Afterpay) · Rokt · Employment Hero · Trade Me · Rocket Lab
 - **Quant & Trading:** IMC · Akuna Capital · Citadel Securities · Jane Street
 - **Banking & Finance:** BNZ
