@@ -46,7 +46,7 @@ URL_FIELDS = ("careers_page", "source", "apply_link")
 LIST_FIELDS = ("country", "locations")
 STATUS_ORDER = {"open": 0, "not_open": 1, "closed": 2}
 
-INTERNATIONAL_ICON = {"yes": "✅ Yes", "no": "❌ No", "conditional": "⚠️ Conditional", "unknown": "❓ Unknown"}
+INTERNATIONAL_ICON = {"yes": "✅ Yes", "no": "❌ No", "conditional": "⚠️ Depends", "unknown": "❓ Not stated"}
 SPONSOR_ICON = {"yes": "🛂 Yes", "no": "No", "unknown": "❓"}
 
 
@@ -136,14 +136,14 @@ class Listing:
     def round_cell(self) -> str:
         if self.effective_status == "open":
             closes = f"<br>Closes {self.closes}" if self.closes else ""
-            return f"🟢 **Open**<br>[Apply]({self.apply_link}){closes}"
+            return f"📝 **Open**<br>[Apply]({self.apply_link}){closes}"
         if self.effective_status == "closed":
             return "🔒 Closed"
-        return f"🔜 Not open yet<br>Expected: {self.expected_open}"
+        return f"⏳ Not open yet<br>Expected: {self.expected_open}"
 
     def eligibility_cell(self) -> str:
         parts = [
-            f"<b>{self.last_round} round (expired):</b>",
+            f"<b>{self.last_round} ad (now expired):</b>",
             f"\"{self.eligibility}\"",
             f"Source: <a href=\"{self.source}\">{self.source_note}</a>",
         ]
@@ -186,13 +186,13 @@ def anchor(heading: str) -> str:
 
 def build_section(listings: list[Listing]) -> str:
     header = (
-        "| Company | Role | Location | 2027/28 round | International students (last round) | Sponsors visa | Links | Checked |\n"
+        "| Company | Role | Location | Applications (2027/28) | International students? | Sponsors visa | Links | Checked |\n"
         "|---|---|---|---|---|---|---|---|"
     )
     count = lambda status: sum(l.effective_status == status for l in listings)
     lines = [
-        f"**{len(listings)} program{'' if len(listings) == 1 else 's'}** · 🟢 {count('open')} open now · 🔜 {count('not_open')} not open yet · "
-        f"✅ {sum(l.international == 'yes' for l in listings)} accepted international students last round",
+        f"**{len(listings)} program{'' if len(listings) == 1 else 's'}** · 📝 {count('open')} open now · ⏳ {count('not_open')} not open yet · "
+        f"✅ {sum(l.international == 'yes' for l in listings)} open to international students (2026/27)",
         "",
         "| Category | Programs |",
         "|---|---|",

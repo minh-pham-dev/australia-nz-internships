@@ -1,38 +1,35 @@
-# 🇦🇺🇳🇿 Australia & New Zealand Internships 2027/28
+# 🇦🇺🇳🇿 Internships for International Students in Australia & New Zealand (2027/28)
 
-A free, community-run guide to **summer internships and vacationer programs in Australia and New Zealand**, across tech, finance, consulting, engineering and more.
-
-It answers the question most job boards bury at the bottom of the ad: **can international students actually apply?**
+Summer internships and vacation programs in Australia and New Zealand, and whether international students can apply to each one. Covers tech, finance, consulting, engineering and more.
 
 > 🙌 Found a new program or a mistake? [Open an issue](../../issues/new/choose) or read [CONTRIBUTING.md](CONTRIBUTING.md).
 > ⭐ Star the repo so you can find it again when applications open.
 
 ## 🗓️ How to read this list
 
-**The 2027/28 round hasn't opened yet for most programs.** So for each program this list shows:
-
-1. **2027/28 round:** whether the new ad is open yet, and when it's expected. When the ad goes live, this changes to 🟢 **Open** with an **Apply** link.
-2. **Last round (2026/27, expired):** who could apply last time, quoted word for word, with a link to where you can read it. Rules usually stay similar from year to year, so use this to decide where to focus. **Always re-read the new ad once it opens.**
-
-Every quote has been checked against its source link by hand.
+- Most 2027/28 programs **haven't opened yet**. The list shows when each one is expected to open.
+- Until then, the **"International students?"** column shows **last year's (2026/27) rules**, which usually stay the same.
+- Click the answer to see the exact wording and where it came from. Always check the new ad when it opens.
 
 ## 🔑 Legend
 
-| Symbol | Meaning |
+| Applications (2027/28) | Meaning |
 |---|---|
-| 🟢 Open | The 2027/28 ad is live. Apply now |
-| 🔜 Not open yet | No 2027/28 ad yet. Shows when it's expected |
-| 🔒 Closed | The 2027/28 round has closed |
-| ✅ Yes | Last round accepted student visa holders |
-| ❌ No | Last round was for citizens / permanent residents only |
-| ⚠️ Conditional | Depends on work rights, office or team. Click to read the wording |
-| ❓ Unknown | The ad didn't say. Ask the employer |
-| 🛂 Yes | The company sponsors visas for this program |
+| ⏳ Not open yet | Shows when it's expected to open |
+| 📝 Open | Apply now |
+| 🔒 Closed | This year's round has closed |
+
+| International students? (2026/27) | Meaning |
+|---|---|
+| ✅ Yes | Student visa holders could apply |
+| ❌ No | Citizens and permanent residents only |
+| ⚠️ Depends | Depends on work rights, office or team. Click to read |
+| ❓ Not stated | The ad didn't say. Ask the employer |
 
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**1 program** · 🟢 0 open now · 🔜 1 not open yet · ✅ 0 accepted international students last round
+**1 program** · 📝 0 open now · ⏳ 1 not open yet · ✅ 0 open to international students (2026/27)
 
 | Category | Programs |
 |---|---|
@@ -40,9 +37,9 @@ Every quote has been checked against its source link by hand.
 
 ### 💻 Software & IT
 
-| Company | Role | Location | 2027/28 round | International students (last round) | Sponsors visa | Links | Checked |
+| Company | Role | Location | Applications (2027/28) | International students? | Sponsors visa | Links | Checked |
 |---|---|---|---|---|---|---|---|
-| **Atlassian** | Software Engineer Intern | 🇦🇺 AU<br>Sydney, Remote | 🔜 Not open yet<br>Expected: Feb–Jun 2027 (Atlassian's ANZ recruitment period) | <details><summary>❌ No</summary><b>2026/27 round (expired):</b><br>"Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"<br>Source: <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">Copy of the 2026/27 ad on Accel's job board (Atlassian has taken the original down)</a><br>12-week paid program, Nov 2026 – Feb 2027<br>Last round also required full-time enrolment in Software Engineering, Computer Science or similar, graduating by January 2028.</details> | ❓ | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
+| **Atlassian** | Software Engineer Intern | 🇦🇺 AU<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Feb–Jun 2027 (Atlassian's ANZ recruitment period) | <details><summary>❌ No</summary><b>2026/27 ad (now expired):</b><br>"Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"<br>Source: <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">Copy of the 2026/27 ad on Accel's job board (Atlassian has taken the original down)</a><br>12-week paid program, Nov 2026 – Feb 2027<br>Last round also required full-time enrolment in Software Engineering, Computer Science or similar, graduating by January 2028.</details> | ❓ | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
 <!-- LISTINGS:END -->
 
 ## 🔎 On the research list
