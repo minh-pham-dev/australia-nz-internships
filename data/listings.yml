@@ -1,0 +1,49 @@
+# One entry per role. The README table is generated from this file:
+#   python3 scripts/generate_readme.py
+#
+# Fields
+#   company          Company name
+#   role             Role title as written in the ad
+#   type             internship | graduate
+#   locations        List of cities, e.g. [Sydney, Melbourne] or [Australia]
+#   intake           Which cohort, e.g. "Summer 2027/28"
+#   opens / closes   Optional. "YYYY-MM-DD" if known, otherwise a short text like "Feb 2027 (usual)"
+#   international    yes | no | conditional | unknown
+#                      yes          open to student visa holders
+#                      no           citizens / permanent residents only
+#                      conditional  depends on work rights, office or team (explain in notes)
+#   sponsorship      yes | no | unknown   (does the company sponsor visas for this role?)
+#   eligibility      Exact wording from the ad, in quotes. This is the evidence.
+#   link             Official careers page or job ad
+#   last_checked     "YYYY-MM-DD" when someone last checked the ad
+#   status           open | upcoming | closed
+#   notes            Optional extra detail
+
+listings:
+  - company: Atlassian
+    role: Software Engineering Intern
+    type: internship
+    locations: [Australia]
+    intake: Summer 2027/28
+    opens: "Feb 2027 (ANZ recruitment usually Feb–Jun)"
+    international: "no"
+    sponsorship: unknown
+    eligibility: "open to penultimate year university students with Australian or New Zealand Citizenship or Australian Permanent Residency"
+    link: https://www.atlassian.com/company/careers/earlycareers
+    last_checked: "2026-11-18"
+    status: upcoming
+    notes: Eligibility quoted from the 2026/27 ad. Recheck when the 2027/28 ad opens.
+
+  - company: Canva
+    role: Software Engineer Intern (Frontend / Backend)
+    type: internship
+    locations: [Australia, New Zealand]
+    intake: Summer 2027/28
+    opens: "Early 2027 (2026/27 closed 1 May 2026)"
+    international: conditional
+    sponsorship: "no"
+    eligibility: "Based in Australia or New Zealand with working rights (Canva will not sponsor visas)"
+    link: https://www.lifeatcanva.com/en/early-careers/
+    last_checked: "2026-11-18"
+    status: upcoming
+    notes: Quoted from the 2026/27 ad. 12-week full-time summer program; student visa holders have unlimited work hours in official breaks, but confirm with Canva.
