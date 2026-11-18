@@ -206,3 +206,93 @@ listings:
 
     last_checked: "2026-11-18"
     notes: "GHD's graduate page says applicants need 'the appropriate work rights for the country', but that's a general rule, not the internship ad. Areas: engineering, science, project management, architecture."
+
+  - company: KPMG
+    role: Vacationer Program
+    category: consulting
+    country: [AU]
+    locations: [Multiple]
+    careers_page: https://kpmg.com/au/en/careers/graduates/vacation-program.html
+    study_year: Penultimate year
+    duration: "3–8 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: conditional
+    summary: "International students were welcome, but needed full-time work rights when applying and for the program dates."
+    eligibility: "We welcome applications from people with all degree backgrounds and experiences, as well as domestic and international students. … You don’t need to be an Australian resident, but you must have full-time working rights within Australia at the time of your application and for the program dates you are applying to."
+    source: https://kpmg.com/au/en/careers/graduates/faq.html
+    source_note: "KPMG careers FAQ"
+
+    last_checked: "2026-11-18"
+    notes: "Non-citizens/non-PR need a visa grant notice and may be asked for Superior English test results. Some teams require specific citizenship or visa status. 14 locations nationally."
+
+  - company: EY
+    role: Vacationer Program
+    category: consulting
+    country: [AU]
+    locations: [Multiple]
+    careers_page: https://www.ey.com/en_au/careers/student-entry-level-programs
+    study_year: Penultimate year
+    duration: "Not stated"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: "no"
+    summary: "Only Australian or New Zealand citizens and Australian or New Zealand permanent residents could apply."
+    eligibility: "You can apply to join the Vacationer Program in the penultimate year of your degree. You need to be an Australian or New Zealand citizen, or an Australian or New Zealand permanent resident."
+    source: https://www.ey.com/en_au/careers/student-entry-level-programs
+    source_note: "EY careers site (Vacationer Program → Requirements)"
+
+    last_checked: "2026-11-18"
+    notes: "EY only accepts Australian citizens for Core Consulting (all locations) and for all service lines in Canberra except Audit."
+
+  - company: CommBank
+    role: Summer Intern Program
+    category: finance
+    country: [AU]
+    locations: [Multiple]
+    careers_page: https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html
+    study_year: Penultimate year
+    duration: "10 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+    last_opened: "opened 12 Aug, closed 8 Sep 2026"
+
+    last_round: "2026/27"
+    last_round_dates: "Nov 2026 – Jan 2027"
+    international: "no"
+    summary: "Only Australian or New Zealand citizens and Australian permanent residents could apply. Temporary visa holders couldn't."
+    eligibility: "Australian or New Zealand citizen or an Australian Permanent Resident at the time of your application. … Unfortunately, temporary visa holders are not eligible."
+    source: https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html
+    source_note: "CommBank careers site (Summer Intern Program + FAQ)"
+
+    last_checked: "2026-11-18"
+    notes: "Also needs an overall credit average: 65 WAM/GPA, or 70 for Technology (Engineering and Cyber Security). Roles across metro and regional Australia."
+
+  - company: NAB
+    role: Summer Intern Program
+    category: finance
+    country: [AU]
+    locations: [Melbourne, Sydney, Perth, Brisbane]
+    careers_page: https://www.nab.com.au/about-us/careers/early-careers/summer-intern-program
+    study_year: Penultimate year
+    duration: "8 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: "no"
+    summary: "Only Australian or New Zealand citizens or permanent residents could apply."
+    eligibility: "You’ll need to be an Australian or New Zealand citizen or permanent resident at the time of applying for the program."
+    source: https://www.nab.com.au/about-us/careers/early-careers/summer-intern-program
+    source_note: "NAB careers site (Eligibility)"
+
+    last_checked: "2026-11-18"
+    notes: "Eight paid weeks plus a two-week unpaid festive break. Cities depend on the stream (some Melbourne only)."
