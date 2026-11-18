@@ -472,7 +472,7 @@ listings:
     last_opened: "applications closed 27 Mar 2026"
 
     last_round: "2026/27"
-    international: conditional
+    international: "yes"
     summary: "International students could apply if they'd be eligible for a NZ work visa after finishing their studies."
     eligibility: "Yes, KPMG New Zealand welcomes applications from international students. However, you will need to meet the following criteria: You must be eligible to apply for a New Zealand Work Visa once finishing your studies, or already have the right to work ongoing in New Zealand."
     source: https://kpmg.com/nz/en/careers/faqs.html
@@ -502,3 +502,25 @@ listings:
 
     last_checked: "2026-11-18"
     notes: "Ad also said: 'Have commenced your penultimate year of study' and 'Must be able to start the internship in November 2026'. Hybrid, Sydney office."
+
+  - company: BDO
+    role: Vacation Program
+    category: consulting
+    country: [AU]
+    locations: [Multiple]
+    careers_page: https://www.bdo.com.au/en-au/about/early-careers
+    study_year: From the end of 2nd year
+    duration: "Not stated"
+
+    status: not_open
+    expected_open: "Runs 3 times a year (Jan–Feb, Jun–Jul, Nov–Dec)"
+
+    last_round: "2026/27"
+    international: "yes"
+    summary: "International students who can keep working in Australia (e.g. on a 485) could apply. Some ads are citizens only."
+    eligibility: "BDO welcome applications from international students who: currently reside in and have the right to work in Australia; have the intention and ability to maintain their right to work in Australia i.e., Temporary Graduate (Subclass 485). BDO will not sponsor students for the purposes of permanent residency."
+    source: https://www.bdo.com.au/en-au/about/early-careers
+    source_note: "BDO careers site (View eligibility criteria → International students)"
+
+    last_checked: "2026-11-18"
+    notes: "Page said 'Applications for our Undergraduate, Graduate and Vacation programs are now open'. The only live vacation ad on 18 Nov 2026 (Workday JR102574) was Canberra, January 2027, 4 weeks, 'An Australian Citizen'. Studying a degree that suits the service line."

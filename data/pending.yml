@@ -166,14 +166,6 @@ pending:
   category: quant
   coming_soon: adding
   needs_human_check: Not checked yet.
-- company: BDO
-  category: consulting
-  coming_soon: adding
-  needs_human_check: 'DECISION PENDING. bdo.com.au early-careers page: ''Applications for our Undergraduate, Graduate and
-    Vacation programs are now open''. Vacation program open from end of 2nd year; intakes Jan–Feb, Jun–Jul, Nov–Dec. International:
-    ''BDO welcome applications from international students who: currently reside in and have the right to work in Australia;
-    have the intention and ability to maintain their right to work in Australia i.e., Temporary Graduate (Subclass 485)''.
-    Only live vacation ad (Workday JR102574) is Canberra, Jan 2027, 4 weeks, Australian Citizen only.'
 - company: RSM
   category: consulting
   coming_soon: waiting
