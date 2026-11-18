@@ -13,17 +13,16 @@ Use the **"New role"** issue template and paste the link to the ad. A maintainer
    The summary is what readers see, so it must say the same thing as the quote and nothing more.
 3. Put the link where that sentence can be read **right now** into `source`, and say what it is in `source_note`.
    If the company took the ad down, an exact copy on a job board is fine. Say so in `source_note`.
-4. When the new round's ad goes live, set `status: open` and add `apply_link`.
+4. When the new round's ad goes live, set `status: open` and add `apply_link` and `posted` (the date the ad went up).
 5. Set `last_checked` to today's date.
-6. Run the checks and rebuild the tables:
+6. Optional: check your entry locally before opening a pull request:
 
    ```bash
    pip install pyyaml
    python3 scripts/generate_readme.py --check
-   python3 scripts/generate_readme.py
    ```
 
-7. Open a pull request.
+7. Open a pull request. A GitHub Action checks your data automatically, and rebuilds the README after it's merged, so you don't need to edit `README.md` yourself.
 
 ## Rules
 

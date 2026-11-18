@@ -272,8 +272,10 @@ def main() -> int:
 
     readme = README_FILE.read_text(encoding="utf-8")
     readme = replace_between(readme, START_MARKER, END_MARKER, build_section(listings))
-    today = date.today()
-    stamp = f"🔄 **Last updated: {today.day} {today:%B %Y}** · New programs are added as their ads open"
+    # "Last updated" is the most recent date someone actually checked a program, not the date
+    # this script ran, so a daily automatic rebuild doesn't make the list look fresher than it is.
+    latest = max(date.fromisoformat(l.last_checked) for l in listings)
+    stamp = f"🔄 **Last updated: {latest.day} {latest:%B %Y}** · New programs are added as their ads open"
     readme = replace_between(readme, UPDATED_START, UPDATED_END, stamp)
     readme = replace_between(readme, COMING_START, COMING_END, build_coming_soon())
     README_FILE.write_text(readme, encoding="utf-8")
