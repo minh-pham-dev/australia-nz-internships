@@ -5,8 +5,6 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 > 🙌 Found a new program or a mistake? [Open an issue](../../issues/new/choose) or read [CONTRIBUTING.md](CONTRIBUTING.md).
 > ⭐ Star the repo so you can find it again when applications open.
 
-## 🗓️ How to read this list
-
 - Most 2027/28 programs **haven't opened yet**. Each row shows when it's expected to open.
 - Until then, the **"International students?"** column is based on **last year's (2026/27) ad**.
 - Click it to read the exact wording. Rules can change, so check the new ad once it's out.
@@ -42,11 +40,11 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 | **Atlassian** | Software Engineer Intern | 🇦🇺 AU<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Feb–Jun 2027 | <details><summary>❌ No</summary><i>"Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"</i><br><sub>2026/27 ad · <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">copy on Accel's job board</a></sub></details> | ❓ | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
 <!-- LISTINGS:END -->
 
-## 🔎 On the research list
+## 🔜 Coming soon
 
-Not checked yet. Pick one, find the official ad and [add it](CONTRIBUTING.md).
+Companies we're adding next. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-- **Being reviewed now:** Canva · Xero · Optiver · Macquarie · Deloitte · PwC · Grant Thornton · Fonterra · GHD
+- **Being checked now:** Canva · Xero · Optiver · Macquarie · Deloitte · PwC · Grant Thornton · Fonterra · GHD
 - **Software & IT:** Google · Microsoft · Amazon / AWS · SafetyCulture · Culture Amp · REA Group · SEEK · WiseTech Global · Airwallex · Block (Afterpay) · Rokt · Employment Hero · Trade Me · Rocket Lab
 - **Quant & Trading:** IMC · Akuna Capital · Citadel Securities · Jane Street
 - **Banking & Finance:** CommBank · NAB · ANZ · Westpac · ASB · BNZ
