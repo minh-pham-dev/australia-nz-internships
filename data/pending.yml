@@ -3,61 +3,6 @@
 # listings.yml format) only after checking its source link shows the quoted wording.
 
 pending:
-- company: Xero
-  role: Summer Internship (Engineering)
-  category: software
-  country:
-  - NZ
-  locations:
-  - Multiple
-  intake: Summer 2027/28
-  international: unknown
-  sponsorship: unknown
-  eligibility: Xero's early careers page doesn't state work rights. A Prosple listing for a past intern role showed 'New Zealand
-    Citizen'.
-  verified: false
-  link: https://careers.xero.com/early-careers/
-  last_checked: '2026-11-18'
-  status: upcoming
-  notes: 3-month full-time fixed-term contract for penultimate-year students.
-- company: Optiver
-  role: Software Developer Internship
-  category: quant
-  country:
-  - AU
-  locations:
-  - Sydney
-  intake: Summer 2027/28
-  international: 'yes'
-  sponsorship: unknown
-  eligibility: Other Optiver Sydney listings include 'International Student/Graduate Visa' under Australian work rights.
-  verified: false
-  link: https://optiver.com/working-at-optiver/career-opportunities/
-  last_checked: '2026-11-18'
-  status: upcoming
-  notes: Not yet checked on Optiver's own ad. 10-week program; flights and accommodation covered.
-- company: Macquarie Group
-  role: Summer Internship Program
-  category: finance
-  country:
-  - AU
-  locations:
-  - Sydney
-  - Melbourne
-  - Brisbane
-  - Perth
-  intake: Summer 2027/28
-  opens: 'May 2027 (2026: opened 5 May)'
-  closes: 'Jul–Aug 2027 (2026: 21 Jul Melb/Perth, 4 Aug Syd/Bris)'
-  international: 'no'
-  sponsorship: unknown
-  eligibility: You must be an Australian citizen, Australian permanent resident or New Zealand citizen to be eligible for
-    our Graduate and Internship Programs
-  verified: true
-  link: https://www.macquarie.com/au/en/careers/graduates-and-interns.html
-  last_checked: '2026-11-18'
-  status: upcoming
-  notes: For penultimate-year students. Program starts in November.
 - company: Deloitte
   role: International Students – Vacationer Program
   category: consulting
@@ -150,3 +95,40 @@ pending:
   status: upcoming
   notes: Wording from GHD's graduate careers page. Some 2025 internship listings on Prosple accepted student and graduate
     visa holders, depending on location.
+- company: Xero
+  role: Summer Internship (Engineering)
+  category: software
+  country:
+  - NZ
+  locations:
+  - Multiple
+  intake: Summer 2027/28
+  international: unknown
+  sponsorship: unknown
+  eligibility: Xero's early careers page doesn't state work rights. A Prosple listing for a past intern role showed 'New Zealand
+    Citizen'.
+  verified: false
+  link: https://careers.xero.com/early-careers/
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: 3-month full-time fixed-term contract for penultimate-year students.
+  needs_human_check: Xero careers site and Prosple show a bot check. Open the Prosple intern listings in a normal browser
+    and read the work-rights section.
+- company: Optiver
+  role: Software Developer Internship
+  category: quant
+  country:
+  - AU
+  locations:
+  - Sydney
+  intake: Summer 2027/28
+  international: 'yes'
+  sponsorship: unknown
+  eligibility: Other Optiver Sydney listings include 'International Student/Graduate Visa' under Australian work rights.
+  verified: false
+  link: https://optiver.com/working-at-optiver/career-opportunities/
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: Not yet checked on Optiver's own ad. 10-week program; flights and accommodation covered.
+  needs_human_check: optiver.com wouldn't load for the automated browser. Open the Sydney internship ad in a normal browser
+    and read the work-rights section.

@@ -84,3 +84,25 @@ listings:
 
     last_checked: "2026-11-18"
     notes: "The same ad says Canva will not sponsor visas for Early Talent roles. Student visas give limited work rights during term, so 'full working rights' may rule them out. Ask Canva."
+
+  - company: Macquarie Group
+    role: Summer Internship Program
+    category: finance
+    country: [AU]
+    locations: [Sydney, Melbourne, Brisbane, Perth]
+    careers_page: https://www.macquarie.com/au/en/careers/graduates-and-interns.html
+    study_year: Penultimate year
+
+    status: not_open
+    expected_open: "May 2027 (last round opened 5 May 2026)"
+
+    last_round: "2026/27"
+    last_round_dates: "Applications 5 May – 21 Jul 2026 (Melbourne & Perth) / 4 Aug 2026 (Sydney & Brisbane); program from Nov 2026"
+    international: "no"
+    summary: "Only Australian citizens, Australian permanent residents and New Zealand citizens could apply."
+    sponsorship: unknown
+    eligibility: "You must be an Australian citizen, Australian permanent resident or New Zealand citizen to be eligible for our Graduate and Internship Programs"
+    source: https://www.macquarie.com/au/en/careers/graduates-and-interns.html
+    source_note: "Macquarie careers site"
+
+    last_checked: "2026-11-18"

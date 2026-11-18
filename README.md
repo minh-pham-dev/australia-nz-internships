@@ -31,11 +31,12 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**2 programs** · 📝 0 open now · ⏳ 2 not open yet · ✅ 0 open to international students (2026/27)
+**3 programs** · 📝 0 open now · ⏳ 3 not open yet · ✅ 0 open to international students (2026/27)
 
 | Category | Programs |
 |---|---|
 | [💻 Software & IT](#-software--it) | 2 |
+| [🏦 Banking & Finance](#-banking--finance) | 1 |
 
 ### 💻 Software & IT
 
@@ -43,13 +44,19 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 |---|---|---|---|---|---|---|---|
 | **Atlassian** | Software Engineer Intern<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Feb–Jun 2027 | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens and Australian permanent residents could apply.<br><sub>2026/27 ad · <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">Source</a></sub></details> | ❓ | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
 | **Canva** | Software Engineer Intern (Frontend / Backend)<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Not announced (last ad was up by May 2026) | <details><summary><b>⚠️ Depends</b></summary><br>You needed full work rights in Australia or New Zealand. Canva didn't sponsor visas.<br><sub>2026/27 ad · <a href="https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27">Source</a></sub></details> | No | [Careers page](https://www.lifeatcanva.com/en/early-careers/) | 2026-11-18 |
+
+### 🏦 Banking & Finance
+
+| Company | Role | Location | Applications (2027/28) | International students? | Sponsors visa | Links | Checked |
+|---|---|---|---|---|---|---|---|
+| **Macquarie Group** | Summer Internship Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Melbourne, Brisbane, Perth | ⏳ Not open yet<br>Expected: May 2027 (last round opened 5 May 2026) | <details><summary><b>❌ No</b></summary><br>Only Australian citizens, Australian permanent residents and New Zealand citizens could apply.<br><sub>2026/27 ad · <a href="https://www.macquarie.com/au/en/careers/graduates-and-interns.html">Source</a></sub></details> | ❓ | [Careers page](https://www.macquarie.com/au/en/careers/graduates-and-interns.html) | 2026-11-18 |
 <!-- LISTINGS:END -->
 
 ## 🔜 Coming soon
 
 Companies we're adding next. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-- **Being checked now:** Xero · Optiver · Macquarie · Deloitte · PwC · Grant Thornton · Fonterra · GHD
+- **Being checked now:** Deloitte · PwC · Grant Thornton · Fonterra · GHD · Xero · Optiver
 - **Software & IT:** Google · Microsoft · Amazon / AWS · SafetyCulture · Culture Amp · REA Group · SEEK · WiseTech Global · Airwallex · Block (Afterpay) · Rokt · Employment Hero · Trade Me · Rocket Lab
 - **Quant & Trading:** IMC · Akuna Capital · Citadel Securities · Jane Street
 - **Banking & Finance:** CommBank · NAB · ANZ · Westpac · ASB · BNZ
