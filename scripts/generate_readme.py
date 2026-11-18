@@ -41,7 +41,7 @@ ALLOWED = {
     "international": {"yes", "no", "conditional", "unknown"},
     "sponsorship": {"yes", "no", "unknown"},
 }
-REQUIRED = ["company", "role", "category", "country", "locations", "careers_page",
+REQUIRED = ["company", "role", "category", "country", "locations", "careers_page", "study_year",
             "status", "expected_open", "last_round", "international", "sponsorship",
             "eligibility", "source", "source_note", "last_checked"]
 URL_FIELDS = ("careers_page", "source", "apply_link")
@@ -60,6 +60,7 @@ class Listing:
     country: list[str]
     locations: list[str]
     careers_page: str
+    study_year: str
     status: str
     expected_open: str
     last_round: str
@@ -72,6 +73,7 @@ class Listing:
     apply_link: str = ""
     closes: str = ""
     last_round_dates: str = ""
+    study_year_detail: str = ""
     notes: str = ""
     errors: list[str] = field(default_factory=list, repr=False)
 
@@ -153,9 +155,12 @@ class Listing:
     def to_row(self) -> str:
         flags = " / ".join(FLAGS[code] for code in self.country)
         company = f"~~{self.company}~~" if self.effective_status == "closed" else f"**{self.company}**"
+        who = self.study_year
+        if self.study_year_detail:
+            who += f" (last round: {self.study_year_detail})"
         cells = [
             company,
-            self.role,
+            f"{self.role}<br><sub>🎓 {who}</sub>",
             f"{flags}<br>{', '.join(self.locations)}",
             self.round_cell(),
             self.eligibility_cell(),

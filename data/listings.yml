@@ -12,6 +12,8 @@
 #   country          List: [AU], [NZ] or [AU, NZ]
 #   locations        List of cities, e.g. [Sydney, Melbourne]. Use [Multiple] if many.
 #   careers_page     The company's own careers page for this program
+#   study_year       Who can apply, short: "Penultimate year", "Final year", "Any year"
+#   study_year_detail  Optional, short, from the last ad: "graduating by Jan 2028"
 #
 #   -- 2027/28 round --
 #   status           not_open | open | closed
@@ -39,6 +41,8 @@ listings:
     country: [AU]
     locations: [Sydney, Remote]
     careers_page: https://www.atlassian.com/company/careers/earlycareers
+    study_year: Penultimate year
+    study_year_detail: "graduating by Jan 2028"
 
     status: not_open
     expected_open: "Feb–Jun 2027"
