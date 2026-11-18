@@ -177,7 +177,7 @@ def build_section(listings: list[Listing]) -> str:
     lines = [
         f"**{len(listings)} roles** · 🟢 {counts['open']} open · 🟡 {counts['upcoming']} opening soon · "
         f"🔒 {counts['closed']} closed · "
-        f"✅ {sum(l.international == 'yes' for l in listings)} confirmed open to international students",
+        f"✅ {sum(l.international == 'yes' and l.verified for l in listings)} confirmed open to international students",
         "",
         "| Category | Roles |",
         "|---|---|",

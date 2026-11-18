@@ -32,7 +32,7 @@ ANZ employers hire **9–12 months ahead**. For a summer internship in **Nov 202
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**10 roles** · 🟢 0 open · 🟡 10 opening soon · 🔒 0 closed · ✅ 2 confirmed open to international students
+**10 roles** · 🟢 0 open · 🟡 10 opening soon · 🔒 0 closed · ✅ 1 confirmed open to international students
 
 | Category | Roles |
 |---|---|
