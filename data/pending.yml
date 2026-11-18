@@ -61,3 +61,27 @@ pending:
   notes: Not yet checked on Optiver's own ad. 10-week program; flights and accommodation covered.
   needs_human_check: optiver.com wouldn't load for the automated browser. Open the Sydney internship ad in a normal browser
     and read the work-rights section.
+- company: Google
+  role: Software Engineering Intern (Sydney)
+  category: software
+  needs_human_check: 'No readable source on 18 Nov 2026: Google''s careers site lists no AU intern ads and the 2026 ad copy
+    (AnitaB.org board) returned 502. Search summaries say applications opened ~23 Mar 2026 and the ad said no immigration
+    sponsorship / existing work authorisation needed (unverified). Recheck when the 2027 ad is posted.'
+- company: Microsoft
+  role: Software Engineering / Applied Science Intern (Sydney, Melbourne, Brisbane)
+  category: software
+  needs_human_check: Only source found is a recruiter's LinkedIn post (12 weeks, late Nov–Feb, apps open until early Sep 2026).
+    No official page or ad copy with work-rights wording. Recheck when the 2027/28 ad is posted.
+- company: Amazon
+  role: Software Dev Engineer Intern (Sydney)
+  category: software
+  needs_human_check: 2026 Sydney ad copies (AnitaB.org, Hatch) are missing the qualifications section, so we can't say whether
+    work rights were stated. amazon.jobs has a 2027 SDE intern ad, but it's for Dublin. Ad said Dec 2026 – Feb 2027, full-time
+    in office, at least one term left after the internship. Recheck when the 2027 Sydney ad is posted.
+- company: SafetyCulture
+  role: Software Engineering Internship (Sydney)
+  category: software
+  needs_human_check: 'Newest readable ad is 2025/26 (Blackbird copy): ''Have full Australian working rights'', penultimate
+    or pre-penultimate year, 10 weeks, Sydney office. No 2026/27 ad found and SafetyCulture''s Lever board is gone. Decide
+    whether to publish using the older round.'
+  source: https://jobs.blackbird.vc/companies/safetyculture-2-d0ff86a5-3d05-4aa1-a51f-a3a13f7b2cf7/jobs/47059375-software-engineering-internship-summer-2025-2026-expression-of-interest
