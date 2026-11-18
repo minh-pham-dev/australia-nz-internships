@@ -9,7 +9,7 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 > 🙌 Found a new program or a mistake? [Open an issue](../../issues/new/choose) or read [CONTRIBUTING.md](CONTRIBUTING.md).
 > ⭐ Star the repo so you can find it again when applications open.
 
-- Most 2027/28 programs **haven't opened yet**. Each row shows when it's expected to open.
+- Most 2027/28 programs **haven't opened yet**. Each row shows when it's expected to open. Where there's a ▶ arrow, click it to see when last year's round opened.
 - Until then, the **"International students?"** column is based on **last year's (2026/27) ad**.
 - Click it for a short explanation and a link to the ad. We update each row as soon as its 2027/28 ad comes out.
 
