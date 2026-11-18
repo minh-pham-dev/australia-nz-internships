@@ -31,13 +31,13 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**13 programs** · 📝 0 open now · ⏳ 13 not open yet · ✅ 1 open to international students (2026/27)
+**16 programs** · 📝 0 open now · ⏳ 16 not open yet · ✅ 1 open to international students (2026/27)
 
 | Category | Programs |
 |---|---|
 | [💻 Software & IT](#-software--it) | 2 |
-| [🏦 Banking & Finance](#-banking--finance) | 5 |
-| [🧾 Accounting & Consulting](#-accounting--consulting) | 5 |
+| [🏦 Banking & Finance](#-banking--finance) | 7 |
+| [🧾 Accounting & Consulting](#-accounting--consulting) | 6 |
 | [🏗️ Engineering](#-engineering) | 1 |
 
 ### 💻 Software & IT
@@ -52,6 +52,8 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 | Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
 |---|---|---|---|---|---|---|---|
 | **ANZ** | Summer Intern Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Not stated | 8–10 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only citizens or permanent residents of Australia or New Zealand could apply.<br><sub>2026/27 round · <a href="https://www.anz.com.au/careers/career-programs/summer-internship/">Source</a></sub></details> | [Careers page](https://www.anz.com.au/careers/career-programs/summer-internship/) | 2026-11-18 |
+| **ANZ New Zealand** | Intern Programme<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Not stated | 8 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only New Zealand or Australian citizens and New Zealand permanent residents could apply.<br><sub>2026/27 round · <a href="https://www.anz.co.nz/careers/programmes/intern/">Source</a></sub></details> | [Careers page](https://www.anz.co.nz/careers/programmes/intern/) | 2026-11-18 |
+| **ASB** | Summer Internship<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Not stated | 12 weeks (2 weeks off over Christmas) | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only New Zealand citizens and permanent residents could apply.<br><sub>2026/27 round · <a href="https://careers.asbgroup.co.nz/early-careers">Source</a></sub></details> | [Careers page](https://careers.asbgroup.co.nz/early-careers) | 2026-11-18 |
 | **CommBank** | Summer Intern Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 10 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 12 Aug, closed 8 Sep 2026</details> | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens and Australian permanent residents could apply. Temporary visa holders couldn't.<br><b>Also needs:</b> An overall credit average of 65 WAM/GPA (70 for Technology: Engineering and Cyber Security).<br><sub>2026/27 round · <a href="https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html">Source</a></sub></details> | [Careers page](https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html) | 2026-11-18 |
 | **Macquarie Group** | Summer Internship Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Melbourne, Brisbane, Perth | Not stated | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 5 May 2026, closed 21 Jul (Melbourne & Perth) and 4 Aug 2026 (Sydney & Brisbane)</details> | <details><summary><b>❌ No</b></summary><br>Only Australian citizens, Australian permanent residents and New Zealand citizens could apply.<br><sub>2026/27 round · <a href="https://www.macquarie.com/au/en/careers/graduates-and-interns.html">Source</a></sub></details> | [Careers page](https://www.macquarie.com/au/en/careers/graduates-and-interns.html) | 2026-11-18 |
 | **NAB** | Summer Intern Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Melbourne, Sydney, Perth, Brisbane | 8 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens or permanent residents could apply.<br><sub>2026/27 round · <a href="https://www.nab.com.au/about-us/careers/early-careers/summer-intern-program">Source</a></sub></details> | [Careers page](https://www.nab.com.au/about-us/careers/early-careers/summer-intern-program) | 2026-11-18 |
@@ -63,6 +65,7 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 |---|---|---|---|---|---|---|---|
 | **Deloitte** | Vacationer Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 4–8 weeks | ⏳ Not open yet<br>Expected: Feb–Mar 2027 (second intake in July) | <details><summary><b>✅ Yes</b></summary><br>International students could apply to selected teams, at any office except Canberra.<br><sub>2026/27 round · <a href="https://www.deloitte.com/au/en/careers/students/summer-vacation-program-careers.html">Source</a></sub></details> | [Careers page](https://www.deloitte.com/au/en/careers/students/summer-vacation-program-careers.html) | 2026-11-18 |
 | **EY** | Vacationer Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | Not stated | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens and Australian or New Zealand permanent residents could apply.<br><sub>2026/27 round · <a href="https://www.ey.com/en_au/careers/student-entry-level-programs">Source</a></sub></details> | [Careers page](https://www.ey.com/en_au/careers/student-entry-level-programs) | 2026-11-18 |
+| **EY New Zealand** | Internship Programme<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Not stated | Not stated | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>⚠️ Depends</b></summary><br>International students could apply if they'd have 3 years on a NZ Post Study Work visa.<br><b>Also needs:</b> For the visa: at least 30 weeks of full-time study at a level 7 degree at a New Zealand university.<br><sub>2026/27 round · <a href="https://www.ey.com/en_nz/careers/student-entry-level-programs">Source</a></sub></details> | [Careers page](https://www.ey.com/en_nz/careers/student-entry-level-programs) | 2026-11-18 |
 | **Grant Thornton** | Vacation Program<br><sub>🎓 Final or penultimate year</sub> | 🇦🇺 AU<br>Multiple | 4–6 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 20 Jul 2026, closed 14 Aug 2026</details> | <details><summary><b>⚠️ Depends</b></summary><br>Student (500) and graduate (485) visa holders could apply through an Expression of Interest. Places were limited.<br><sub>2026/27 round · <a href="https://www.grantthornton.com.au/careers/student-opportunities/faqs/">Source</a></sub></details> | [Careers page](https://www.grantthornton.com.au/careers/student-opportunities/vacationer-program/) | 2026-11-18 |
 | **KPMG** | Vacationer Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 3–8 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>⚠️ Depends</b></summary><br>International students were welcome, but needed full-time work rights when applying and for the program dates.<br><b>Also needs:</b> Non-citizens may be asked for Superior English test results. Some teams need specific degrees.<br><sub>2026/27 round · <a href="https://kpmg.com/au/en/careers/graduates/faq.html">Source</a></sub></details> | [Careers page](https://kpmg.com/au/en/careers/graduates/vacation-program.html) | 2026-11-18 |
 | **PwC Australia** | Vacation Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 7 weeks (summer) or 4 weeks (winter) | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only Australian citizens, New Zealand citizens and Australian permanent residents could apply. PwC didn't sponsor visas.<br><sub>2026/27 round · <a href="https://jobs-au.pwc.com/au/en/vacation-program">Source</a></sub></details> | [Careers page](https://jobs-au.pwc.com/au/en/vacation-program) | 2026-11-18 |
@@ -78,10 +81,10 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 
 Companies we're adding next. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-- **Being checked now:** Fonterra · Xero · Optiver
+- **Being checked now:** PwC New Zealand · Fonterra · Xero · Optiver
 - **Software & IT:** Google · Microsoft · Amazon / AWS · SafetyCulture · Culture Amp · REA Group · SEEK · WiseTech Global · Airwallex · Block (Afterpay) · Rokt · Employment Hero · Trade Me · Rocket Lab
 - **Quant & Trading:** IMC · Akuna Capital · Citadel Securities · Jane Street
-- **Banking & Finance:** ASB · BNZ · ANZ New Zealand
+- **Banking & Finance:** BNZ
 - **Accounting & Consulting:** McKinsey · BCG · Bain
 - **Engineering:** Aurecon · Arup · Jacobs · WSP · Beca · BHP · Rio Tinto · Fisher & Paykel Healthcare
 - **Other:** Spark NZ · Woolworths Group · Fletcher Building

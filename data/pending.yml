@@ -95,3 +95,24 @@ pending:
   needs_human_check: Accenture AU has no summer internship page. Its early-careers page mentions 'internships or fixed-term
     placements'; the only live student role found (Junior Quality Engineer / Tester, Ballarat) is part-time and 'Australian
     Citizens only'. Out of scope unless a summer program appears.
+- company: PwC New Zealand
+  role: Summer Internship Programme
+  category: consulting
+  country:
+  - NZ
+  careers_page: https://www.pwc.co.nz/careers/studentcareers/summer-internship-programme.html
+  study_year: Penultimate year
+  duration: Nov to Feb
+  international: conditional
+  summary: International students could apply only for Tier 1 Green List roles (e.g. Audit), if eligible for a 3-year Post-Study
+    Work Visa.
+  eligibility: You’ll either be a New Zealand or Australian citizen or resident (eligible for all roles); or be eligible to
+    obtain a Post-Study Work Visa with 3 years duration once you complete your studies, and not require sponsorship from PwC
+    in the future (for roles that are on the Tier 1 Green List)
+  needs_human_check: Page (18 Nov 2026) says 'Applications for our Summer Internship programme are now open', but PwC NZ's
+    student job search shows no intern listings, so we can't tell which summer it's for or link a live ad. Decide how to show
+    it.
+- company: BNZ
+  category: finance
+  needs_human_check: bnz.co.nz/about-us/careers has no internship page; jobs are only via a general job search (nab.eightfold.ai).
+    Old Prosple ads (2023) showed NZ-citizen-only financial markets internships. Recheck when 2027/28 ads appear.

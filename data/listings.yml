@@ -346,3 +346,69 @@ listings:
 
     last_checked: "2026-11-18"
     notes: "Corporate & Institutional Banking runs in Sydney and Melbourne; Global Transaction Services in Sydney. Students from all disciplines welcome for CIB."
+
+  - company: ANZ New Zealand
+    role: Intern Programme
+    category: finance
+    country: [NZ]
+    locations: [Not stated]
+    careers_page: https://www.anz.co.nz/careers/programmes/intern/
+    study_year: Penultimate year
+    duration: "8 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: "no"
+    summary: "Only New Zealand or Australian citizens and New Zealand permanent residents could apply."
+    eligibility: "When submitting your application, you should: Be a citizen of New Zealand or Australia, or hold permanent residency in New Zealand Be in your penultimate year of study for a bachelor’s or post-graduate degree – so finishing your degree next year."
+    source: https://www.anz.co.nz/careers/programmes/intern/
+    source_note: "ANZ NZ careers site (Eligibility)"
+
+    last_checked: "2026-11-18"
+
+  - company: ASB
+    role: Summer Internship
+    category: finance
+    country: [NZ]
+    locations: [Not stated]
+    careers_page: https://careers.asbgroup.co.nz/early-careers
+    study_year: Penultimate year
+    duration: "12 weeks (2 weeks off over Christmas)"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    last_round_dates: "15 Nov 2026 – 5 Feb 2027"
+    international: "no"
+    summary: "Only New Zealand citizens and permanent residents could apply."
+    eligibility: "You must be available for 12 weeks from 15th November 2026 to 5th February 2027 (except for 2 weeks over Christmas/New Years) You are intending to head into your final year of tertiary study in 2027 You’re a permanent resident or citizen of New Zealand at the time of your application."
+    source: https://careers.asbgroup.co.nz/early-careers
+    source_note: "ASB careers site (ASB Summer Internship)"
+
+    last_checked: "2026-11-18"
+    notes: "Streams included Engineering Practice, Corporate Banking and Corporate & Business Banking Risk. Applications ask for a CV, cover letter, transcript and a photo."
+
+  - company: EY New Zealand
+    role: Internship Programme
+    category: consulting
+    country: [NZ]
+    locations: [Not stated]
+    careers_page: https://www.ey.com/en_nz/careers/student-entry-level-programs
+    study_year: Penultimate year
+    duration: "Not stated"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: conditional
+    summary: "International students could apply if they'd have 3 years on a NZ Post Study Work visa."
+    other_requirements: "For the visa: at least 30 weeks of full-time study at a level 7 degree at a New Zealand university."
+    eligibility: "To be eligible, you must be a New Zealand Citizen or Australian Citizen, or a New Zealand or Australian Permanent Resident or an international student who meets our criteria. … You must have three years on your Post Study Work visa at the time of joining EY. In order to obtain a post graduate visa, you must have completed at least 30 weeks of fulltime study at a level 7 degree qualification at a New Zealand university."
+    source: https://www.ey.com/en_nz/careers/student-entry-level-programs
+    source_note: "EY NZ careers site (International students)"
+
+    last_checked: "2026-11-18"
