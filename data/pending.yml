@@ -3,23 +3,6 @@
 # listings.yml format) only after checking its source link shows the quoted wording.
 
 pending:
-- company: Deloitte
-  role: International Students – Vacationer Program
-  category: consulting
-  country:
-  - AU
-  locations:
-  - Multiple
-  intake: Summer 2027/28
-  international: 'yes'
-  sponsorship: unknown
-  eligibility: Deloitte Australia* accepts program applications from students who do not yet hold Australian permanent residence
-    to augment our talent pools. *All Australian offices except Canberra, where Australian citizenship is required.
-  verified: true
-  link: https://www.deloitte.com/au/en/careers/students/international-students.html
-  last_checked: '2026-11-18'
-  status: upcoming
-  notes: Only for the business areas listed on the page. Applications are currently closed; you can register interest there.
 - company: PwC Australia
   role: Vacation Program
   category: consulting

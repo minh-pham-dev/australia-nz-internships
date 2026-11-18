@@ -115,3 +115,25 @@ listings:
     source_note: "Macquarie careers site"
 
     last_checked: "2026-11-18"
+
+  - company: Deloitte
+    role: Vacationer Program
+    category: consulting
+    country: [AU]
+    locations: [Multiple]
+    careers_page: https://www.deloitte.com/au/en/careers/students/summer-vacation-program-careers.html
+    study_year: Penultimate year
+    duration: "4–8 weeks"
+
+    status: not_open
+    expected_open: "Feb–Mar 2027 (second intake in July)"
+
+    last_round: "2026/27"
+    international: "yes"
+    summary: "International students could apply to selected teams, at any office except Canberra."
+    eligibility: "Deloitte Australia* accepts interest from students who do not yet hold Australian permanent residence into select areas to augment our talent pools. *All Australian offices except Canberra, where Australian citizenship is required."
+    source: https://www.deloitte.com/au/en/careers/students/summer-vacation-program-careers.html
+    source_note: "Deloitte careers site"
+
+    last_checked: "2026-11-18"
+    notes: "Deloitte says it opens applications twice a year, in February/March and in July. Full-time, paid, in person at national offices. The international student page lists which business areas accept international students."
