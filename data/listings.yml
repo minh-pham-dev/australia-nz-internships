@@ -13,7 +13,8 @@
 #   locations        List of cities, e.g. [Sydney, Melbourne]. Use [Multiple] if many.
 #   careers_page     The company's own careers page for this program
 #   study_year       Who can apply, short: "Penultimate year", "Final year", "Any year"
-#   study_year_detail  Optional, short, from the last ad: "graduating by Jan 2028"
+#   study_year_detail  Optional, short, from the last ad: "graduating by Jan 2028" (not shown)
+#   duration         How long the program runs, e.g. "12 weeks". Use "Not stated" if the source doesn't say.
 #
 #   -- 2027/28 round --
 #   status           not_open | open | closed
@@ -27,7 +28,7 @@
 #   international    yes | no | conditional | unknown   (could student visa holders apply last round?)
 #   summary          What readers see when they click: the rule in plain English, under 120 characters.
 #                    Must match the eligibility quote below. Don't add anything the ad doesn't say.
-#   sponsorship      yes | no | unknown
+#   sponsorship      Optional: yes | no | unknown (kept for reference, not shown in the README)
 #   eligibility      Exact wording copied from the source (not shown in the README; it's the proof)
 #   source           URL where the wording can be read right now
 #   source_note      Short label for the source link, e.g. "Atlassian careers site" or
@@ -44,6 +45,7 @@ listings:
     locations: [Sydney, Remote]
     careers_page: https://www.atlassian.com/company/careers/earlycareers
     study_year: Penultimate year
+    duration: "12 weeks"
     study_year_detail: "graduating by Jan 2028"
 
     status: not_open
@@ -68,6 +70,7 @@ listings:
     locations: [Sydney, Remote]
     careers_page: https://www.lifeatcanva.com/en/early-careers/
     study_year: Penultimate year
+    duration: "12 weeks"
     study_year_detail: "finishing studies 2027 – mid-2028"
 
     status: not_open
@@ -92,6 +95,7 @@ listings:
     locations: [Sydney, Melbourne, Brisbane, Perth]
     careers_page: https://www.macquarie.com/au/en/careers/graduates-and-interns.html
     study_year: Penultimate year
+    duration: "Not stated"
 
     status: not_open
     expected_open: "May 2027 (last round opened 5 May 2026)"

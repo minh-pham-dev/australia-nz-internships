@@ -39,10 +39,10 @@ ALLOWED = {
     "category": set(CATEGORIES),
     "status": {"not_open", "open", "closed"},
     "international": {"yes", "no", "conditional", "unknown"},
-    "sponsorship": {"yes", "no", "unknown"},
+    "sponsorship": {"yes", "no", "unknown"},  # optional field
 }
 REQUIRED = ["company", "role", "category", "country", "locations", "careers_page", "study_year",
-            "status", "expected_open", "last_round", "international", "summary", "sponsorship",
+            "duration", "status", "expected_open", "last_round", "international", "summary",
             "eligibility", "source", "source_note", "last_checked"]
 SUMMARY_MAX = 120  # one or two short sentences shown when the cell is clicked
 URL_FIELDS = ("careers_page", "source", "apply_link")
@@ -50,7 +50,6 @@ LIST_FIELDS = ("country", "locations")
 STATUS_ORDER = {"open": 0, "not_open": 1, "closed": 2}
 
 INTERNATIONAL_ICON = {"yes": "✅ Yes", "no": "❌ No", "conditional": "⚠️ Depends", "unknown": "❓ Not stated"}
-SPONSOR_ICON = {"yes": "🛂 Yes", "no": "No", "unknown": "❓"}
 
 
 @dataclass
@@ -62,16 +61,17 @@ class Listing:
     locations: list[str]
     careers_page: str
     study_year: str
+    duration: str
     status: str
     expected_open: str
     last_round: str
     international: str
     summary: str
-    sponsorship: str
     eligibility: str
     source: str
     source_note: str
     last_checked: str
+    sponsorship: str = "unknown"  # kept in the data, not shown: students already here don't need it for internships
     apply_link: str = ""
     closes: str = ""
     last_round_dates: str = ""
@@ -167,9 +167,9 @@ class Listing:
             company,
             f"{self.role}<br><sub>🎓 {self.study_year}</sub>",
             f"{flags}<br>{', '.join(self.locations)}",
+            self.duration,
             self.round_cell(),
             self.eligibility_cell(),
-            SPONSOR_ICON[self.sponsorship],
             f"[Careers page]({self.careers_page})",
             self.last_checked,
         ]
@@ -193,7 +193,7 @@ def anchor(heading: str) -> str:
 
 def build_section(listings: list[Listing]) -> str:
     header = (
-        "| Company | Role | Location | Applications (2027/28) | International students? | Sponsors visa | Links | Checked |\n"
+        "| Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |\n"
         "|---|---|---|---|---|---|---|---|"
     )
     count = lambda status: sum(l.effective_status == status for l in listings)
