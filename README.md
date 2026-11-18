@@ -1,6 +1,6 @@
-# 🇦🇺🇳🇿 Internships for International Students in Australia & New Zealand (2027/28)
+# 🇦🇺🇳🇿 Australia & New Zealand Internships 2027/28: Domestic & International Students
 
-Summer internships and vacation programs in Australia and New Zealand, and whether international students can apply to each one. Covers tech, finance, consulting, engineering and more.
+Summer internships and vacation programs in Australia and New Zealand for all students, with a column showing whether international students can apply. Covers tech, finance, consulting, engineering and more.
 
 > 🙌 Found a new program or a mistake? [Open an issue](../../issues/new/choose) or read [CONTRIBUTING.md](CONTRIBUTING.md).
 > ⭐ Star the repo so you can find it again when applications open.
@@ -8,8 +8,8 @@ Summer internships and vacation programs in Australia and New Zealand, and wheth
 ## 🗓️ How to read this list
 
 - Most 2027/28 programs **haven't opened yet**. The list shows when each one is expected to open.
-- Until then, the **"International students?"** column shows **last year's (2026/27) rules**, which usually stay the same.
-- Click the answer to see the exact wording and where it came from. Always check the new ad when it opens.
+- The **"International students?"** column shows **last year's (2026/27) rules**.
+- Click it to see the exact wording. This year's rules might change, so check the new ad when it opens.
 
 ## 🔑 Legend
 
@@ -24,7 +24,7 @@ Summer internships and vacation programs in Australia and New Zealand, and wheth
 | ✅ Yes | Student visa holders could apply |
 | ❌ No | Citizens and permanent residents only |
 | ⚠️ Depends | Depends on work rights, office or team. Click to read |
-| ❓ Not stated | The ad didn't say. Ask the employer |
+| ❓ Not stated | The ad didn't state it. Contact the employer |
 
 ## 📋 Listings
 
