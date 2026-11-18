@@ -25,9 +25,10 @@
 #   last_round       e.g. "2026/27"
 #   last_round_dates Optional. What happened last time, e.g. "Program ran Nov 2026 – Feb 2027"
 #   international    yes | no | conditional | unknown   (could student visa holders apply last round?)
-#   summary          Plain-English version of the rule, under 40 characters, e.g. "Citizens & PR only"
+#   summary          What readers see when they click: the rule in plain English, under 120 characters.
+#                    Must match the eligibility quote below. Don't add anything the ad doesn't say.
 #   sponsorship      yes | no | unknown
-#   eligibility      Exact wording copied from the source
+#   eligibility      Exact wording copied from the source (not shown in the README; it's the proof)
 #   source           URL where the wording can be read right now
 #   source_note      Short label for the source link, e.g. "Atlassian careers site" or
 #                    "copy on Accel's job board" (when the company took the original down)
@@ -51,7 +52,7 @@ listings:
     last_round: "2026/27"
     last_round_dates: "12-week paid program, Nov 2026 – Feb 2027"
     international: "no"
-    summary: "AU/NZ citizens and AU PR only"
+    summary: "Only Australian or New Zealand citizens and Australian permanent residents could apply."
     sponsorship: unknown
     eligibility: "Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"
     source: https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia
@@ -75,7 +76,7 @@ listings:
     last_round: "2026/27"
     last_round_dates: "12-week remote-friendly program, early Dec 2026 – late Feb 2027"
     international: conditional
-    summary: "Needs full work rights in AU or NZ"
+    summary: "You needed full work rights in Australia or New Zealand. Canva didn't sponsor visas."
     sponsorship: "no"
     eligibility: "for Intern roles at Canva, you’ll need full working rights in Australia or New Zealand"
     source: https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27

@@ -9,7 +9,8 @@ Use the **"New role"** issue template and paste the link to the ad. A maintainer
 ## Option 2: Edit the data yourself
 
 1. Add an entry to [`data/listings.yml`](data/listings.yml). The fields are explained at the top of that file.
-2. Copy the eligibility sentence **word for word** into `eligibility`.
+2. Copy the eligibility sentence **word for word** into `eligibility`, then write a plain-English `summary` of it.
+   The summary is what readers see, so it must say the same thing as the quote and nothing more.
 3. Put the link where that sentence can be read **right now** into `source`, and say what it is in `source_note`.
    If the company took the ad down, an exact copy on a job board is fine. Say so in `source_note`.
 4. When the new round's ad goes live, set `status: open` and add `apply_link`.

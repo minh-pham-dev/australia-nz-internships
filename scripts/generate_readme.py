@@ -44,7 +44,7 @@ ALLOWED = {
 REQUIRED = ["company", "role", "category", "country", "locations", "careers_page", "study_year",
             "status", "expected_open", "last_round", "international", "summary", "sponsorship",
             "eligibility", "source", "source_note", "last_checked"]
-SUMMARY_MAX = 40  # the plain-English summary sits in a narrow column, so keep it short
+SUMMARY_MAX = 120  # one or two short sentences shown when the cell is clicked
 URL_FIELDS = ("careers_page", "source", "apply_link")
 LIST_FIELDS = ("country", "locations")
 STATUS_ORDER = {"open": 0, "not_open": 1, "closed": 2}
@@ -150,13 +150,11 @@ class Listing:
         return f"⏳ Not open yet<br>Expected: {self.expected_open}"
 
     def eligibility_cell(self) -> str:
-        # Visible: icon + plain-English summary. Click: the exact quote and its source.
-        # last_round_dates and notes stay in the data file but aren't shown here.
-        # source_note stays in the data for maintainers; readers just see "Source".
-        label = f"{INTERNATIONAL_ICON[self.international]}<br><sub>{self.summary}</sub>"
-        quote = f"Exact wording: <i>\"{self.eligibility}\"</i>"
+        # Visible: the icon. Click: a plain-English summary and the source link.
+        # The exact quote (eligibility) stays in the data file as proof for each summary,
+        # along with last_round_dates, notes and source_note, but readers don't see them.
         origin = f"<sub>{self.last_round} ad · <a href=\"{self.source}\">Source</a></sub>"
-        return f"<details><summary>{label}</summary>{quote}<br>{origin}</details>"
+        return f"<details><summary>{INTERNATIONAL_ICON[self.international]}</summary>{self.summary}<br>{origin}</details>"
 
     def to_row(self) -> str:
         flags = " / ".join(FLAGS[code] for code in self.country)
