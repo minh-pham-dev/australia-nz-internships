@@ -1,0 +1,173 @@
+# NOT PUBLISHED. Draft research notes for roles that haven't been reviewed one by one yet.
+# The README generator ignores this file. Move an entry into listings.yml (using the
+# listings.yml format) only after checking its source link shows the quoted wording.
+
+pending:
+- company: Canva
+  role: Software Engineer Intern (Frontend / Backend)
+  category: software
+  country:
+  - AU
+  - NZ
+  locations:
+  - Sydney
+  - Remote
+  intake: Summer 2027/28
+  opens: Early 2027 (2026/27 closed 1 May 2026)
+  international: conditional
+  sponsorship: 'no'
+  eligibility: for Intern roles at Canva, you’ll need full working rights in Australia or New Zealand … Canva will not be
+    able to sponsor visas and relocate for Early Talent roles
+  verified: true
+  link: https://www.lifeatcanva.com/en/early-careers/
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: Quoted from the 2026/27 ad. A student visa gives limited work rights during term, so 'full working rights' may rule
+    it out. Ask Canva before applying.
+- company: Xero
+  role: Summer Internship (Engineering)
+  category: software
+  country:
+  - NZ
+  locations:
+  - Multiple
+  intake: Summer 2027/28
+  international: unknown
+  sponsorship: unknown
+  eligibility: Xero's early careers page doesn't state work rights. A Prosple listing for a past intern role showed 'New Zealand
+    Citizen'.
+  verified: false
+  link: https://careers.xero.com/early-careers/
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: 3-month full-time fixed-term contract for penultimate-year students.
+- company: Optiver
+  role: Software Developer Internship
+  category: quant
+  country:
+  - AU
+  locations:
+  - Sydney
+  intake: Summer 2027/28
+  international: 'yes'
+  sponsorship: unknown
+  eligibility: Other Optiver Sydney listings include 'International Student/Graduate Visa' under Australian work rights.
+  verified: false
+  link: https://optiver.com/working-at-optiver/career-opportunities/
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: Not yet checked on Optiver's own ad. 10-week program; flights and accommodation covered.
+- company: Macquarie Group
+  role: Summer Internship Program
+  category: finance
+  country:
+  - AU
+  locations:
+  - Sydney
+  - Melbourne
+  - Brisbane
+  - Perth
+  intake: Summer 2027/28
+  opens: 'May 2027 (2026: opened 5 May)'
+  closes: 'Jul–Aug 2027 (2026: 21 Jul Melb/Perth, 4 Aug Syd/Bris)'
+  international: 'no'
+  sponsorship: unknown
+  eligibility: You must be an Australian citizen, Australian permanent resident or New Zealand citizen to be eligible for
+    our Graduate and Internship Programs
+  verified: true
+  link: https://www.macquarie.com/au/en/careers/graduates-and-interns.html
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: For penultimate-year students. Program starts in November.
+- company: Deloitte
+  role: International Students – Vacationer Program
+  category: consulting
+  country:
+  - AU
+  locations:
+  - Multiple
+  intake: Summer 2027/28
+  international: 'yes'
+  sponsorship: unknown
+  eligibility: Deloitte Australia* accepts program applications from students who do not yet hold Australian permanent residence
+    to augment our talent pools. *All Australian offices except Canberra, where Australian citizenship is required.
+  verified: true
+  link: https://www.deloitte.com/au/en/careers/students/international-students.html
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: Only for the business areas listed on the page. Applications are currently closed; you can register interest there.
+- company: PwC Australia
+  role: Vacation Program
+  category: consulting
+  country:
+  - AU
+  locations:
+  - Multiple
+  intake: Summer 2027/28
+  international: 'no'
+  sponsorship: 'no'
+  eligibility: Be an Australian citizen, a New Zealand citizen, or an Australian permanent resident. We're not able to offer
+    visa sponsorship for our Early Careers programs.
+  verified: true
+  link: https://jobs-au.pwc.com/au/en/vacation-program
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: Penultimate-year students. 7 weeks in summer or 4 weeks in winter. The current round (graduating 2027) is closed.
+- company: Grant Thornton
+  role: Vacation Program
+  category: consulting
+  country:
+  - AU
+  locations:
+  - Multiple
+  intake: Summer 2027/28
+  opens: 'Jul 2027 (2026: 20 Jul – 14 Aug)'
+  international: conditional
+  sponsorship: unknown
+  eligibility: 'Students holding the below visas will be required to submit an application via our Expression of Interest:
+    Student Visa (Subclass 500), Temporary Graduate Visa (Subclass 485) … opportunities for candidates on temporary visas
+    are limited and may vary by office location, service line and business needs.'
+  verified: true
+  link: https://www.grantthornton.com.au/careers/student-opportunities/faqs/
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: 4–6 weeks. Working Holiday (417/462) visa holders are not accepted. Expressions of interest are reviewed on a rolling
+    basis.
+- company: Fonterra
+  role: Engineering Summer Internship
+  category: engineering
+  country:
+  - NZ
+  locations:
+  - Multiple
+  intake: Summer 2027/28
+  opens: Mid 2027 (2026 ad ran 14–26 Jul)
+  international: conditional
+  sponsorship: unknown
+  eligibility: If you are on a work visa that fits within the criteria of the role you have applied for, then we can employ
+    you. However, if your visa does not fit the criteria of the role you have applied for, we cannot legally employ you.
+  verified: true
+  link: https://careers.fonterra.com/careers/Internship-Opportunities
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: Wording from Fonterra's general careers FAQ, not the internship ad. Internships run mid-November to mid-February.
+    Register interest on the internships page.
+- company: GHD
+  role: Summer Internship Program
+  category: engineering
+  country:
+  - AU
+  - NZ
+  locations:
+  - Multiple
+  intake: Summer 2027/28
+  international: conditional
+  sponsorship: unknown
+  eligibility: To be eligible to be considered for a position with GHD, an applicant will need to demonstrate that they have
+    the appropriate work rights for the country
+  verified: true
+  link: https://www.ghd.com/en/careers/graduates
+  last_checked: '2026-11-18'
+  status: upcoming
+  notes: Wording from GHD's graduate careers page. Some 2025 internship listings on Prosple accepted student and graduate
+    visa holders, depending on location.

@@ -35,17 +35,19 @@ CATEGORIES = {
 FLAGS = {"AU": "🇦🇺 AU", "NZ": "🇳🇿 NZ"}  # text code too: the two flags look alike when small
 ALLOWED = {
     "category": set(CATEGORIES),
+    "status": {"not_open", "open", "closed"},
     "international": {"yes", "no", "conditional", "unknown"},
     "sponsorship": {"yes", "no", "unknown"},
-    "status": {"open", "upcoming", "closed"},
 }
-REQUIRED = ["company", "role", "category", "country", "locations", "intake", "international",
-            "sponsorship", "eligibility", "link", "last_checked", "status"]
-STATUS_ORDER = {"open": 0, "upcoming": 1, "closed": 2}
+REQUIRED = ["company", "role", "category", "country", "locations", "careers_page",
+            "status", "expected_open", "last_round", "international", "sponsorship",
+            "eligibility", "source", "source_note", "last_checked"]
+URL_FIELDS = ("careers_page", "source", "apply_link")
+LIST_FIELDS = ("country", "locations")
+STATUS_ORDER = {"open": 0, "not_open": 1, "closed": 2}
 
 INTERNATIONAL_ICON = {"yes": "✅ Yes", "no": "❌ No", "conditional": "⚠️ Conditional", "unknown": "❓ Unknown"}
 SPONSOR_ICON = {"yes": "🛂 Yes", "no": "No", "unknown": "❓"}
-STATUS_ICON = {"open": "🟢 Open", "upcoming": "🟡 Soon", "closed": "🔒 Closed"}
 
 
 @dataclass
@@ -55,45 +57,44 @@ class Listing:
     category: str
     country: list[str]
     locations: list[str]
-    intake: str
+    careers_page: str
+    status: str
+    expected_open: str
+    last_round: str
     international: str
     sponsorship: str
     eligibility: str
-    link: str
+    source: str
+    source_note: str
     last_checked: str
-    status: str
-    verified: bool = False
-    opens: str = ""
+    apply_link: str = ""
     closes: str = ""
+    last_round_dates: str = ""
     notes: str = ""
     errors: list[str] = field(default_factory=list, repr=False)
-
-    LIST_FIELDS = ("country", "locations")
 
     @classmethod
     def from_dict(cls, raw: dict, index: int) -> "Listing":
         name = f"#{index + 1} ({raw.get('company', '?')})"
         # "no" without quotes becomes False in YAML, so only None/""/[] count as missing.
         errors = [f"{name}: missing '{key}'" for key in REQUIRED if raw.get(key) in (None, "", [])]
+        unknown = set(raw) - set(cls.__dataclass_fields__)
+        errors += [f"{name}: unknown field '{key}' (typo?)" for key in sorted(unknown)]
 
         values = {}
         for key in cls.__dataclass_fields__:
-            if key == "errors":
+            if key == "errors" or raw.get(key) is None:
                 continue
-            value = raw.get(key)
-            if value is None:
-                continue  # use the default
-            if key == "verified":
-                values[key] = value is True
-            elif key in cls.LIST_FIELDS:
+            value = raw[key]
+            if key in LIST_FIELDS:
                 values[key] = value if isinstance(value, list) else [value]
             elif isinstance(value, bool):  # YAML turned yes/no into True/False
                 values[key] = "yes" if value else "no"
             else:
                 values[key] = str(value)  # YAML may have turned dates into date objects
-
         for key in REQUIRED:
-            values.setdefault(key, [] if key in cls.LIST_FIELDS else "")
+            values.setdefault(key, [] if key in LIST_FIELDS else "")
+
         listing = cls(**values)
         listing.errors = errors
         listing._validate(name, raw)
@@ -104,51 +105,66 @@ class Listing:
             value = getattr(self, key)
             if value and value not in allowed:
                 self.errors.append(f"{name}: '{key}' is '{value}', expected one of {sorted(allowed)}")
-        for key in self.LIST_FIELDS:
+        for key in LIST_FIELDS:
             if raw.get(key) is not None and not isinstance(raw.get(key), list):
                 example = "[AU]" if key == "country" else "[Sydney]"
                 self.errors.append(f"{name}: '{key}' must be a list, e.g. {example}")
         for code in self.country:
             if code not in FLAGS:
                 self.errors.append(f"{name}: country '{code}' should be AU or NZ")
-        if self.link and not self.link.startswith("https://"):
-            self.errors.append(f"{name}: 'link' should start with https://")
-        if "verified" in raw and not isinstance(raw["verified"], bool):
-            self.errors.append(f"{name}: 'verified' must be true or false")
-        try:
-            date.fromisoformat(self.last_checked)
-        except ValueError:
-            self.errors.append(f"{name}: 'last_checked' must be YYYY-MM-DD")
+        for key in URL_FIELDS:
+            value = getattr(self, key)
+            if value and not value.startswith("https://"):
+                self.errors.append(f"{name}: '{key}' should start with https://")
+        if self.status == "open" and not self.apply_link:
+            self.errors.append(f"{name}: status is 'open' but there is no 'apply_link' to the live ad")
+        for key in ("last_checked", "closes"):
+            value = getattr(self, key)
+            if value:
+                try:
+                    date.fromisoformat(value)
+                except ValueError:
+                    self.errors.append(f"{name}: '{key}' must be YYYY-MM-DD")
 
     @property
     def effective_status(self) -> str:
-        """Treat a role as closed once its exact closing date has passed."""
-        try:
-            if date.fromisoformat(self.closes) < date.today():
-                return "closed"
-        except ValueError:
-            pass  # closes is empty or free text like "Feb 2027"
+        """An open round counts as closed once its closing date has passed."""
+        if self.status == "open" and self.closes and date.fromisoformat(self.closes) < date.today():
+            return "closed"
         return self.status
+
+    def round_cell(self) -> str:
+        if self.effective_status == "open":
+            closes = f"<br>Closes {self.closes}" if self.closes else ""
+            return f"🟢 **Open**<br>[Apply]({self.apply_link}){closes}"
+        if self.effective_status == "closed":
+            return "🔒 Closed"
+        return f"🔜 Not open yet<br>Expected: {self.expected_open}"
+
+    def eligibility_cell(self) -> str:
+        parts = [
+            f"<b>{self.last_round} round (expired):</b>",
+            f"\"{self.eligibility}\"",
+            f"Source: <a href=\"{self.source}\">{self.source_note}</a>",
+        ]
+        if self.last_round_dates:
+            parts.append(self.last_round_dates)
+        if self.notes:
+            parts.append(self.notes)
+        return f"<details><summary>{INTERNATIONAL_ICON[self.international]}</summary>{'<br>'.join(parts)}</details>"
 
     def to_row(self) -> str:
         flags = " / ".join(FLAGS[code] for code in self.country)
-        dates = " → ".join(part for part in (self.opens, self.closes) if part) or "—"
-        quote = f"\"{self.eligibility}\"" if self.verified else f"{self.eligibility} <i>(unverified)</i>"
-        detail = f"{quote}<br>{self.notes}" if self.notes else quote
-        checked = self.last_checked if self.verified else f"{self.last_checked} ⏳"
-        company = f"**{self.company}**"
-        if self.effective_status == "closed":
-            company = f"~~{self.company}~~"
+        company = f"~~{self.company}~~" if self.effective_status == "closed" else f"**{self.company}**"
         cells = [
             company,
             self.role,
             f"{flags}<br>{', '.join(self.locations)}",
-            STATUS_ICON[self.effective_status],
-            dates,
-            f"<details><summary>{INTERNATIONAL_ICON[self.international]}</summary>{detail}</details>",
+            self.round_cell(),
+            self.eligibility_cell(),
             SPONSOR_ICON[self.sponsorship],
-            f"[Apply]({self.link})",
-            checked,
+            f"[Careers page]({self.careers_page})",
+            self.last_checked,
         ]
         return "| " + " | ".join(str(cell).replace("|", "/") for cell in cells) + " |"
 
@@ -170,22 +186,20 @@ def anchor(heading: str) -> str:
 
 def build_section(listings: list[Listing]) -> str:
     header = (
-        "| Company | Role | Location | Status | Opens → Closes | International students | Sponsors visa | Link | Checked |\n"
-        "|---|---|---|---|---|---|---|---|---|"
+        "| Company | Role | Location | 2027/28 round | International students (last round) | Sponsors visa | Links | Checked |\n"
+        "|---|---|---|---|---|---|---|---|"
     )
-    counts = {s: sum(l.effective_status == s for l in listings) for s in STATUS_ORDER}
+    count = lambda status: sum(l.effective_status == status for l in listings)
     lines = [
-        f"**{len(listings)} roles** · 🟢 {counts['open']} open · 🟡 {counts['upcoming']} opening soon · "
-        f"🔒 {counts['closed']} closed · "
-        f"✅ {sum(l.international == 'yes' and l.verified for l in listings)} confirmed open to international students",
+        f"**{len(listings)} program{'' if len(listings) == 1 else 's'}** · 🟢 {count('open')} open now · 🔜 {count('not_open')} not open yet · "
+        f"✅ {sum(l.international == 'yes' for l in listings)} accepted international students last round",
         "",
-        "| Category | Roles |",
+        "| Category | Programs |",
         "|---|---|",
     ]
     present = [key for key in CATEGORIES if any(l.category == key for l in listings)]
     for key in present:
-        n = sum(l.category == key for l in listings)
-        lines.append(f"| [{CATEGORIES[key]}](#{anchor(CATEGORIES[key])}) | {n} |")
+        lines.append(f"| [{CATEGORIES[key]}](#{anchor(CATEGORIES[key])}) | {sum(l.category == key for l in listings)} |")
     lines.append("")
     for key in present:
         rows = sorted(
