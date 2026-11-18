@@ -206,7 +206,8 @@ def anchor(heading: str) -> str:
     The emoji is dropped but the space after it stays, so "💻 Software & IT"
     becomes "-software--it", which matches what GitHub generates.
     """
-    text = "".join(ch for ch in heading.lower() if ch.isalnum() or ch in " -")
+    # GitHub keeps the invisible emoji variation selector (U+FE0F), e.g. in "🏗️", so we keep it too.
+    text = "".join(ch for ch in heading.lower() if ch.isalnum() or ch in " -\ufe0f")
     return text.replace(" ", "-")
 
 

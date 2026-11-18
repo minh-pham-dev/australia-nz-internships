@@ -39,7 +39,7 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 | [📈 Quant & Trading](#-quant--trading) | 1 |
 | [🏦 Banking & Finance](#-banking--finance) | 7 |
 | [🧾 Accounting & Consulting](#-accounting--consulting) | 10 |
-| [🏗️ Engineering](#-engineering) | 6 |
+| [🏗️ Engineering](#️-engineering) | 6 |
 
 ### 💻 Software & IT
 
