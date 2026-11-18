@@ -152,38 +152,33 @@ pending:
   category: software
   coming_soon: adding
   needs_human_check: Not checked yet.
-- company: IMC
-  category: quant
-  coming_soon: adding
-  needs_human_check: Not checked yet.
 - company: Akuna Capital
   category: quant
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: No 2026/27 Sydney summer internship ad found; only a 2-week Trading Immersion Program (no work-rights
+    wording). Older Sydney ads (2022) were citizens/PR only.
 - company: Citadel Securities
   category: quant
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: 'Official EOI page and the 2026–27 ads now return 404. A GradConnection copy (now dead) listed PR/bridging
+    work rights and ''accepts international: yes'' — conflicting. Recheck when the 2027–28 ads appear.'
 - company: Jane Street
   category: quant
-  coming_soon: adding
-  needs_human_check: Not checked yet.
-- company: Deloitte New Zealand
-  category: consulting
-  coming_soon: adding
-  needs_human_check: Not checked yet.
-- company: KPMG New Zealand
-  category: consulting
   coming_soon: adding
   needs_human_check: Not checked yet.
 - company: BDO
   category: consulting
   coming_soon: adding
-  needs_human_check: Not checked yet.
+  needs_human_check: 'DECISION PENDING. bdo.com.au early-careers page: ''Applications for our Undergraduate, Graduate and
+    Vacation programs are now open''. Vacation program open from end of 2nd year; intakes Jan–Feb, Jun–Jul, Nov–Dec. International:
+    ''BDO welcome applications from international students who: currently reside in and have the right to work in Australia;
+    have the intention and ability to maintain their right to work in Australia i.e., Temporary Graduate (Subclass 485)''.
+    Only live vacation ad (Workday JR102574) is Canberra, Jan 2027, 4 weeks, Australian Citizen only.'
 - company: RSM
   category: consulting
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: rsm.global/australia student pages give no eligibility rules; RSM's Workday board had 0 vacation ads
+    on 18 Nov 2026. Older Prosple ads varied by role.
 - company: McKinsey
   category: consulting
   coming_soon: adding

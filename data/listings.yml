@@ -435,3 +435,70 @@ listings:
 
     last_checked: "2026-11-18"
     notes: "On 18 Nov 2026 the page said 'Applications for our Summer Internship programme are now open', but PwC NZ's student job search showed no intern listings. Recheck and switch to open once a real ad appears."
+
+  - company: Deloitte New Zealand
+    role: Summer Internship Programme
+    category: consulting
+    country: [NZ]
+    locations: [Not stated]
+    careers_page: https://www.deloitte.com/nz/en/careers/students/summer-vacation-program-careers.html
+    study_year: Penultimate year
+    duration: "Mid-Nov to early Feb (3 weeks off at Christmas)"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: "no"
+    summary: "Only NZ or Australian citizens and NZ residents could apply. Student and Post Study Work visas didn't qualify."
+    eligibility: "To be eligible for Deloitte New Zealand’s Early Careers Graduate and Summer Internship programmes, you must hold New Zealand or Australian citizenship, New Zealand Permanent Residency, or a New Zealand Resident Visa at the time of application. Unfortunately, temporary visas, including student visas, Post Study Work Visas and partnership-based work visas, do not currently meet the eligibility requirements for our Early Careers programmes, even where they provide open work rights."
+    source: https://www.deloitte.com/nz/en/careers/students/frequently-asked-questions.html
+    source_note: "Deloitte NZ careers FAQ (I'm an international student…)"
+
+    last_checked: "2026-11-18"
+    notes: "Deloitte NZ's intern job board said internships for summer 2026/2027 are closed."
+
+  - company: KPMG New Zealand
+    role: Summer Internship
+    category: consulting
+    country: [NZ]
+    locations: [Not stated]
+    careers_page: https://kpmg.com/nz/en/careers/early-careers.html
+    study_year: Penultimate year
+    duration: "12 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+    last_opened: "applications closed 27 Mar 2026"
+
+    last_round: "2026/27"
+    international: conditional
+    summary: "International students could apply if they'd be eligible for a NZ work visa after finishing their studies."
+    eligibility: "Yes, KPMG New Zealand welcomes applications from international students. However, you will need to meet the following criteria: You must be eligible to apply for a New Zealand Work Visa once finishing your studies, or already have the right to work ongoing in New Zealand."
+    source: https://kpmg.com/nz/en/careers/faqs.html
+    source_note: "KPMG NZ careers FAQ (Can I apply if I'm an international student studying in NZ?)"
+
+    last_checked: "2026-11-18"
+    notes: "Runs November to February. You need to provide a copy of your visa when applying."
+
+  - company: IMC Trading
+    role: Software Engineer Intern
+    category: quant
+    country: [AU]
+    locations: [Sydney]
+    careers_page: https://www.imc.com/ap/careers/
+    study_year: Penultimate year
+    duration: "Not stated"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: conditional
+    summary: "You needed the right to work in Australia or New Zealand."
+    eligibility: "Have the right to work in Australia or New Zealand"
+    source: https://builtin.com/job/software-engineer-intern-2026-27/8371596
+    source_note: "copy on Built In (IMC's own ad was taken down)"
+
+    last_checked: "2026-11-18"
+    notes: "Ad also said: 'Have commenced your penultimate year of study' and 'Must be able to start the internship in November 2026'. Hybrid, Sydney office."

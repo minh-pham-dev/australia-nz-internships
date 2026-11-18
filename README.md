@@ -31,13 +31,14 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**17 programs** · 📝 0 open now · ⏳ 17 not open yet · ✅ 1 open to international students · ⚠️ 5 with conditions (2026/27)
+**20 programs** · 📝 0 open now · ⏳ 20 not open yet · ✅ 1 open to international students · ⚠️ 7 with conditions (2026/27)
 
 | Category | Programs |
 |---|---|
 | [💻 Software & IT](#-software--it) | 2 |
+| [📈 Quant & Trading](#-quant--trading) | 1 |
 | [🏦 Banking & Finance](#-banking--finance) | 7 |
-| [🧾 Accounting & Consulting](#-accounting--consulting) | 7 |
+| [🧾 Accounting & Consulting](#-accounting--consulting) | 9 |
 | [🏗️ Engineering](#-engineering) | 1 |
 
 ### 💻 Software & IT
@@ -46,6 +47,12 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 |---|---|---|---|---|---|---|---|
 | **Atlassian** | Software Engineer Intern<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Remote | 12 weeks | ⏳ Not open yet<br>Expected: Feb–Jun 2027 | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens and Australian permanent residents could apply.<br><b>Also needs:</b> Full-time enrolment in Software Engineering, Computer Science or a related technical degree.<br><sub>2026/27 round · <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">Source</a></sub></details> | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
 | **Canva** | Software Engineer Intern (Frontend / Backend)<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Sydney, Remote | 12 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: the ad was already up by mid-May 2026</details> | <details><summary><b>⚠️ Depends</b></summary><br>You needed full work rights in Australia or New Zealand. Canva didn't sponsor visas.<br><sub>2026/27 round · <a href="https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27">Source</a></sub></details> | [Careers page](https://www.lifeatcanva.com/en/early-careers/) | 2026-11-18 |
+
+### 📈 Quant & Trading
+
+| Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
+|---|---|---|---|---|---|---|---|
+| **IMC Trading** | Software Engineer Intern<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney | Not stated | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>⚠️ Depends</b></summary><br>You needed the right to work in Australia or New Zealand.<br><sub>2026/27 round · <a href="https://builtin.com/job/software-engineer-intern-2026-27/8371596">Source</a></sub></details> | [Careers page](https://www.imc.com/ap/careers/) | 2026-11-18 |
 
 ### 🏦 Banking & Finance
 
@@ -64,10 +71,12 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 | Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
 |---|---|---|---|---|---|---|---|
 | **Deloitte** | Vacationer Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 4–8 weeks | ⏳ Not open yet<br>Expected: Feb–Mar 2027 (second intake in July) | <details><summary><b>✅ Yes</b></summary><br>International students could apply to selected teams, at any office except Canberra.<br><sub>2026/27 round · <a href="https://www.deloitte.com/au/en/careers/students/summer-vacation-program-careers.html">Source</a></sub></details> | [Careers page](https://www.deloitte.com/au/en/careers/students/summer-vacation-program-careers.html) | 2026-11-18 |
+| **Deloitte New Zealand** | Summer Internship Programme<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Not stated | Mid-Nov to early Feb (3 weeks off at Christmas) | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only NZ or Australian citizens and NZ residents could apply. Student and Post Study Work visas didn't qualify.<br><sub>2026/27 round · <a href="https://www.deloitte.com/nz/en/careers/students/frequently-asked-questions.html">Source</a></sub></details> | [Careers page](https://www.deloitte.com/nz/en/careers/students/summer-vacation-program-careers.html) | 2026-11-18 |
 | **EY** | Vacationer Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | Not stated | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens and Australian or New Zealand permanent residents could apply.<br><sub>2026/27 round · <a href="https://www.ey.com/en_au/careers/student-entry-level-programs">Source</a></sub></details> | [Careers page](https://www.ey.com/en_au/careers/student-entry-level-programs) | 2026-11-18 |
 | **EY New Zealand** | Internship Programme<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Not stated | Not stated | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>⚠️ Depends</b></summary><br>International students could apply if they'd have 3 years on a NZ Post Study Work visa.<br><b>Also needs:</b> For the visa: at least 30 weeks of full-time study at a level 7 degree at a New Zealand university.<br><sub>2026/27 round · <a href="https://www.ey.com/en_nz/careers/student-entry-level-programs">Source</a></sub></details> | [Careers page](https://www.ey.com/en_nz/careers/student-entry-level-programs) | 2026-11-18 |
 | **Grant Thornton** | Vacation Program<br><sub>🎓 Final or penultimate year</sub> | 🇦🇺 AU<br>Multiple | 4–6 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 20 Jul 2026, closed 14 Aug 2026</details> | <details><summary><b>⚠️ Depends</b></summary><br>Student (500) and graduate (485) visa holders could apply through an Expression of Interest. Places were limited.<br><sub>2026/27 round · <a href="https://www.grantthornton.com.au/careers/student-opportunities/faqs/">Source</a></sub></details> | [Careers page](https://www.grantthornton.com.au/careers/student-opportunities/vacationer-program/) | 2026-11-18 |
 | **KPMG** | Vacationer Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 3–8 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>⚠️ Depends</b></summary><br>International students were welcome, but needed full-time work rights when applying and for the program dates.<br><b>Also needs:</b> Non-citizens may be asked for Superior English test results. Some teams need specific degrees.<br><sub>2026/27 round · <a href="https://kpmg.com/au/en/careers/graduates/faq.html">Source</a></sub></details> | [Careers page](https://kpmg.com/au/en/careers/graduates/vacation-program.html) | 2026-11-18 |
+| **KPMG New Zealand** | Summer Internship<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Not stated | 12 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: applications closed 27 Mar 2026</details> | <details><summary><b>⚠️ Depends</b></summary><br>International students could apply if they'd be eligible for a NZ work visa after finishing their studies.<br><sub>2026/27 round · <a href="https://kpmg.com/nz/en/careers/faqs.html">Source</a></sub></details> | [Careers page](https://kpmg.com/nz/en/careers/early-careers.html) | 2026-11-18 |
 | **PwC Australia** | Vacation Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 7 weeks (summer) or 4 weeks (winter) | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only Australian citizens, New Zealand citizens and Australian permanent residents could apply. PwC didn't sponsor visas.<br><sub>2026/27 round · <a href="https://jobs-au.pwc.com/au/en/vacation-program">Source</a></sub></details> | [Careers page](https://jobs-au.pwc.com/au/en/vacation-program) | 2026-11-18 |
 | **PwC New Zealand** | Summer Internship Programme<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Not stated | Nov to Feb | ⏳ Not open yet<br>Expected: Page says open, but no ad found yet | <details><summary><b>⚠️ Depends</b></summary><br>International students: Tier 1 Green List roles only (e.g. Audit), if eligible for a 3-year Post-Study Work Visa.<br><b>Also needs:</b> You must not need visa sponsorship from PwC in the future.<br><sub>2026/27 round · <a href="https://www.pwc.co.nz/careers/studentcareers/summer-internship-programme.html">Source</a></sub></details> | [Careers page](https://www.pwc.co.nz/careers/studentcareers/summer-internship-programme.html) | 2026-11-18 |
 
@@ -83,11 +92,11 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 <!-- COMING:START -->
 **📭 Waiting for new ads.** There's nothing current to check for these yet. They'll be added when their 2027/28 ads come out:
 
-Amazon · BNZ · Fonterra · Google · Microsoft · SafetyCulture
+Akuna Capital · Amazon · BNZ · Citadel Securities · Fonterra · Google · Microsoft · RSM · SafetyCulture
 
 **🔍 Adding soon.** We're checking these now. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Airwallex · Akuna Capital · Arup · Aurecon · Bain · BCG · BDO · Beca · BHP · Block (Afterpay) · Citadel Securities · Culture Amp · Deloitte New Zealand · Employment Hero · Fisher & Paykel Healthcare · Fletcher Building · IMC · Jacobs · Jane Street · KPMG New Zealand · McKinsey · Optiver · REA Group · Rio Tinto · Rocket Lab · Rokt · RSM · SEEK · Spark NZ · Trade Me · WiseTech Global · Woolworths Group · WSP · Xero
+Airwallex · Arup · Aurecon · Bain · BCG · BDO · Beca · BHP · Block (Afterpay) · Culture Amp · Employment Hero · Fisher & Paykel Healthcare · Fletcher Building · Jacobs · Jane Street · McKinsey · Optiver · REA Group · Rio Tinto · Rocket Lab · Rokt · SEEK · Spark NZ · Trade Me · WiseTech Global · Woolworths Group · WSP · Xero
 <!-- COMING:END -->
 
 ## ⚠️ Important
