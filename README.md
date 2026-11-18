@@ -2,6 +2,10 @@
 
 Summer internships and vacation programs in Australia and New Zealand for all students, with a column showing whether international students can apply. Covers tech, finance, consulting, engineering and more.
 
+<!-- UPDATED:START -->
+🔄 **Last updated: 18 November 2026** · New programs are added as their ads open
+<!-- UPDATED:END -->
+
 > 🙌 Found a new program or a mistake? [Open an issue](../../issues/new/choose) or read [CONTRIBUTING.md](CONTRIBUTING.md).
 > ⭐ Star the repo so you can find it again when applications open.
 

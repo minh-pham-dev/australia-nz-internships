@@ -19,6 +19,8 @@ DATA_FILE = ROOT / "data" / "listings.yml"
 README_FILE = ROOT / "README.md"
 START_MARKER = "<!-- LISTINGS:START -->"
 END_MARKER = "<!-- LISTINGS:END -->"
+UPDATED_START = "<!-- UPDATED:START -->"
+UPDATED_END = "<!-- UPDATED:END -->"
 
 # Category key -> heading shown in the README (also sets the section order).
 CATEGORIES = {
@@ -205,6 +207,13 @@ def build_section(listings: list[Listing]) -> str:
     return "\n".join(lines).strip()
 
 
+def replace_between(text: str, start: str, end: str, content: str) -> str:
+    """Swap whatever sits between two marker comments for new content."""
+    before, rest = text.split(start, 1)
+    _, after = rest.split(end, 1)
+    return f"{before}{start}\n{content}\n{end}{after}"
+
+
 def main() -> int:
     listings = load_listings()
     errors = [error for listing in listings for error in listing.errors]
@@ -216,9 +225,11 @@ def main() -> int:
         return 0
 
     readme = README_FILE.read_text(encoding="utf-8")
-    before, rest = readme.split(START_MARKER, 1)
-    _, after = rest.split(END_MARKER, 1)
-    README_FILE.write_text(f"{before}{START_MARKER}\n{build_section(listings)}\n{END_MARKER}{after}", encoding="utf-8")
+    readme = replace_between(readme, START_MARKER, END_MARKER, build_section(listings))
+    today = date.today()
+    stamp = f"🔄 **Last updated: {today.day} {today:%B %Y}** · New programs are added as their ads open"
+    readme = replace_between(readme, UPDATED_START, UPDATED_END, stamp)
+    README_FILE.write_text(readme, encoding="utf-8")
     print(f"README updated with {len(listings)} listings.")
     return 0
 
