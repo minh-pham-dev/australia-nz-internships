@@ -301,3 +301,48 @@ listings:
 
     last_checked: "2026-11-18"
     notes: "Eight paid weeks plus a two-week unpaid festive break. Cities depend on the stream (some Melbourne only)."
+
+  - company: ANZ
+    role: Summer Intern Program
+    category: finance
+    country: [AU]
+    locations: [Not stated]
+    careers_page: https://www.anz.com.au/careers/career-programs/summer-internship/
+    study_year: Penultimate year
+    duration: "8–10 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: "no"
+    summary: "Only citizens or permanent residents of Australia or New Zealand could apply."
+    eligibility: "To be eligible you should be: A citizen of, or hold permanent residency in, Australia or New Zealand; and In your penultimate or 2nd last year of study of your bachelor or post-graduate degree."
+    source: https://www.anz.com.au/careers/career-programs/summer-internship/
+    source_note: "ANZ careers site (Am I eligible?)"
+
+    last_checked: "2026-11-18"
+    notes: "Length and focus depend on the stream. ANZ New Zealand runs a separate intern programme (anz.co.nz), not checked yet."
+
+  - company: Westpac
+    role: Summer Intern Program (CIB and GTS)
+    category: finance
+    country: [AU]
+    locations: [Sydney, Melbourne]
+    careers_page: https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/summer-intern/
+    study_year: Penultimate year
+    duration: "10 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    last_round_dates: "early December to mid-February"
+    international: "no"
+    summary: "Only Australian or New Zealand citizens and Australian permanent residents could apply."
+    eligibility: "You can apply if you’re in the second last (penultimate) year of your degree. You also need to be an Australian or New Zealand Citizen or an Australian Permanent Resident when you apply."
+    source: https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/summer-intern/
+    source_note: "Westpac careers site (Eligibility and how to apply)"
+
+    last_checked: "2026-11-18"
+    notes: "Corporate & Institutional Banking runs in Sydney and Melbourne; Global Transaction Services in Sydney. Students from all disciplines welcome for CIB."

@@ -31,12 +31,12 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**11 programs** · 📝 0 open now · ⏳ 11 not open yet · ✅ 1 open to international students (2026/27)
+**13 programs** · 📝 0 open now · ⏳ 13 not open yet · ✅ 1 open to international students (2026/27)
 
 | Category | Programs |
 |---|---|
 | [💻 Software & IT](#-software--it) | 2 |
-| [🏦 Banking & Finance](#-banking--finance) | 3 |
+| [🏦 Banking & Finance](#-banking--finance) | 5 |
 | [🧾 Accounting & Consulting](#-accounting--consulting) | 5 |
 | [🏗️ Engineering](#-engineering) | 1 |
 
@@ -51,9 +51,11 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 
 | Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
 |---|---|---|---|---|---|---|---|
+| **ANZ** | Summer Intern Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Not stated | 8–10 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only citizens or permanent residents of Australia or New Zealand could apply.<br><sub>2026/27 round · <a href="https://www.anz.com.au/careers/career-programs/summer-internship/">Source</a></sub></details> | [Careers page](https://www.anz.com.au/careers/career-programs/summer-internship/) | 2026-11-18 |
 | **CommBank** | Summer Intern Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Multiple | 10 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 12 Aug, closed 8 Sep 2026</details> | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens and Australian permanent residents could apply. Temporary visa holders couldn't.<br><b>Also needs:</b> An overall credit average of 65 WAM/GPA (70 for Technology: Engineering and Cyber Security).<br><sub>2026/27 round · <a href="https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html">Source</a></sub></details> | [Careers page](https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html) | 2026-11-18 |
 | **Macquarie Group** | Summer Internship Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Melbourne, Brisbane, Perth | Not stated | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 5 May 2026, closed 21 Jul (Melbourne & Perth) and 4 Aug 2026 (Sydney & Brisbane)</details> | <details><summary><b>❌ No</b></summary><br>Only Australian citizens, Australian permanent residents and New Zealand citizens could apply.<br><sub>2026/27 round · <a href="https://www.macquarie.com/au/en/careers/graduates-and-interns.html">Source</a></sub></details> | [Careers page](https://www.macquarie.com/au/en/careers/graduates-and-interns.html) | 2026-11-18 |
 | **NAB** | Summer Intern Program<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Melbourne, Sydney, Perth, Brisbane | 8 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens or permanent residents could apply.<br><sub>2026/27 round · <a href="https://www.nab.com.au/about-us/careers/early-careers/summer-intern-program">Source</a></sub></details> | [Careers page](https://www.nab.com.au/about-us/careers/early-careers/summer-intern-program) | 2026-11-18 |
+| **Westpac** | Summer Intern Program (CIB and GTS)<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Melbourne | 10 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens and Australian permanent residents could apply.<br><sub>2026/27 round · <a href="https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/summer-intern/">Source</a></sub></details> | [Careers page](https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/summer-intern/) | 2026-11-18 |
 
 ### 🧾 Accounting & Consulting
 
@@ -79,7 +81,7 @@ Companies we're adding next. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md
 - **Being checked now:** Fonterra · Xero · Optiver
 - **Software & IT:** Google · Microsoft · Amazon / AWS · SafetyCulture · Culture Amp · REA Group · SEEK · WiseTech Global · Airwallex · Block (Afterpay) · Rokt · Employment Hero · Trade Me · Rocket Lab
 - **Quant & Trading:** IMC · Akuna Capital · Citadel Securities · Jane Street
-- **Banking & Finance:** ANZ · Westpac · ASB · BNZ
+- **Banking & Finance:** ASB · BNZ · ANZ New Zealand
 - **Accounting & Consulting:** Accenture · McKinsey · BCG · Bain
 - **Engineering:** Aurecon · Arup · Jacobs · WSP · Beca · BHP · Rio Tinto · Fisher & Paykel Healthcare
 - **Other:** Telstra · Spark NZ · Woolworths Group · Fletcher Building
