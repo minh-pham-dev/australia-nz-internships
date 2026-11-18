@@ -154,7 +154,9 @@ class Listing:
         # The exact quote (eligibility) stays in the data file as proof for each summary,
         # along with last_round_dates, notes and source_note, but readers don't see them.
         origin = f"<sub>{self.last_round} ad · <a href=\"{self.source}\">Source</a></sub>"
-        return f"<details><summary>{INTERNATIONAL_ICON[self.international]}</summary>{self.summary}<br>{origin}</details>"
+        # Bold label so it stands apart from the explanation that opens under it.
+        label = f"<b>{INTERNATIONAL_ICON[self.international]}</b>"
+        return f"<details><summary>{label}</summary><br>{self.summary}<br>{origin}</details>"
 
     def to_row(self) -> str:
         flags = " / ".join(FLAGS[code] for code in self.country)
