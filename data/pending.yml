@@ -45,8 +45,9 @@ pending:
   last_checked: '2026-11-18'
   status: upcoming
   notes: 3-month full-time fixed-term contract for penultimate-year students.
-  needs_human_check: Xero careers site and Prosple show a bot check. Open the Prosple intern listings in a normal browser
-    and read the work-rights section.
+  needs_human_check: 'Checked by hand 18 Nov 2026: careers.xero.com/early-careers describes a 3-month full-time fixed-term
+    summer internship (engineering) for penultimate-year students, but states no work-rights rules anywhere on the page. Skipped
+    for now; could be added as ❓ Not stated.'
   coming_soon: adding
 - company: Optiver
   role: Software Developer Internship
@@ -64,8 +65,8 @@ pending:
   last_checked: '2026-11-18'
   status: upcoming
   notes: Not yet checked on Optiver's own ad. 10-week program; flights and accommodation covered.
-  needs_human_check: optiver.com wouldn't load for the automated browser. Open the Sydney internship ad in a normal browser
-    and read the work-rights section.
+  needs_human_check: Skipped for now (18 Nov 2026). optiver.com blocks the automated browser; needs a manual check of a Sydney
+    internship ad.
   coming_soon: adding
 - company: Google
   role: Software Engineering Intern (Sydney)
