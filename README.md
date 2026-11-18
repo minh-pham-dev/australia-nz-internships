@@ -41,8 +41,8 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 
 | Company | Role | Location | Applications (2027/28) | International students? | Sponsors visa | Links | Checked |
 |---|---|---|---|---|---|---|---|
-| **Atlassian** | Software Engineer Intern<br><sub>🎓 Penultimate year (last round: graduating by Jan 2028)</sub> | 🇦🇺 AU<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Feb–Jun 2027 | <details><summary>❌ No</summary><i>"Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"</i><br><sub>2026/27 ad · <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">copy on Accel's job board</a></sub></details> | ❓ | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
-| **Canva** | Software Engineer Intern (Frontend / Backend)<br><sub>🎓 Penultimate year (last round: finishing studies 2027 – mid-2028)</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Not announced (last ad was up by May 2026) | <details><summary>⚠️ Depends</summary><i>"for Intern roles at Canva, you’ll need full working rights in Australia or New Zealand"</i><br><sub>2026/27 ad · <a href="https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27">copy on Blackbird's job board</a></sub></details> | No | [Careers page](https://www.lifeatcanva.com/en/early-careers/) | 2026-11-18 |
+| **Atlassian** | Software Engineer Intern<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Feb–Jun 2027 | <details><summary>❌ No</summary><i>"Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"</i><br><sub>2026/27 ad · <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">Source</a></sub></details> | ❓ | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
+| **Canva** | Software Engineer Intern (Frontend / Backend)<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Sydney, Remote | ⏳ Not open yet<br>Expected: Not announced (last ad was up by May 2026) | <details><summary>⚠️ Depends</summary><i>"for Intern roles at Canva, you’ll need full working rights in Australia or New Zealand"</i><br><sub>2026/27 ad · <a href="https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27">Source</a></sub></details> | No | [Careers page](https://www.lifeatcanva.com/en/early-careers/) | 2026-11-18 |
 <!-- LISTINGS:END -->
 
 ## 🔜 Coming soon
@@ -61,6 +61,7 @@ Companies we're adding next. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md
 
 - Not affiliated with any employer or university.
 - Rules change every year. **Always read the official ad before applying.**
+- When a company has taken last year's ad down, the source link goes to an exact copy of it on another job board.
 - Nothing here is migration advice. Check your own visa conditions on [VEVO (Australia)](https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions) or with [Immigration New Zealand](https://www.immigration.govt.nz/).
 
 ## 🛠️ How it works

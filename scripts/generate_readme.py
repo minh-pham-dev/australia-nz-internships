@@ -149,18 +149,18 @@ class Listing:
         # Keep the popup short: the quote, then one line saying where it's from.
         # last_round_dates and notes stay in the data file but aren't shown here.
         quote = f"<i>\"{self.eligibility}\"</i>"
-        origin = f"<sub>{self.last_round} ad · <a href=\"{self.source}\">{self.source_note}</a></sub>"
+        # source_note stays in the data for maintainers; readers just see "Source".
+        origin = f"<sub>{self.last_round} ad · <a href=\"{self.source}\">Source</a></sub>"
         return f"<details><summary>{INTERNATIONAL_ICON[self.international]}</summary>{quote}<br>{origin}</details>"
 
     def to_row(self) -> str:
         flags = " / ".join(FLAGS[code] for code in self.country)
         company = f"~~{self.company}~~" if self.effective_status == "closed" else f"**{self.company}**"
-        who = self.study_year
-        if self.study_year_detail:
-            who += f" (last round: {self.study_year_detail})"
+        # study_year_detail (last round's exact dates) stays in the data but isn't shown:
+        # it describes last year's cohort and would confuse people applying this year.
         cells = [
             company,
-            f"{self.role}<br><sub>🎓 {who}</sub>",
+            f"{self.role}<br><sub>🎓 {self.study_year}</sub>",
             f"{flags}<br>{', '.join(self.locations)}",
             self.round_cell(),
             self.eligibility_cell(),
