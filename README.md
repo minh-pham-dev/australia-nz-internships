@@ -31,20 +31,21 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 ## 📋 Listings
 
 <!-- LISTINGS:START -->
-**21 programs** · 📝 0 open now · ⏳ 21 not open yet · ✅ 3 open to international students · ⚠️ 6 with conditions (2026/27)
+**27 programs** · 📝 0 open now · ⏳ 27 not open yet · ✅ 5 open to international students · ⚠️ 8 with conditions (2026/27)
 
 | Category | Programs |
 |---|---|
-| [💻 Software & IT](#-software--it) | 2 |
+| [💻 Software & IT](#-software--it) | 3 |
 | [📈 Quant & Trading](#-quant--trading) | 1 |
 | [🏦 Banking & Finance](#-banking--finance) | 7 |
 | [🧾 Accounting & Consulting](#-accounting--consulting) | 10 |
-| [🏗️ Engineering](#-engineering) | 1 |
+| [🏗️ Engineering](#-engineering) | 6 |
 
 ### 💻 Software & IT
 
 | Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
 |---|---|---|---|---|---|---|---|
+| **Airwallex** | Software Engineering Intern Program<br><sub>🎓 Penultimate or final year</sub> | 🇦🇺 AU<br>Melbourne, Sydney | 12 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: applications closed 10 Apr 2026</details> | <details><summary><b>✅ Yes</b></summary><br>International students could apply, with a current VEVO letter.<br><sub>2026/27 round · <a href="https://builtin.com/job/2026-27-software-engineering-intern-program/8659546">Source</a></sub></details> | [Careers page](https://careers.airwallex.com/) | 2026-11-18 |
 | **Atlassian** | Software Engineer Intern<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU<br>Sydney, Remote | 12 weeks | ⏳ Not open yet<br>Expected: Feb–Jun 2027 | <details><summary><b>❌ No</b></summary><br>Only Australian or New Zealand citizens and Australian permanent residents could apply.<br><b>Also needs:</b> Full-time enrolment in Software Engineering, Computer Science or a related technical degree.<br><sub>2026/27 round · <a href="https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia">Source</a></sub></details> | [Careers page](https://www.atlassian.com/company/careers/earlycareers) | 2026-11-18 |
 | **Canva** | Software Engineer Intern (Frontend / Backend)<br><sub>🎓 Penultimate year</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Sydney, Remote | 12 weeks | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: the ad was already up by mid-May 2026</details> | <details><summary><b>⚠️ Depends</b></summary><br>You needed full work rights in Australia or New Zealand. Canva didn't sponsor visas.<br><sub>2026/27 round · <a href="https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27">Source</a></sub></details> | [Careers page](https://www.lifeatcanva.com/en/early-careers/) | 2026-11-18 |
 
@@ -85,7 +86,12 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 
 | Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |
 |---|---|---|---|---|---|---|---|
+| **Arup** | Summer Vacation Programme<br><sub>🎓 Penultimate year (all years welcome)</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Not stated | 12 weeks | ⏳ Not open yet<br>Expected: Jul–Aug 2027 (Arup's ANZ window) | <details><summary><b>⚠️ Depends</b></summary><br>You needed full working rights in the country you applied in, for the whole internship.<br><sub>2026/27 round · <a href="https://www.arup.com/careers/early-careers/internships/asia-pacific/">Source</a></sub></details> | [Careers page](https://www.arup.com/careers/early-careers/internships/asia-pacific/) | 2026-11-18 |
+| **Aurecon** | Internship Program<br><sub>🎓 Penultimate year (earlier years can apply)</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Not stated | 12 weeks (2 weeks off at Christmas) | <details><summary>⏳ Not open yet<br>Expected: Not announced</summary><br>Last round: opened 24 Jun, closed 5 Aug 2026</details> | <details><summary><b>✅ Yes</b></summary><br>International students could apply if their visa let them work in Australia or NZ during the internship.<br><sub>2026/27 round · <a href="https://www.aurecongroup.com/careers/early-careers/intern-programme">Source</a></sub></details> | [Careers page](https://www.aurecongroup.com/careers/early-careers/intern-programme) | 2026-11-18 |
+| **Beca** | Summer Internship<br><sub>🎓 Penultimate year (AU may consider final year)</sub> | 🇦🇺 AU / 🇳🇿 NZ<br>Not stated | 8 weeks (2 weeks off at Christmas) | ⏳ Not open yet<br>Expected: Mid-2027 | <details><summary><b>❓ Not stated</b></summary><br>Beca's internship page didn't say whether international students could apply.<br><sub>2026/27 round · <a href="https://www.beca.com/join-our-team/internships">Source</a></sub></details> | [Careers page](https://www.beca.com/join-our-team/internships) | 2026-11-18 |
+| **BHP** | Internship Program<br><sub>🎓 2nd to penultimate year</sub> | 🇦🇺 AU<br>Perth, Brisbane, Adelaide, Mine sites | 10–12 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❓ Not stated</b></summary><br>BHP's page didn't say whether international students could apply.<br><sub>2026/27 round · <a href="https://www.bhp.com/careers/graduate-student-programs/australia">Source</a></sub></details> | [Careers page](https://www.bhp.com/careers/graduate-student-programs/australia) | 2026-11-18 |
 | **GHD** | Summer Internship Program<br><sub>🎓 Penultimate year</sub> | 🇳🇿 NZ<br>Auckland | 3 months | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>❓ Not stated</b></summary><br>The 2026/27 ad didn't say whether international students could apply.<br><sub>2026/27 round · <a href="https://builtin.com/job/ghd-summer-internship-program-2026-27-new-zealand/9492127">Source</a></sub></details> | [Careers page](https://www.ghd.com/en/careers) | 2026-11-18 |
+| **Rio Tinto** | Intern Program<br><sub>🎓 2nd to penultimate year</sub> | 🇦🇺 AU<br>Not stated | 12 weeks | ⏳ Not open yet<br>Expected: Not announced | <details><summary><b>⚠️ Depends</b></summary><br>Work rights vary by role. Each job ad says which visas are accepted.<br><b>Also needs:</b> You must be returning to university after the internship.<br><sub>2026/27 round · <a href="https://www.riotinto.com/en/careers/graduates-interns">Source</a></sub></details> | [Careers page](https://www.riotinto.com/en/careers/graduates-interns) | 2026-11-18 |
 <!-- LISTINGS:END -->
 
 ## 🔜 Coming soon
@@ -93,11 +99,11 @@ Summer internships and vacation programs in Australia and New Zealand for all st
 <!-- COMING:START -->
 **📭 Waiting for new ads.** There's nothing current to check for these yet. They'll be added when their 2027/28 ads come out:
 
-Akuna Capital · Amazon · BNZ · Citadel Securities · Fonterra · Google · Microsoft · RSM · SafetyCulture
+Akuna Capital · Amazon · Bain · BCG · Block (Afterpay) · BNZ · Citadel Securities · Culture Amp · Employment Hero · Fisher & Paykel Healthcare · Fletcher Building · Fonterra · Google · Jacobs · McKinsey · Microsoft · REA Group · Rocket Lab · Rokt · RSM · SafetyCulture · SEEK · Spark NZ · Trade Me · WiseTech Global · WSP
 
 **🔍 Adding soon.** We're checking these now. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Airwallex · Arup · Aurecon · Bain · BCG · Beca · BHP · Block (Afterpay) · Culture Amp · Employment Hero · Fisher & Paykel Healthcare · Fletcher Building · Jacobs · Jane Street · McKinsey · Optiver · REA Group · Rio Tinto · Rocket Lab · Rokt · SEEK · Spark NZ · Trade Me · WiseTech Global · Woolworths Group · WSP · Xero
+Optiver · Xero
 <!-- COMING:END -->
 
 ## ⚠️ Important

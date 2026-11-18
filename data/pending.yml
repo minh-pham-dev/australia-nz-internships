@@ -114,44 +114,41 @@ pending:
   coming_soon: waiting
 - company: Culture Amp
   category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: Newest intern ad found is 2025/26 (Melbourne, 24 Nov 2025 – 20 Feb 2026). No 2026/27 ad.
 - company: REA Group
   category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: No 2026/27 internship ad found; only older graduate ads.
 - company: SEEK
   category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: No SEEK-run internship program found.
 - company: WiseTech Global
   category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
-- company: Airwallex
-  category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: Main student pathway is Earn & Learn (for school leavers). A 'Technology Internship Program' is mentioned
+    but no current details found.
 - company: Block (Afterpay)
   category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: Newest official ad found (block.xyz) is Summer 2025/2026 Software Engineer Intern. No 2026/27 ad.
 - company: Rokt
   category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: No internship program found.
 - company: Employment Hero
   category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: Only an 'AI Activation Intern' role (Sydney, May 2026); no summer program found.
 - company: Trade Me
   category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: Recruits interns through Summer of Tech; no Trade Me program page found.
 - company: Rocket Lab
   category: software
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: Current internship ads are US-based (Summer/Spring 2027); no ANZ program found.
 - company: Akuna Capital
   category: quant
   coming_soon: waiting
@@ -164,8 +161,8 @@ pending:
     work rights and ''accepts international: yes'' — conflicting. Recheck when the 2027–28 ads appear.'
 - company: Jane Street
   category: quant
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: hidden
+  needs_human_check: Its ANZ-listed internships are all in Hong Kong or Singapore, not Australia/NZ.
 - company: RSM
   category: consulting
   coming_soon: waiting
@@ -173,57 +170,40 @@ pending:
     on 18 Nov 2026. Older Prosple ads varied by role.
 - company: McKinsey
   category: consulting
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: No readable official internship rules for Australia; third-party guides only.
 - company: BCG
   category: consulting
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: No Australian internship information found.
 - company: Bain
   category: consulting
-  coming_soon: adding
-  needs_human_check: Not checked yet.
-- company: Aurecon
-  category: engineering
-  coming_soon: adding
-  needs_human_check: Not checked yet.
-- company: Arup
-  category: engineering
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: No readable official internship rules for Australia; third-party guides only.
 - company: Jacobs
   category: engineering
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: careers.jacobs.com/early-careers returns 404; only old (2021–2025) per-role ads with varying work rights.
 - company: WSP
   category: engineering
-  coming_soon: adding
-  needs_human_check: Not checked yet.
-- company: Beca
-  category: engineering
-  coming_soon: adding
-  needs_human_check: Not checked yet.
-- company: BHP
-  category: engineering
-  coming_soon: adding
-  needs_human_check: Not checked yet.
-- company: Rio Tinto
-  category: engineering
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: No official program page found; past ads set work rights per role. WSP said 2026 applications open mid-year
+    via an expression of interest.
 - company: Fisher & Paykel Healthcare
   category: engineering
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: Official 'Internship Accounting 2026/2027' ad (careers.fphcare.com) is closed with no content left; no
+    program-wide rules found.
 - company: Spark NZ
   category: business
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: spark.co.nz careers page returns 404; no internship program found.
 - company: Woolworths Group
   category: business
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: hidden
+  needs_human_check: No summer internship program found — only pharmacy intern-year and graduate roles.
 - company: Fletcher Building
   category: business
-  coming_soon: adding
-  needs_human_check: Not checked yet.
+  coming_soon: waiting
+  needs_human_check: Fletcher Construction's careers page only says summer interns are 'second and third-year students' —
+    no length, dates or work rights.

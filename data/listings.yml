@@ -524,3 +524,137 @@ listings:
 
     last_checked: "2026-11-18"
     notes: "Page said 'Applications for our Undergraduate, Graduate and Vacation programs are now open'. The only live vacation ad on 18 Nov 2026 (Workday JR102574) was Canberra, January 2027, 4 weeks, 'An Australian Citizen'. Studying a degree that suits the service line."
+
+  - company: Airwallex
+    role: Software Engineering Intern Program
+    category: software
+    country: [AU]
+    locations: [Melbourne, Sydney]
+    careers_page: https://careers.airwallex.com/
+    study_year: Penultimate or final year
+    duration: "12 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+    last_opened: "applications closed 10 Apr 2026"
+
+    last_round: "2026/27"
+    international: "yes"
+    summary: "International students could apply, with a current VEVO letter."
+    eligibility: "Open to international students (please provide current VEVO letter)"
+    source: https://builtin.com/job/2026-27-software-engineering-intern-program/8659546
+    source_note: "copy on Built In (2026/27 ad)"
+
+    last_checked: "2026-11-18"
+    notes: "Ad: 12 weeks over the summer break (late Nov to mid-Feb), at least 3 days a week in the office; penultimate or final year of a Bachelor's or Master's, or any stage of a PhD, in CS, Software Engineering or equivalent."
+
+  - company: Aurecon
+    role: Internship Program
+    category: engineering
+    country: [AU, NZ]
+    locations: [Not stated]
+    careers_page: https://www.aurecongroup.com/careers/early-careers/intern-programme
+    study_year: Penultimate year (earlier years can apply)
+    duration: "12 weeks (2 weeks off at Christmas)"
+
+    status: not_open
+    expected_open: "Not announced"
+    last_opened: "opened 24 Jun, closed 5 Aug 2026"
+
+    last_round: "2026/27"
+    international: "yes"
+    summary: "International students could apply if their visa let them work in Australia or NZ during the internship."
+    eligibility: "Working rights: You must have the right to work in Australia and/or New Zealand at the time of the internship. … Does Aurecon hire international students? Absolutely! We welcome applications from international students. As long as you have the right visa to work in Australia or New Zealand, we offer contracts in line with visa conditions."
+    source: https://www.aurecongroup.com/careers/early-careers/intern-programme
+    source_note: "Aurecon careers site (eligibility + FAQ)"
+
+    last_checked: "2026-11-18"
+    notes: "Runs mid-November to mid-February. You should be studying a Bachelor's or Master's related to the role. A register-your-interest form for 2027/28 is on the page."
+
+  - company: Arup
+    role: Summer Vacation Programme
+    category: engineering
+    country: [AU, NZ]
+    locations: [Not stated]
+    careers_page: https://www.arup.com/careers/early-careers/internships/asia-pacific/
+    study_year: Penultimate year (all years welcome)
+    duration: "12 weeks"
+
+    status: not_open
+    expected_open: "Jul–Aug 2027 (Arup's ANZ window)"
+
+    last_round: "2026/27"
+    international: conditional
+    summary: "You needed full working rights in the country you applied in, for the whole internship."
+    eligibility: "Full working rights in the country of application for the duration of the internship … Candidates are required to hold and/or eligible to obtain full working rights in the country to which they are applying."
+    source: https://www.arup.com/careers/early-careers/internships/asia-pacific/
+    source_note: "Arup careers site (Eligibility + FAQ)"
+
+    last_checked: "2026-11-18"
+
+  - company: Rio Tinto
+    role: Intern Program
+    category: engineering
+    country: [AU]
+    locations: [Not stated]
+    careers_page: https://www.riotinto.com/en/careers/graduates-interns
+    study_year: 2nd to penultimate year
+    duration: "12 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: conditional
+    summary: "Work rights vary by role. Each job ad says which visas are accepted."
+    other_requirements: "You must be returning to university after the internship."
+    eligibility: "What visa or right-to-work do I need? Work rights requirements vary by country and role. Any visa or right-to-work requirements will be outlined in the job advertisement, so we recommend checking the eligibility section carefully before you apply."
+    source: https://www.riotinto.com/en/careers/graduates-interns
+    source_note: "Rio Tinto careers site (FAQ)"
+
+    last_checked: "2026-11-18"
+    notes: "Rio Tinto's graduate program (not the internship) explicitly accepts citizens, permanent residents, student or postgraduate work visa holders."
+
+  - company: Beca
+    role: Summer Internship
+    category: engineering
+    country: [AU, NZ]
+    locations: [Not stated]
+    careers_page: https://www.beca.com/join-our-team/internships
+    study_year: Penultimate year (AU may consider final year)
+    duration: "8 weeks (2 weeks off at Christmas)"
+
+    status: not_open
+    expected_open: "Mid-2027"
+
+    last_round: "2026/27"
+    international: unknown
+    summary: "Beca's internship page didn't say whether international students could apply."
+    eligibility: "(No citizenship, residency or work-rights wording on Beca's internship page. Its 'Am I eligible?' FAQ covers year of study only.)"
+    source: https://www.beca.com/join-our-team/internships
+    source_note: "Beca careers site (FAQ)"
+
+    last_checked: "2026-11-18"
+    notes: "Beca says 'Applications for 2027/2028 Internships will open in mid-2027'. Starts mid-November, finishes mid-February."
+
+  - company: BHP
+    role: Internship Program
+    category: engineering
+    country: [AU]
+    locations: [Perth, Brisbane, Adelaide, Mine sites]
+    careers_page: https://www.bhp.com/careers/graduate-student-programs/australia
+    study_year: 2nd to penultimate year
+    duration: "10–12 weeks"
+
+    status: not_open
+    expected_open: "Not announced"
+
+    last_round: "2026/27"
+    international: unknown
+    summary: "BHP's page didn't say whether international students could apply."
+    eligibility: "(No work-rights wording on BHP's Australian graduate and student programs page.)"
+    source: https://www.bhp.com/careers/graduate-student-programs/australia
+    source_note: "BHP careers site"
+
+    last_checked: "2026-11-18"
+    notes: "Can be FIFO or residential, at sites in WA, Queensland (BMA) and SA, or offices in Perth, Brisbane and Adelaide. Applications open at different times by location and discipline."
