@@ -82,9 +82,9 @@ Companies we're adding next. Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md
 - **Software & IT:** Google · Microsoft · Amazon / AWS · SafetyCulture · Culture Amp · REA Group · SEEK · WiseTech Global · Airwallex · Block (Afterpay) · Rokt · Employment Hero · Trade Me · Rocket Lab
 - **Quant & Trading:** IMC · Akuna Capital · Citadel Securities · Jane Street
 - **Banking & Finance:** ASB · BNZ · ANZ New Zealand
-- **Accounting & Consulting:** Accenture · McKinsey · BCG · Bain
+- **Accounting & Consulting:** McKinsey · BCG · Bain
 - **Engineering:** Aurecon · Arup · Jacobs · WSP · Beca · BHP · Rio Tinto · Fisher & Paykel Healthcare
-- **Other:** Telstra · Spark NZ · Woolworths Group · Fletcher Building
+- **Other:** Spark NZ · Woolworths Group · Fletcher Building
 
 ## ⚠️ Important
 
