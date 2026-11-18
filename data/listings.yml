@@ -33,6 +33,8 @@
 #                    Must match the eligibility quote below. Don't add anything the ad doesn't say.
 #   sponsorship      Optional: yes | no | unknown (kept for reference, not shown in the README)
 #   eligibility      Exact wording copied from the source (not shown in the README; it's the proof)
+#   other_requirements  Optional, shown on click as "Also needs: …". Only requirements stated in the source,
+#                    e.g. a credit average, a specific degree, an English test. Under 120 characters.
 #   source           URL where the wording can be read right now
 #   source_note      Short label for the source link, e.g. "Atlassian careers site" or
 #                    "copy on Accel's job board" (when the company took the original down)
@@ -58,6 +60,7 @@ listings:
     last_round_dates: "12-week paid program, Nov 2026 – Feb 2027"
     international: "no"
     summary: "Only Australian or New Zealand citizens and Australian permanent residents could apply."
+    other_requirements: "Full-time enrolment in Software Engineering, Computer Science or a related technical degree."
     sponsorship: unknown
     eligibility: "Applications will be accepted from Australian and New Zealand Citizens and Australian Permanent Residents"
     source: https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia
@@ -222,6 +225,7 @@ listings:
     last_round: "2026/27"
     international: conditional
     summary: "International students were welcome, but needed full-time work rights when applying and for the program dates."
+    other_requirements: "Non-citizens may be asked for Superior English test results. Some teams need specific degrees."
     eligibility: "We welcome applications from people with all degree backgrounds and experiences, as well as domestic and international students. … You don’t need to be an Australian resident, but you must have full-time working rights within Australia at the time of your application and for the program dates you are applying to."
     source: https://kpmg.com/au/en/careers/graduates/faq.html
     source_note: "KPMG careers FAQ"
@@ -268,6 +272,7 @@ listings:
     last_round_dates: "Nov 2026 – Jan 2027"
     international: "no"
     summary: "Only Australian or New Zealand citizens and Australian permanent residents could apply. Temporary visa holders couldn't."
+    other_requirements: "An overall credit average of 65 WAM/GPA (70 for Technology: Engineering and Cyber Security)."
     eligibility: "Australian or New Zealand citizen or an Australian Permanent Resident at the time of your application. … Unfortunately, temporary visa holders are not eligible."
     source: https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html
     source_note: "CommBank careers site (Summer Intern Program + FAQ)"

@@ -78,6 +78,7 @@ class Listing:
     last_round_dates: str = ""
     last_opened: str = ""
     study_year_detail: str = ""
+    other_requirements: str = ""  # shown on click, e.g. "Credit average of 65 WAM"
     notes: str = ""
     errors: list[str] = field(default_factory=list, repr=False)
 
@@ -124,6 +125,8 @@ class Listing:
             value = getattr(self, key)
             if value and not value.startswith("https://"):
                 self.errors.append(f"{name}: '{key}' should start with https://")
+        if len(self.other_requirements) > SUMMARY_MAX:
+            self.errors.append(f"{name}: 'other_requirements' is too long; keep it under {SUMMARY_MAX}")
         if len(self.summary) > SUMMARY_MAX:
             self.errors.append(f"{name}: 'summary' is {len(self.summary)} characters; keep it under {SUMMARY_MAX}")
         if self.status == "open" and not self.apply_link:
@@ -168,7 +171,8 @@ class Listing:
         origin = f"<sub>{self.last_round} round · <a href=\"{self.source}\">Source</a></sub>"
         # Bold label so it stands apart from the explanation that opens under it.
         label = f"<b>{INTERNATIONAL_ICON[self.international]}</b>"
-        return f"<details><summary>{label}</summary><br>{self.summary}<br>{origin}</details>"
+        also = f"<br><b>Also needs:</b> {self.other_requirements}" if self.other_requirements else ""
+        return f"<details><summary>{label}</summary><br>{self.summary}{also}<br>{origin}</details>"
 
     def to_row(self) -> str:
         flags = " / ".join(FLAGS[code] for code in self.country)
