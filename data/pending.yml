@@ -147,11 +147,6 @@ pending:
   category: software
   coming_soon: waiting
   needs_human_check: Recruits interns through Summer of Tech; no Trade Me program page found.
-- company: Rocket Lab
-  category: software
-  coming_soon: hidden
-  needs_human_check: No ANZ summer internship program found (18 Nov 2026). Current internship ads are US-based (Summer/Spring
-    2027); no ANZ program found.
 - company: Akuna Capital
   category: quant
   coming_soon: waiting
@@ -171,10 +166,6 @@ pending:
   coming_soon: waiting
   needs_human_check: rsm.global/australia student pages give no eligibility rules; RSM's Workday board had 0 vacation ads
     on 18 Nov 2026. Older Prosple ads varied by role.
-- company: McKinsey
-  category: consulting
-  coming_soon: waiting
-  needs_human_check: No readable official internship rules for Australia; third-party guides only.
 - company: BCG
   category: consulting
   coming_soon: hidden

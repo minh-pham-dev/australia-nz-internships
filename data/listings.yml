@@ -66,7 +66,7 @@ listings:
     source: https://jobs.accel.com/companies/atlassian/jobs/67873085-software-engineer-intern-2026-summer-australia
     source_note: "copy on Accel's job board"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Last round also required full-time enrolment in Software Engineering, Computer Science or similar, graduating by January 2028."
 
   - company: Canva
@@ -92,7 +92,7 @@ listings:
     source: https://jobs.blackbird.vc/companies/canva/jobs/73009844-software-engineer-intern-frontend-backend-2026-27
     source_note: "copy on Blackbird's job board"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "The same ad says Canva will not sponsor visas for Early Talent roles. Student visas give limited work rights during term, so 'full working rights' may rule them out. Ask Canva."
 
   - company: Macquarie Group
@@ -117,7 +117,7 @@ listings:
     source: https://www.macquarie.com/au/en/careers/graduates-and-interns.html
     source_note: "Macquarie careers site"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
 
   - company: Deloitte
     role: Vacationer Program
@@ -138,7 +138,7 @@ listings:
     source: https://www.deloitte.com/au/en/careers/students/summer-vacation-program-careers.html
     source_note: "Deloitte careers site"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Deloitte says it opens applications twice a year, in February/March and in July. Full-time, paid, in person at national offices. The international student page lists which business areas accept international students."
 
   - company: PwC Australia
@@ -161,7 +161,7 @@ listings:
     source: https://jobs-au.pwc.com/au/en/vacation-program
     source_note: "PwC careers site (FAQ: Who's eligible?)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "The page's document list also asks international students for a visa notice, which doesn't match the eligibility rule. The eligibility rule is clearer, so it's what we show."
 
   - company: Grant Thornton
@@ -184,7 +184,7 @@ listings:
     source: https://www.grantthornton.com.au/careers/student-opportunities/faqs/
     source_note: "Grant Thornton careers FAQ"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Working Holiday (417/462) visa holders weren't accepted. Expressions of interest are reviewed on a rolling basis."
 
   - company: GHD
@@ -207,7 +207,7 @@ listings:
     source: https://builtin.com/job/ghd-summer-internship-program-2026-27-new-zealand/9492127
     source_note: "copy on Built In"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "GHD's graduate page says applicants need 'the appropriate work rights for the country', but that's a general rule, not the internship ad. Areas: engineering, science, project management, architecture."
 
   - company: KPMG
@@ -230,7 +230,7 @@ listings:
     source: https://kpmg.com/au/en/careers/graduates/faq.html
     source_note: "KPMG careers FAQ"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Non-citizens/non-PR need a visa grant notice and may be asked for Superior English test results. Some teams require specific citizenship or visa status. 14 locations nationally."
 
   - company: EY
@@ -252,7 +252,7 @@ listings:
     source: https://www.ey.com/en_au/careers/student-entry-level-programs
     source_note: "EY careers site (Vacationer Program → Requirements)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "EY only accepts Australian citizens for Core Consulting (all locations) and for all service lines in Canberra except Audit."
 
   - company: CommBank
@@ -277,7 +277,7 @@ listings:
     source: https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html
     source_note: "CommBank careers site (Summer Intern Program + FAQ)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Also needs an overall credit average: 65 WAM/GPA, or 70 for Technology (Engineering and Cyber Security). Roles across metro and regional Australia."
 
   - company: NAB
@@ -299,7 +299,7 @@ listings:
     source: https://www.nab.com.au/about-us/careers/early-careers/summer-intern-program
     source_note: "NAB careers site (Eligibility)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Eight paid weeks plus a two-week unpaid festive break. Cities depend on the stream (some Melbourne only)."
 
   - company: ANZ
@@ -321,7 +321,7 @@ listings:
     source: https://www.anz.com.au/careers/career-programs/summer-internship/
     source_note: "ANZ careers site (Am I eligible?)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Length and focus depend on the stream. ANZ New Zealand runs a separate intern programme (anz.co.nz), not checked yet."
 
   - company: Westpac
@@ -344,7 +344,7 @@ listings:
     source: https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/summer-intern/
     source_note: "Westpac careers site (Eligibility and how to apply)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Corporate & Institutional Banking runs in Sydney and Melbourne; Global Transaction Services in Sydney. Students from all disciplines welcome for CIB."
 
   - company: ANZ New Zealand
@@ -366,7 +366,7 @@ listings:
     source: https://www.anz.co.nz/careers/programmes/intern/
     source_note: "ANZ NZ careers site (Eligibility)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
 
   - company: ASB
     role: Summer Internship
@@ -388,7 +388,7 @@ listings:
     source: https://careers.asbgroup.co.nz/early-careers
     source_note: "ASB careers site (ASB Summer Internship)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Streams included Engineering Practice, Corporate Banking and Corporate & Business Banking Risk. Applications ask for a CV, cover letter, transcript and a photo."
 
   - company: EY New Zealand
@@ -411,7 +411,7 @@ listings:
     source: https://www.ey.com/en_nz/careers/student-entry-level-programs
     source_note: "EY NZ careers site (International students)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
 
   - company: PwC New Zealand
     role: Summer Internship Programme
@@ -433,7 +433,7 @@ listings:
     source: https://www.pwc.co.nz/careers/studentcareers/summer-internship-programme.html
     source_note: "PwC NZ careers site (Eligibility)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "On 18 Nov 2026 the page said 'Applications for our Summer Internship programme are now open', but PwC NZ's student job search showed no intern listings. Recheck and switch to open once a real ad appears."
 
   - company: Deloitte New Zealand
@@ -455,7 +455,7 @@ listings:
     source: https://www.deloitte.com/nz/en/careers/students/frequently-asked-questions.html
     source_note: "Deloitte NZ careers FAQ (I'm an international student…)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Deloitte NZ's intern job board said internships for summer 2026/2027 are closed."
 
   - company: KPMG New Zealand
@@ -478,7 +478,7 @@ listings:
     source: https://kpmg.com/nz/en/careers/faqs.html
     source_note: "KPMG NZ careers FAQ (Can I apply if I'm an international student studying in NZ?)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Runs November to February. You need to provide a copy of your visa when applying."
 
   - company: IMC Trading
@@ -500,7 +500,7 @@ listings:
     source: https://builtin.com/job/software-engineer-intern-2026-27/8371596
     source_note: "copy on Built In (IMC's own ad was taken down)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Ad also said: 'Have commenced your penultimate year of study' and 'Must be able to start the internship in November 2026'. Hybrid, Sydney office."
 
   - company: BDO
@@ -522,7 +522,7 @@ listings:
     source: https://www.bdo.com.au/en-au/about/early-careers
     source_note: "BDO careers site (View eligibility criteria → International students)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Page said 'Applications for our Undergraduate, Graduate and Vacation programs are now open'. The only live vacation ad on 18 Nov 2026 (Workday JR102574) was Canberra, January 2027, 4 weeks, 'An Australian Citizen'. Studying a degree that suits the service line."
 
   - company: Airwallex
@@ -545,7 +545,7 @@ listings:
     source: https://builtin.com/job/2026-27-software-engineering-intern-program/8659546
     source_note: "copy on Built In (2026/27 ad)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Ad: 12 weeks over the summer break (late Nov to mid-Feb), at least 3 days a week in the office; penultimate or final year of a Bachelor's or Master's, or any stage of a PhD, in CS, Software Engineering or equivalent."
 
   - company: Aurecon
@@ -568,7 +568,7 @@ listings:
     source: https://www.aurecongroup.com/careers/early-careers/intern-programme
     source_note: "Aurecon careers site (eligibility + FAQ)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Runs mid-November to mid-February. You should be studying a Bachelor's or Master's related to the role. A register-your-interest form for 2027/28 is on the page."
 
   - company: Arup
@@ -590,7 +590,7 @@ listings:
     source: https://www.arup.com/careers/early-careers/internships/asia-pacific/
     source_note: "Arup careers site (Eligibility + FAQ)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
 
   - company: Rio Tinto
     role: Intern Program
@@ -612,7 +612,7 @@ listings:
     source: https://www.riotinto.com/en/careers/graduates-interns
     source_note: "Rio Tinto careers site (FAQ)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Rio Tinto's graduate program (not the internship) explicitly accepts citizens, permanent residents, student or postgraduate work visa holders."
 
   - company: Beca
@@ -634,7 +634,7 @@ listings:
     source: https://www.beca.com/join-our-team/internships
     source_note: "Beca careers site (FAQ)"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Beca says 'Applications for 2027/2028 Internships will open in mid-2027'. Starts mid-November, finishes mid-February."
 
   - company: BHP
@@ -656,5 +656,54 @@ listings:
     source: https://www.bhp.com/careers/graduate-student-programs/australia
     source_note: "BHP careers site"
 
-    last_checked: "2026-11-18"
+    last_checked: "2026-11-20"
     notes: "Can be FIFO or residential, at sites in WA, Queensland (BMA) and SA, or offices in Perth, Brisbane and Adelaide. Applications open at different times by location and discipline."
+
+  - company: Rocket Lab
+    role: Engineering Intern (e.g. Ground Systems, Supplier Quality)
+    category: engineering
+    country: [NZ]
+    locations: [Auckland]
+    careers_page: https://www.rocketlabcorp.com/careers/
+    study_year: Current students (year not stated)
+    duration: "Not stated"
+
+    status: not_open
+    expected_open: "Not announced"
+    last_opened: "applications closed 28 Aug 2026"
+
+    last_round: "2026/27"
+    last_round_dates: "Started November 2026"
+    international: conditional
+    summary: "You might not be eligible unless you're a citizen of Australia, NZ, Japan, Switzerland, the EU or a NATO country."
+    eligibility: "FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality."
+    other_requirements: "A cover letter, and studying engineering or a related degree."
+    source: https://job-boards.greenhouse.io/rocketlab/jobs/7819101003
+    source_note: "Rocket Lab job board (Supplier Quality Engineer Intern ad)"
+
+    last_checked: "2026-11-20"
+    notes: "The rule is about nationality (US ITAR export rules), not visa type. The same wording is in the Ground Systems Engineering Intern ad (https://job-boards.greenhouse.io/rocketlab/jobs/7821140003), which had no deadline. Both ads went up in early Aug 2026."
+
+  - company: McKinsey
+    role: Women's Internship & Scholarship
+    category: consulting
+    country: [AU, NZ]
+    locations: [Sydney, Melbourne, Brisbane, Perth, Canberra, Auckland]
+    careers_page: https://www.mckinsey.com/au/careers/womens-internship-and-scholarship
+    study_year: Penultimate or pre-penultimate year
+    duration: "Not stated"
+
+    status: not_open
+    expected_open: "Not announced"
+    last_opened: "applications closed 15 Jun 2026"
+
+    last_round: "2026/27"
+    international: "no"
+    summary: "Only Australian or NZ citizens or permanent residents living in Australia or NZ could apply."
+    eligibility: "To be eligible, you must be a penultimate or pre-penultimate student who self-identifies as a woman, and be an Australian or New Zealand citizen or permanent resident currently residing in either country."
+    other_requirements: "Open to women only. CV with ATAR and WAM/GPA, transcripts, and an online game-based test."
+    source: https://www.mckinsey.com/au/careers/womens-internship-and-scholarship
+    source_note: "McKinsey ANZ careers site"
+
+    last_checked: "2026-11-20"
+    notes: "Page still says applications are 'now open' but the deadline given is 15 June 2026. A few interns also get a $20,000 scholarship. Can lead to a business analyst offer."
