@@ -308,7 +308,12 @@ def main() -> int:
     # "Last updated" is the most recent date someone actually checked a program, not the date
     # this script ran, so a daily automatic rebuild doesn't make the list look fresher than it is.
     latest = max(date.fromisoformat(l.last_checked) for l in listings)
-    stamp = f"**Last updated:** {latest.day} {latest:%B %Y}. New programs are added as their ads open."
+    # A GitHub "note" box, so the date is easy to spot near the top.
+    stamp = (
+        "> [!NOTE]\n"
+        f"> **Last updated: {latest.day} {latest:%B %Y}**<br>\n"
+        "> New programs are added as their ads open."
+    )
     readme = replace_between(readme, UPDATED_START, UPDATED_END, stamp)
     readme = replace_between(readme, COMING_START, COMING_END, build_coming_soon())
     README_FILE.write_text(readme, encoding="utf-8")
