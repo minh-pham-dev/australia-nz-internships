@@ -154,12 +154,19 @@ class Listing:
     def age(self) -> str:
         """How long the live ad has been up, like Simplify's Age column. Only right if the README is rebuilt daily."""
         days = (date.today() - date.fromisoformat(self.posted)).days
-        return "posted today" if days <= 0 else f"{days}d old"
+        if days <= 0:
+            return "Posted today"
+        return f"Posted {days} day{'' if days == 1 else 's'} ago"
+
+    def closes_text(self) -> str:
+        d = date.fromisoformat(self.closes)
+        return f"Closes {d.day} {d:%b %Y}"
 
     def round_cell(self) -> str:
         if self.effective_status == "open":
-            closes = f"<br>Closes {self.closes}" if self.closes else ""
-            return f"**Open** · {self.age()}<br>[Apply]({self.apply_link}){closes}"
+            # Bold capitals so open programs stand out from the rest.
+            closes = f"<br><sub>{self.closes_text()}</sub>" if self.closes else ""
+            return f"**OPEN NOW**<br>{self.age()}{closes}"
         if self.effective_status == "closed":
             return "Closed"
         visible = f"Not open yet<br>Expected: {self.expected_open}"
@@ -177,9 +184,22 @@ class Listing:
         also = f"<br><b>Also needs:</b> {self.other_requirements}" if self.other_requirements else ""
         return f"<details><summary>{label}</summary><br>{self.summary}{also}<br>{origin}</details>"
 
+    @property
+    def row_anchor(self) -> str:
+        """Anchor for this row, so the "Open now" line can jump straight to it."""
+        return "program-" + "".join(ch if ch.isalnum() else "-" for ch in self.company.lower()).strip("-")
+
+    def links_cell(self) -> str:
+        careers = f"[Careers page]({self.careers_page})"
+        if self.effective_status == "open":
+            return f"**[Apply here]({self.apply_link})**<br>{careers}"
+        return careers
+
     def to_row(self) -> str:
         flags = " / ".join(FLAGS[code] for code in self.country)
         company = f"~~{self.company}~~" if self.effective_status == "closed" else f"**{self.company}**"
+        # GitHub keeps <a name="..."> anchors, so links to #program-... land on this row.
+        company = f'<a name="{self.row_anchor}"></a>{company}'
         # study_year_detail (last round's exact dates) stays in the data but isn't shown:
         # it describes last year's cohort and would confuse people applying this year.
         cells = [
@@ -189,8 +209,7 @@ class Listing:
             self.duration,
             self.round_cell(),
             self.eligibility_cell(),
-            f"[Careers page]({self.careers_page})",
-            self.last_checked,
+            self.links_cell(),
         ]
         return "| " + " | ".join(str(cell).replace("|", "/") for cell in cells) + " |"
 
@@ -211,10 +230,22 @@ def anchor(heading: str) -> str:
     return text.replace(" ", "-")
 
 
+def build_open_now(listings: list[Listing]) -> list[str]:
+    """One line under the counts naming the open programs, each linking to its row.
+
+    Empty when nothing is open (the count line already says "0 open now").
+    """
+    live = sorted((l for l in listings if l.effective_status == "open"), key=lambda l: l.posted, reverse=True)
+    if not live:
+        return []
+    links = " · ".join(f"[{l.company}](#{l.row_anchor})" for l in live)
+    return [f"**Open now:** {links}", ""]
+
+
 def build_section(listings: list[Listing]) -> str:
     header = (
-        "| Company | Role | Location | Duration | Applications (2027/28) | International students? | Links | Checked |\n"
-        "|---|---|---|---|---|---|---|---|"
+        "| Company | Role | Location | Duration | Applications (2027/28) | International students? | Links |\n"
+        "|---|---|---|---|---|---|---|"
     )
     count = lambda status: sum(l.effective_status == status for l in listings)
     lines = [
@@ -223,6 +254,7 @@ def build_section(listings: list[Listing]) -> str:
         f"{sum(l.international == 'yes' for l in listings)} were open to international students last round, "
         f"and {sum(l.international == 'conditional' for l in listings)} more had conditions.",
         "",
+        *build_open_now(listings),
         "| Category | Programs |",
         "|---|---|",
     ]
